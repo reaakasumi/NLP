@@ -5,6 +5,12 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.stem import WordNetLemmatizer
+from conllu import TokenList
+import spacy
+
+
+# Load spaCy's English model
+nlp = spacy.load("en_core_web_sm")
 
 stop_words = set(stopwords.words('english'))
 stemmer = PorterStemmer()
@@ -46,12 +52,33 @@ def normalize_text(tokens, remove_stopwords=True):
     return list(zip(normalized_tokens, lemmas))
 
 
-def convert_to_conllu(data, output_path):
+def convert_to_conllu_with_spacy(data, output_path):
     with open(output_path, 'w', encoding='utf-8') as f:
-        for idx, sentence in enumerate(data):
-            for token_idx, (form, lemma) in enumerate(sentence, start=1):
-                # CoNLL-U format: ID, FORM, LEMMA, UPOS, XPOS, FEATS, HEAD, DEPREL, DEPS, MISC
-                f.write(f"{token_idx}\t{form}\t{lemma}\tNOUN\t_\t_\t_\t_\t_\t_\n")
+        for sentence in data:
+            # Reconstruct the sentence text
+            text = ' '.join([token for token, _ in sentence])
+            doc = nlp(text)
+            conllu_sentence = []
+            for token in doc:
+                # Correct assignment of dependency roles and head
+                head = token.head.i + 1 if token.head != token else 0  # Root has head = 0
+                deprel = token.dep_ if token.dep_ != 'ROOT' else 'root'
+                # Create a dictionary for each token following the CoNLL-U format
+                token_entry = {
+                    'id': token.i + 1,
+                    'form': token.text,
+                    'lemma': token.lemma_,
+                    'upostag': token.pos_,
+                    'xpostag': None,
+                    'feats': None,
+                    'head': head,
+                    'deprel': deprel,
+                    'deps': None,
+                    'misc': None
+                }
+                conllu_sentence.append(token_entry)
+            token_list = TokenList(conllu_sentence)
+            f.write(token_list.serialize())
             f.write("\n")  # Blank line after each sentence
 
 
@@ -80,8 +107,8 @@ def main():
             for sentence in row:
                 conllu_data.append(sentence)
 
-    # Convert to CoNLL-U format and save
-    convert_to_conllu(conllu_data, output_path)
+    # Convert to CoNLL-U format and save using spaCy
+    convert_to_conllu_with_spacy(conllu_data, output_path)
     print("Data saved successfully to", output_path)
 
 
