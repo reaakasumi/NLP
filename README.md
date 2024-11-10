@@ -13,6 +13,10 @@ a hypothesis the actual model predicts --> 'hyp'
 a set of per annotator labels indicating whether each individual annotator thought this datapoint constituted a hallucination or not --> 'label'  
 model name --> 'model' 
 
+## Data Analysis 
+
+The analysis starts with reading a JSON dataset (train.model-agnostic.json) into a Pandas DataFrame (train_df). The data includes columns like 'hyp', 'tgt', 'src', and 'task', which represent different aspects of the text, such as hypotheses, targets, and sources for various natural language processing tasks.
+
 ## Preprocessing 
 Goal: create a label through similarity analysis.
 Due to the difference in optimization purpose, we split the dataset accordingly and consider each accordingly. For maschine translation (MT) and definition modelling (DM) we use column hyp and tgt to check their similarity. For paraphrase generation we use hyp and src. 
