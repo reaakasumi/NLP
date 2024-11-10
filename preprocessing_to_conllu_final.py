@@ -39,11 +39,6 @@ dm_train_df = load_and_filter_data(train_df, 'DM', 'tgt')
 dm_test_df = load_and_filter_data(test_df, 'DM', 'tgt')
 dm_val_df = load_and_filter_data(val_df, 'DM', 'tgt')
 
-
-def normalize_text2(text):
-    expanded_text = contractions.fix(text).lower()  # Expand contractions and lowercase
-    return re.sub(r'[^\w\s]', '', expanded_text)  # Remove punctuation
-
 # Text Segmentation, Normalization, and Stopword Removal Function
 def normalize_text(text, remove_stopwords=False):
     expanded_text = contractions.fix(text).lower()  # Expand contractions and lowercase
