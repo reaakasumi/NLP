@@ -27,6 +27,7 @@ We performed some analysis and decided to skip step 3, as it has shown no improv
 ## Requirements
 
 Before running the code, ensure the following Python packages are installed:
+
 pandas
 numpy
 scipy
