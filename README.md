@@ -32,10 +32,10 @@ We performed some analysis and decided to skip step 3, as it has shown no improv
 
 Before running the code, ensure the following Python packages are installed:
 
-pandas, numpy, scipy, torch, sklearn, nltk, stanza, json
+pandas, numpy, scipy, torch, sklearn, nltk, stanza, json, re, contractions
 
 You can install them via pip:
-pip install pandas numpy scipy torch scikit-learn nltk stanza
+pip install pandas numpy scipy torch scikit-learn nltk stanza re contractions
 
 ## Usage
 
