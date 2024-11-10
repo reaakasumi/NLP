@@ -104,11 +104,14 @@ def export_datasets_to_conllu(df, prefix, column):
 export_datasets_to_conllu(pg_train_df, "pg_train", 'src')
 export_datasets_to_conllu(pg_test_df, "pg_test", 'src')
 export_datasets_to_conllu(pg_val_df, "pg_val", 'src')
+print('PG Files created')
 
 export_datasets_to_conllu(mt_train_df, "mt_train", 'tgt')
 export_datasets_to_conllu(mt_test_df, "mt_test", 'tgt')
 export_datasets_to_conllu(mt_val_df, "mt_val", 'tgt')
+print('MT Files created')
 
 export_datasets_to_conllu(dm_train_df, "dm_train", 'tgt')
 export_datasets_to_conllu(dm_test_df, "dm_test", 'tgt')
 export_datasets_to_conllu(dm_val_df, "dm_val", 'tgt')
+print('DM Files created')
