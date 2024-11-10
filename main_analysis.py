@@ -1,3 +1,7 @@
+#install packages via pip
+#pip install pandas numpy scipy torch scikit-learn nltk stanza re contractions
+
+
 #import all the packages 
 import pandas as pd
 #from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trainer, TrainingArguments
