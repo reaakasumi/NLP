@@ -1,4 +1,0 @@
-contractions
-stanza
-nltk
-pandas
