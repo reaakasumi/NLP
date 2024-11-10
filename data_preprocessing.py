@@ -17,6 +17,13 @@ import stanza
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from stanza.utils.conll import CoNLL
+import os
+from nltk.tokenize import word_tokenize
+import stanza
+from stanza.utils.conll import CoNLL
+from nltk.corpus import stopwords
+stop_words = set(stopwords.words('english'))
+
 
 
 
@@ -170,15 +177,55 @@ print(train_df.groupby('task')['count_src2'].sum())
 #and do not have to do sentence splitting with this column
 
 
+#we read data again, because in data analysis were some extra columns created we dont need anymore 
+#and additionally we drop column model 
+data = open("train.model-agnostic.json")
+data = json.load(data)
+
+
+# converting to dataframe
+train_df = pd.DataFrame(data)
+#train_df = pd.read_json('train.model-agnostic.json')
+train_df = train_df.drop( columns = ["model"])
+
+#we read also the validation and the test dataset
+val_df = pd.read_json('val.model-agnostic.json')
+
+test_df = pd.read_json('test.model-agnostic.json')
 
 # HERE WE SPLIT DATA INTO THREE SUBSETS 
+#for all three datasets
+#train
 df_dm = train_df[train_df["task"] == "DM"]
 df_mt = train_df[train_df["task"] == "MT"]
 df_pg = train_df[train_df["task"] == "PG"]
 
+#validation 
+val_dm = val_df[val_df['task'] == 'DM']
+val_mt = val_df[val_df['task'] == 'MT']
+val_pg = val_df[val_df['task'] == 'PG']
 
+#test
+test_dm = test_df[test_df['task'] == 'DM']
+test_mt = test_df[test_df['task'] == 'MT']
+test_pg = test_df[test_df['task'] == 'PG']
+
+
+df_mt.to_csv('df_mt.csv')
+val_mt.to_csv('val_mt.csv')
+test_mt.to_csv('test_mt.csv')
 #HERE BEGINS DATA PREPROCESSING 
 
+#os.system("MT_preprocessing.py")
+#with open("MT_preprocessing.py") as file:
+#    exec(file.read())
 
+#import MT_preprocessing
+#   MT_preprocessing.printing()
 # CREATING CONLLU FILES 
+
+import subprocess
+
+# running other file using run()
+subprocess.run(["python", 'MT_preprocessing.py'])
 
