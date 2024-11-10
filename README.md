@@ -23,3 +23,28 @@ For each column we follow the same pattern.
 4. Lemmatization
 
 We performed some analysis and decided to skip step 3, as it has shown no improvement to the task
+
+#Requirements
+
+Before running the code, ensure the following Python packages are installed:
+pandas
+numpy
+scipy
+torch
+sklearn
+nltk
+stanza
+json
+
+You can install them via pip:
+pip install pandas numpy scipy torch scikit-learn nltk stanza
+
+#Usage
+
+To run the code:
+
+Make sure you have installed all the necessary dependencies listed above. 
+Place the train.model-agnostic.json, val.model-agnostic.json, test.model-agnostic.json files in the same directory as your script.
+Execute the script to perform the data analysis and preliminary preprocessing steps.
+
+#Data Analysis
