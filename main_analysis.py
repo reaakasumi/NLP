@@ -12,9 +12,6 @@ from nltk.corpus import stopwords
 
 stop_words = set(stopwords.words('english'))
 
-
-
-
 nltk.download('punkt')
 nltk.download('stopwords')
 stanza.download('en')
