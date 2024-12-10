@@ -1,3 +1,5 @@
+
+
 import pandas as pd
 from nltk.tokenize import word_tokenize, sent_tokenize
 import stanza
@@ -14,6 +16,7 @@ nlp = stanza.Pipeline('en', processors='tokenize,lemma,pos')
 train_df = pd.read_json('data/train.model-agnostic.json')
 test_df = pd.read_json('data/test.model-agnostic.json')
 val_df = pd.read_json('data/val.model-agnostic.json')
+train_labeled = pd.read_json('data/labeled-train-model-agnostic.json')
 
 # Filter for Specific Task
 def load_and_filter_data(df, task_type, column_to_keep):
@@ -21,21 +24,24 @@ def load_and_filter_data(df, task_type, column_to_keep):
     df = df[df['task'].isin([task_type])].reset_index(drop=True)
     
     # Define columns to drop, keeping only "hyp" and the specified column ("src" or "tgt")
-    columns_to_drop = [col for col in df.columns if col not in ['hyp', column_to_keep]]
+    columns_to_drop = [col for col in df.columns if col not in ['hyp','label', column_to_keep]]
     df = df.drop(columns=columns_to_drop)
     
     return df
 
 # Load train, test, and validation datasets with specified task type and column to keep
 pg_train_df = load_and_filter_data(train_df, 'PG', 'src')
+pg_train_label_df = load_and_filter_data(train_labeled, 'PG', 'src')
 pg_test_df = load_and_filter_data(test_df, 'PG', 'src')
 pg_val_df = load_and_filter_data(val_df, 'PG', 'src')
 
 mt_train_df = load_and_filter_data(train_df, 'MT', 'tgt')
+mt_train_label_df = load_and_filter_data(train_labeled, 'MT', 'tgt')
 mt_test_df = load_and_filter_data(test_df, 'MT', 'tgt')
 mt_val_df = load_and_filter_data(val_df, 'MT', 'tgt')
 
 dm_train_df = load_and_filter_data(train_df, 'DM', 'tgt')
+dm_train_label_df = load_and_filter_data(train_labeled, 'DM', 'tgt')
 dm_test_df = load_and_filter_data(test_df, 'DM', 'tgt')
 dm_val_df = load_and_filter_data(val_df, 'DM', 'tgt')
 
@@ -79,14 +85,17 @@ def preprocess_dataset(df, column):
     return df
 
 pg_train_df = preprocess_dataset(pg_train_df, 'src')
+pg_train_label_df = preprocess_dataset(pg_train_label_df, 'src')
 pg_test_df = preprocess_dataset(pg_test_df, 'src')
 pg_val_df = preprocess_dataset(pg_val_df, 'src')
 
 mt_train_df = preprocess_dataset(mt_train_df, 'tgt')
+mt_train_label_df = preprocess_dataset(mt_train_label_df, 'tgt')
 mt_test_df = preprocess_dataset(mt_test_df, 'tgt')
 mt_val_df = preprocess_dataset(mt_val_df, 'tgt')
 
 dm_train_df = preprocess_dataset(dm_train_df, 'tgt')
+dm_train_label_df = preprocess_dataset(dm_train_label_dff, 'tgt')
 dm_test_df = preprocess_dataset(dm_test_df, 'tgt')
 dm_val_df = preprocess_dataset(dm_val_df, 'tgt')
 
@@ -101,17 +110,22 @@ def export_datasets_to_conllu(df, prefix, column):
     save_column_to_conllu(df, "hyp_normalized", f"conllu_files/{prefix}_hyp.conllu")
     save_column_to_conllu(df, f"{column}_normalized", f"conllu_files/{prefix}_src.conllu")
 
-export_datasets_to_conllu(pg_train_df, "pg_train", 'src')
-export_datasets_to_conllu(pg_test_df, "pg_test", 'src')
-export_datasets_to_conllu(pg_val_df, "pg_val", 'src')
-print('PG Files created')
+#export_datasets_to_conllu(pg_train_df, "pg_train", 'src')
+#export_datasets_to_conllu(pg_test_df, "pg_test", 'src')
+#export_datasets_to_conllu(pg_val_df, "pg_val", 'src')
+#print('PG Files created')
 
-export_datasets_to_conllu(mt_train_df, "mt_train", 'tgt')
-export_datasets_to_conllu(mt_test_df, "mt_test", 'tgt')
-export_datasets_to_conllu(mt_val_df, "mt_val", 'tgt')
-print('MT Files created')
+#export_datasets_to_conllu(mt_train_df, "mt_train", 'tgt')
+#export_datasets_to_conllu(mt_test_df, "mt_test", 'tgt')
+#export_datasets_to_conllu(mt_val_df, "mt_val", 'tgt')
+#print('MT Files created')
 
-export_datasets_to_conllu(dm_train_df, "dm_train", 'tgt')
-export_datasets_to_conllu(dm_test_df, "dm_test", 'tgt')
-export_datasets_to_conllu(dm_val_df, "dm_val", 'tgt')
-print('DM Files created')
+#export_datasets_to_conllu(dm_train_df, "dm_train", 'tgt')
+#export_datasets_to_conllu(dm_test_df, "dm_test", 'tgt')
+#export_datasets_to_conllu(dm_val_df, "dm_val", 'tgt')
+#print('DM Files created')
+
+
+mt_train_label_df.to_csv('mt_train_label.csv', index = False)
+dm_train_label_df.to_csv('dm_train_label.csv', index = False)
+pg_train_label_df.to_csv('pg_train_label.csv', index = False)
