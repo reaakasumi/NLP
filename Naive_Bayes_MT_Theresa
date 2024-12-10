@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, classification_report
 import torch
 
 
-data = pd.read_csv('data/mt_train_label.csv')
+data = pd.read_csv('mt_train_label.csv')
 
 #Apparently rereading the data created one NA value in row 8446, so i dropped it for now
 
@@ -24,20 +24,31 @@ print(data.groupby('label').count())
 data['combined_text'] = data['hyp_normalized'] + " " + data['tgt_normalized']
 
 X_train, X_test, y_train, y_test = train_test_split(
-    data['combined_text'], data['label'], test_size=0.2, random_state=42
+    data[['hyp_normalized', 'tgt_normalized']], data['label'], test_size=0.2, random_state=42
 )
 
+
+
+# import category encoders
+
+import category_encoders as ce
+
+encoder = ce.OneHotEncoder(cols=['hyp_normalized', 'tgt_normalized'])
+
+X_train = encoder.fit_transform(X_train)
+
+X_test = encoder.transform(X_test)
 # Feature extraction using n-grams 
-vectorizer = CountVectorizer(ngram_range=(1, 2))  
-X_train_vec = vectorizer.fit_transform(X_train)
-X_test_vec = vectorizer.transform(X_test)
+#vectorizer = CountVectorizer(ngram_range=(1, 2))  
+#X_train_vec = vectorizer.fit_transform(X_train)
+#X_test_vec = vectorizer.transform(X_test)
 
 # Train a Naive Bayes classifier
 naive_bayes = MultinomialNB()
-naive_bayes.fit(X_train_vec, y_train)
+naive_bayes.fit(X_train, y_train)
 
 #Predict
-y_pred = naive_bayes.predict(X_test_vec)
+y_pred = naive_bayes.predict(X_test)
 
 
 # Evaluate the model
