@@ -1,0 +1,50 @@
+import pandas as pd
+from bert_score import score as bert_score
+from transformers import AutoTokenizer, AutoModel
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import accuracy_score, classification_report
+import torch
+
+
+data = pd.read_csv('mt_train_label.csv')
+
+#Apparently rereading the data created one NA value in row 8446, so i dropped it for now
+
+data = data.dropna()
+#some analysis on labeled data 
+print(data.groupby('label').count())
+
+# Compute bertscore for hyp and tgt 
+#P, R, F1 = bert_score(data['hyp_normalized'].tolist(), data['tgt_normalized'].tolist(), lang="en", verbose=True)
+
+
+data['combined_text'] = data['hyp_normalized'] + " " + data['tgt_normalized']
+
+X_train, X_test, y_train, y_test = train_test_split(
+    data['combined_text'], data['label'], test_size=0.2, random_state=42
+)
+
+# Feature extraction using n-grams 
+vectorizer = CountVectorizer(ngram_range=(1, 2))  
+X_train_vec = vectorizer.fit_transform(X_train)
+X_test_vec = vectorizer.transform(X_test)
+
+# Train a Naive Bayes classifier
+naive_bayes = MultinomialNB()
+naive_bayes.fit(X_train_vec, y_train)
+
+#Predict
+y_pred = naive_bayes.predict(X_test_vec)
+
+
+# Evaluate the model
+accuracy = accuracy_score(y_test, y_pred)
+print(f"Accuracy: {accuracy}")
+print("Classification Report:")
+print(classification_report(y_test, y_pred))
+
+
+
