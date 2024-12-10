@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, classification_report
 import torch
 
 
-data = pd.read_csv('mt_train_label.csv')
+data = pd.read_csv('data/mt_train_label.csv')
 
 #Apparently rereading the data created one NA value in row 8446, so i dropped it for now
 
