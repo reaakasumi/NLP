@@ -17,6 +17,7 @@ train_df = pd.read_json('data/train.model-agnostic.json')
 test_df = pd.read_json('data/test.model-agnostic.json')
 val_df = pd.read_json('data/val.model-agnostic.json')
 train_labeled = pd.read_json('data/labeled-train-model-agnostic.json')
+#test_labeled = pd.read_json('data/labeled-test-model-agnostic.json')
 
 # Filter for Specific Task
 def load_and_filter_data(df, task_type, column_to_keep):
@@ -95,7 +96,7 @@ mt_test_df = preprocess_dataset(mt_test_df, 'tgt')
 mt_val_df = preprocess_dataset(mt_val_df, 'tgt')
 
 dm_train_df = preprocess_dataset(dm_train_df, 'tgt')
-dm_train_label_df = preprocess_dataset(dm_train_label_dff, 'tgt')
+dm_train_label_df = preprocess_dataset(dm_train_label_df, 'tgt')
 dm_test_df = preprocess_dataset(dm_test_df, 'tgt')
 dm_val_df = preprocess_dataset(dm_val_df, 'tgt')
 
@@ -125,7 +126,14 @@ def export_datasets_to_conllu(df, prefix, column):
 #export_datasets_to_conllu(dm_val_df, "dm_val", 'tgt')
 #print('DM Files created')
 
-
+mt_test_df.to_csv('mt_test_label.csv', index = False)
+mt_val_df.to_csv('mt_val_label.csv', index = False)
 mt_train_label_df.to_csv('mt_train_label.csv', index = False)
 dm_train_label_df.to_csv('dm_train_label.csv', index = False)
 pg_train_label_df.to_csv('pg_train_label.csv', index = False)
+
+dm_val_df.to_csv('dm_val_label.csv', index = False)
+dm_test_df.to_csv('dm_test_label.csv', index = False)
+
+pg_val_df.to_csv('pg_val_label.csv', index = False)
+pg_test_df.to_csv('pg_test_label.csv', index= False)
