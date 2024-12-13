@@ -11,17 +11,17 @@ os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 # loading validation data
 
 #load mt data
-df_mt_train = pd.read_csv('mt_train_label.csv')
-df_mt_val = pd.read_csv('mt_val_label.csv')
-df_mt_test = pd.read_csv('mt_test_label.csv')
+df_mt_train = pd.read_csv('data/mt_train_label.csv')
+df_mt_val = pd.read_csv('data/mt_val_label.csv')
+df_mt_test = pd.read_csv('data/mt_test_label.csv')
 
 #load dm data
-df_dm_val = pd.read_csv('dm_val_label.csv')
-df_dm_test = pd.read_csv('dm_test_label.csv')
+df_dm_val = pd.read_csv('data/dm_val_label.csv')
+df_dm_test = pd.read_csv('data/dm_test_label.csv')
 
 #load pg data
-df_pg_val = pd.read_csv('pg_val_label.csv')
-df_pg_test = pd.read_csv('pg_test_label.csv')
+df_pg_val = pd.read_csv('data/pg_val_label.csv')
+df_pg_test = pd.read_csv('data/pg_test_label.csv')
 
 df_pg_val = df_pg_val.rename(columns = {'src_normalized': 'tgt_normalized'})
 df_pg_test = df_pg_test.rename(columns = {'src_normalized': 'tgt_normalized'})
