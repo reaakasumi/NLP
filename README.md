@@ -15,17 +15,16 @@ For the model evaluation we created a jupyter notebook named model_evaluation, w
 
 ## Requirements
 
-Before running the code, ensure the following Python packages are installed:
+Before running the codes for milestone 2, ensure the following Python packages are installed:
 
-pandas, numpy, matplotlib, os, 
+pandas, numpy, matplotlib, os, sklearn, nltk, imblearn, ast 
 
 You can install them via pip:
-pip install pandas numpy scipy torch scikit-learn nltk stanza contractions
+pip install pandas, numpy, matplotlib, os, sklearn, nltk, imblearn, ast
 
 ## Usage
 
 To run the code:
 
 Make sure you have installed all the necessary dependencies listed above. 
-Place the train.model-agnostic.json, val.model-agnostic.json, test.model-agnostic.json files in the same directory as your script.
-Execute the script to perform the data analysis and preliminary preprocessing steps.
+Place the preprocessed data from Milestone 1 into the same directory as your script. Execute the scripts mentioned above to create the model and perform the model evaluation. 
