@@ -4,14 +4,14 @@
 ## Goal: Create two baseline models for our classification task
 
 ## Naive Bayes 
-For the Naive Bayes baseline we created the file naive_bayes.py for an analysis on the overall performance. To see the results for the separate tasks see the file nb_function_with_outputs. 
+For the Naive Bayes baseline we created the file naive_bayes.py for an analysis on the overall performance. Also a more precise analysis on the Naive Bayes model is found in the notebook naive_bayes.ipynb.
+To see the results for the separate tasks see the file nb_function_with_outputs. 
 
 ## Vectara
 For the Vectara model we created one file vectara_improved.py which computes the model for each task separately. 
 
 ## Model Evaluation
-For the model evaluation we created a jupyter notebook named model_evaluation.ipynb, which computes all results also shown in the report. Also a more precise analysis on Naive Bayes is found in the file naive_bayes.ipynb  
-
+For the model evaluation we created a jupyter notebook named model_evaluation.ipynb, which computes all results also shown in the report.
 
 ## Requirements
 
