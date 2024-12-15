@@ -52,3 +52,7 @@ To run the code:
 Make sure you have installed all the necessary dependencies listed above. 
 Place the train.model-agnostic.json, val.model-agnostic.json, test.model-agnostic.json files in the same directory as your script.
 Execute the script to perform the data analysis and preliminary preprocessing steps.
+
+## Milestone 2 
+
+For Milestone 2 take a look at the branch milestone2 and its added README file. 
