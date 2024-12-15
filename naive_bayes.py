@@ -7,15 +7,12 @@ from sklearn.pipeline import Pipeline
 from nltk.corpus import stopwords
 from imblearn.over_sampling import SMOTE
 import ast
-import nltk
-
-nltk.download('stopwords')
 
 def tune_hyperparameters(X_train, y_train):
     """Perform hyperparameter tuning using GridSearchCV."""
     # Define the pipeline for preprocessing and model training
     pipeline = Pipeline([
-        ('tfidf', TfidfVectorizer(stop_words=stopwords.words('english'))),  # Vectorizer with stopword removal
+        ('tfidf', TfidfVectorizer()),  # Vectorizer for text data
         ('nb', MultinomialNB())       # Naive Bayes classifier
     ])
 
@@ -24,6 +21,7 @@ def tune_hyperparameters(X_train, y_train):
         'tfidf__max_features': [2000, 3000, 5000, 10000],
         'tfidf__ngram_range': [(1, 1), (1, 2)],
         'tfidf__min_df': [1, 2, 3],
+        'tfidf__stop_words': [None, stopwords.words('english')],
         'nb__alpha': [1.0, 0.5, 0.1, 0.01]
     }
 
@@ -40,6 +38,10 @@ def preprocess_data(train_df, test_df):
     # Drop missing values
     train_data = train_df.dropna()
     test_data = test_df.dropna()
+    
+    # Map labels to 0 and 1
+    train_data['label'] = train_data['label'].map({'Not Hallucination': 0, 'Hallucination': 1})
+    test_data['label'] = test_data['label'].map({'Not Hallucination': 0, 'Hallucination': 1})
 
     # Convert string representations of lists to actual lists
     train_data['hyp_lemmas'] = train_data['hyp_lemmas'].apply(ast.literal_eval)
@@ -67,8 +69,8 @@ def train_and_evaluate(X_train_full, y_train_full, X_test, y_test, test_data):
         X_train_full, y_train_full, test_size=0.2, random_state=42, stratify=y_train_full
     )
 
-    # Vectorize text data using TF-IDF with stopword removal
-    vectorizer = TfidfVectorizer(ngram_range=(1, 2), max_features=5000, stop_words=stopwords.words('english'))
+    # Vectorize text data using TF-IDF
+    vectorizer = TfidfVectorizer(ngram_range=(1, 2), max_features=5000, stop_words=None)
     X_train_vec = vectorizer.fit_transform(X_train)
     X_val_vec = vectorizer.transform(X_val)
     X_test_vec = vectorizer.transform(X_test)
