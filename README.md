@@ -10,7 +10,7 @@ For the Naive Bayes baseline we created the file naive_bayes.py for an analysis 
 For the Vectara model we created one file vectara_improved.py which computes the model for each task separately. 
 
 ## Model Evaluation
-For the model evaluation we created a jupyter notebook named model_evaluation.ipynb, which computes all results also shown in the report. 
+For the model evaluation we created a jupyter notebook named model_evaluation.ipynb, which computes all results also shown in the report. Also a more precise analysis on Naive Bayes is found in the file naive_bayes.ipynb  
 
 
 ## Requirements
