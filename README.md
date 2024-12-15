@@ -27,4 +27,4 @@ pip install pandas, numpy, matplotlib, os, sklearn, nltk, imblearn, ast
 To run the code:
 
 Make sure you have installed all the necessary dependencies listed above. 
-Place the preprocessed data from Milestone 1 into the same directory as your script. Execute the scripts mentioned above to create the model and perform the model evaluation. 
+Place the preprocessed data from Milestone 1 into the same directory as your script (the data can already be found in the folder data in this branch). Execute the scripts mentioned above to create the model and perform the model evaluation. 
