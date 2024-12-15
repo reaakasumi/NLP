@@ -1,6 +1,4 @@
-# NLP
-
-## Topic 1 Hallucination Detection 
+# NLP Topic 1 Hallucination Detection 
 
 ## Milestone 2 
 ## Goal: Create two baseline models for our classification task
