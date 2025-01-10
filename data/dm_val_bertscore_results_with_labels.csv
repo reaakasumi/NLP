@@ -1,0 +1,188 @@
+hypotheses,references,precision,recall,f1,label,is_hallucination
+resembling or characteristic of a weasel,resembling a weasel in appearance,0.8754540085792542,0.8913998603820801,0.8833550214767456,Not Hallucination,True
+alternative form of sheath knife,nan,0.7930961847305298,0.8549666404724121,0.8228700757026672,Hallucination,True
+obsolete a short period of time,poetic an instant a short moment,0.8360663056373596,0.8517313599586487,0.843826174736023,Not Hallucination,True
+slang an incel,incel _ slang a man of a slightly lower ranking on a scale of physical attractiveness than chad,0.860230028629303,0.8226550817489624,0.8410230278968811,Not Hallucination,True
+an island in lienchiang county taiwan,an island in dongyin lienchiang taiwan in the matsu islands,0.9242632389068604,0.907197892665863,0.9156510233879089,Not Hallucination,False
+alternative form of bluebearded,having thick dark facial hair,0.8293246030807495,0.8300215005874634,0.8296728730201721,Hallucination,True
+baseball a sacrifice bunt,baseball a ball that has been intentionally hit softly with a handsspread batting stance with the intention of advancing a runner at the cost of an out,0.8579989075660706,0.8063157200813293,0.8313547968864441,Not Hallucination,True
+australia new zealand slang drunk,au lost in the bush from 19th c,0.7987005710601807,0.8222450613975525,0.8103017807006836,Hallucination,True
+linguistics the study of the relationships between words and their meanings,the ontology of ontology,0.8327147364616394,0.8270268440246582,0.8298609852790833,Not Hallucination,True
+uncountable the quality or state of being ingenious,the ability to solve difficult problems often in original clever and inventive ways,0.8043512105941772,0.8363364934921265,0.8200320601463318,Hallucination,True
+intransitive to die,intransitive euphemistic to die and thus progress to the afterlife,0.9330099821090698,0.8742846846580505,0.9026932716369629,Not Hallucination,False
+geometry of or pertaining to an oblique angle,archaic geometry formed of oblique angles,0.8659005165100098,0.9012994170188904,0.8832454085350037,Hallucination,True
+video games the state or condition of being bisexual in a video game,video games the state of an npc being attracted to the player character especially without regard to gender race etc,0.8779139518737793,0.8461681008338928,0.8617487549781799,Hallucination,True
+alternative form of pseudodimension,maths,0.7764003276824951,0.8661825656890869,0.8188377022743225,Hallucination,True
+colloquial used as an intensifier,us euphemism dialectal goddamn,0.8195991516113281,0.8385041952133179,0.8289439082145691,Hallucination,True
+resembling or characteristic of a hulk,characteristic of a hulk large and bulky hulking,0.8649060726165771,0.8767021894454956,0.8707641363143921,Not Hallucination,True
+south asia historical a long thin stick with a pointed end used for striking,by extension a cane made from this material,0.8205276727676392,0.8464500308036804,0.8332872986793518,Hallucination,True
+transitive to take on a task or responsibility,to acquire bring in or introduce,0.8524736762046814,0.8489357829093933,0.8507010340690613,Hallucination,True
+full of longing yearning,filled with yearning desirous mournful distressing,0.9129464030265808,0.8659717440605164,0.8888388872146606,Not Hallucination,True
+uncountable the quality of being rigorous,showing causing or favoring rigourrigor scrupulously accurate or strict thorough,0.8034469485282898,0.8108256459236145,0.8071194291114807,Hallucination,True
+slang the human body,geordie informal a friend pal buddy mate,0.8298947811126709,0.7980501651763916,0.8136610388755798,Hallucination,True
+psychology a fear of demons,an irrational fear of demons,0.9584660530090332,0.9458402991294861,0.9521113038063049,Not Hallucination,False
+of pertaining to or characteristic of quotidian life,having the characteristics of something which can be seen experienced etc every day or very commonly commonplace ordinary mundane from 15th c,0.8484105467796326,0.8213626742362976,0.8346675038337708,Not Hallucination,True
+not dictating,not dictating,1.0,1.0,1.0,Not Hallucination,False
+capable of being parachuted,capable of being deployed by parachute,0.958150327205658,0.9483742713928223,0.9532372355461121,Not Hallucination,False
+in an occasional manner,from time to time sometimes at relatively infrequent intervals from 15th c,0.8625420331954956,0.8123109936714172,0.8366732001304626,Not Hallucination,True
+vulgar slang very scared or nervous,slang vulgar derogatory rare an objectionable or cowardly person,0.8811861276626587,0.8650842905044556,0.873060941696167,Not Hallucination,True
+transitive to plant again,transitive rare to provide with a new lawn,0.9105667471885681,0.8904938101768494,0.9004184603691101,Not Hallucination,False
+slang uncountable the act of smoking marijuana,slang a puff of marijuana,0.8369160294532776,0.8797025680541992,0.8577761054039001,Not Hallucination,True
+informal a cosplay,countable a skit or instance of this art or practice,0.8903266191482544,0.8244168758392334,0.8561050295829773,Not Hallucination,True
+the state or quality of being precious,obsolete countable something of high value or worth,0.8428213000297546,0.8516709208488464,0.8472229838371277,Not Hallucination,True
+derogatory the belief that men are superior to women and should be treated as such,alternative form of old boyism,0.8326725363731384,0.8485509157180786,0.8405367732048035,Not Hallucination,True
+intransitive to travel by trampoline,any ship which does not have a fixed schedule or published ports of call,0.8013962507247925,0.8388967514038086,0.8197178244590759,Hallucination,True
+countable uncountable an instance of this,informal the use of gags or jokes,0.7988525032997131,0.8051037192344666,0.8019659519195557,Hallucination,True
+transitive to sterilize,transitive to redact a document removing classified or sensitive material,0.8948143720626831,0.8357951045036316,0.864298403263092,Hallucination,True
+the belief that jesus christ is the savior of the world,a fanatical devotion to jesus christ,0.9244733452796936,0.9346126914024353,0.9295153617858887,Hallucination,False
+historical the japanese mafia,in japan an minence grise or secret decisionmaker,0.8946428298950195,0.825743556022644,0.8588135242462158,Hallucination,True
+one who or that which cradles,one who or that which cradles,1.0,1.0,1.0,Not Hallucination,False
+chiefly north america the chief of a native american tribe,a tribal chief who sits on the grand council of the haudenosaunee confederacy,0.8620723485946655,0.8384730219841003,0.8501089215278625,Hallucination,True
+biochemistry immunology the degradation of the immune system,immunology rare degradation of or by the immune system,0.9078120589256287,0.904168426990509,0.9059866070747375,Not Hallucination,False
+obsolete the nock of an arrow,archery the notch at the rear of an arrow that fits on the bowstring,0.8641648292541504,0.850143551826477,0.8570968508720398,Not Hallucination,True
+transitive to reduce the length of,transitive to reduce or diminish in amount quantity or extent to lessen,0.9075251817703247,0.8543885946273804,0.880155622959137,Hallucination,True
+alternative form of bandslash,fandom slang slash fan fiction which pairs real musicians especially ones belonging to the same group,0.8610082268714905,0.8228334188461304,0.8414880633354187,Hallucination,True
+transitive to require,naturally to demand something as indispensable to need to call for as necessary from 15th c,0.8429880738258362,0.820385217666626,0.8315330743789673,Not Hallucination,True
+obsolete very handsome,dated devastatingly attractive,0.9462662935256958,0.9190035462379456,0.9324356317520142,Not Hallucination,False
+anatomy the act or process of preejection,occurring prior to ejection,0.8021211624145508,0.8445221781730652,0.8227757215499878,Hallucination,True
+informal of a face having pimples,informal tending to bulge or swell,0.8439897298812866,0.8633242845535278,0.8535475134849548,Hallucination,True
+slang a contemptible person,dated one who is uncareful or unconcerned about appearance or surroundings usually said of a dirty and untidy woman,0.8520379662513733,0.8066243529319763,0.8287094831466675,Hallucination,True
+alternative form of lobstertail,a european combat helmet worn especially from the 1600s into the 1700s consisting of a rounded skullpiece often cheek guards and a nasal or faceguard and a laminated defence or single plate ridged to imitate lames to protect the back of the neck that resembled a lobsters tail,0.8168113231658936,0.7782748937606812,0.7970775961875916,Hallucination,True
+slang derogatory a woman,slang a spectator at a sporting event who boos the home team,0.8424410820007324,0.8231221437454224,0.8326695561408997,Hallucination,True
+the quality of being cytopathic,the condition of undergoing cytopathic change cell disease,0.9290287494659424,0.8977866768836975,0.913140594959259,Not Hallucination,False
+alternative form of failover,computing countable an automatic switch to a secondary system on failure of the primary system such as a means for ensuring high availability of some critical resource such as a computer system involving a parallel backup system which is kept running at all times so that upon detected failure of the primary system processing can be automatically shifted over to the backup,0.8566160202026367,0.8002608418464661,0.8274800181388855,Hallucination,True
+the quality of being defectible,deficiency imperfection,0.8545000553131104,0.887320876121521,0.870601236820221,Not Hallucination,True
+internet a person who uses cyberspace to express their political views,alternative form of cyberdissident,0.8513624668121338,0.8460382223129272,0.848691999912262,Not Hallucination,True
+zoology a pseudostome,biology the anal opening on the pseudembryo of an echinoderm,0.8097606897354126,0.809680163860321,0.8097204566001892,Hallucination,True
+countable a newspaper article published on a specific date,journalism an article that is published under a dateline,0.8873857259750366,0.8921337127685547,0.8897534012794495,Not Hallucination,True
+uncountable the state of being pregnant,obsolete pregnancy,0.8200692534446716,0.9023745059967041,0.8592554330825806,Not Hallucination,True
+informal a revision,an act of improving renewing renovating or revising something an improvement renovation revamping or revision from mid 19th c,0.8540728092193604,0.7780629396438599,0.8142979741096497,Not Hallucination,True
+one who hypes something,one who uses hype to promote or advertise,0.920971155166626,0.893569827079773,0.9070636034011841,Not Hallucination,False
+intransitive to ejaculate,literally to use coitus interruptus as a method of birth control,0.7809200286865234,0.8463042378425598,0.8122985363006592,Hallucination,True
+medicine seroclearance,the clearance removal of an antigen from the blood,0.7888871431350708,0.8386447429656982,0.8130053281784058,Hallucination,True
+informal of a person intoxicated,having a tendency to sweat,0.8577563762664795,0.8456466794013977,0.8516585230827332,Hallucination,True
+informal the sound made by the mouth when it opens and closes,something shaped like the letter o,0.835909903049469,0.8218058347702026,0.8287978172302246,Hallucination,True
+the act of maturing,the process of becoming and coming to inhabit the role of a mother,0.9186285138130188,0.8872938752174377,0.9026893377304077,Hallucination,False
+alternative form of non belligerent,alternative form of nonbelligerent,0.9765527248382568,0.9650148153305054,0.9707494378089905,Not Hallucination,False
+idiomatic something that is certain to be successful,colloquial idiomatic a task expected to present no difficulty a piece of cake,0.847244381904602,0.8135724663734436,0.8300670385360718,Hallucination,True
+fandom slang a person with psionic abilities,a supposed form of vampire that subsists on the psychic energy of others,0.8548983335494995,0.8536980748176575,0.8542977571487427,Hallucination,True
+idiomatic perfectly suited for each other,idiomatic compatible interacting effectively in a complementary relationship,0.8805049061775208,0.8917158246040344,0.886074960231781,Not Hallucination,True
+transitive to act in an underhanded manner,devious passiveaggressive,0.8198736906051636,0.8369120955467224,0.8283053636550903,Not Hallucination,True
+resembling or characteristic of french surrealism,reminiscent of h r giger born 1940 swiss surrealist painter best known for nightmarish biomechanical imagery,0.8462579250335693,0.8208584189414978,0.8333646059036255,Hallucination,True
+before an election,alternative form of preelection,0.8848145008087158,0.846467137336731,0.8652161359786987,Not Hallucination,True
+transitive to make white,transitive to make white to whiten to bleach,0.9398036599159241,0.9010636806488037,0.9200260639190674,Not Hallucination,False
+zoology of or pertaining to a minotaur,formal orangered the colour of red lead,0.7987179756164551,0.8016449809074402,0.8001787662506104,Hallucination,True
+alternative form of devilmaycare,carefree reckless irresponsible,0.8109794855117798,0.8077689409255981,0.8093709945678711,Not Hallucination,True
+intransitive slang to have sex,us slang ,0.7969096302986145,0.9237465858459473,0.8556533455848694,Hallucination,True
+transitive slang to fail an examination,agitated confused,0.8029019236564636,0.8559432029724121,0.828574538230896,Hallucination,True
+figuratively of a person having a tendency to stammer,prone to stumble,0.8057918548583984,0.7610701322555542,0.7827927470207214,Hallucination,True
+not responding,not replying to a survey etc,0.9084488153457642,0.8431910276412964,0.874604344367981,Not Hallucination,True
+not entertainment,not of or pertaining to entertainment,0.9422506093978882,0.8186243176460266,0.8760976791381836,Not Hallucination,True
+of or pertaining to symmetry,obsolete commensurable symmetrical,0.8458288311958313,0.8521484136581421,0.8489767909049988,Not Hallucination,True
+anatomy relating to the cerebrum,within a ventricle of the brain,0.8654124736785889,0.8690575957298279,0.8672311305999756,Not Hallucination,True
+the state or quality of being a princess,the quality of being a princess,0.9295331239700317,0.9723554849624634,0.9504621624946594,Not Hallucination,False
+one who exacerbates,one who or that which exacerbates or makes worse,0.9216022491455078,0.8513748645782471,0.8850976824760437,Not Hallucination,True
+informal cheezits,canada a cheese puff,0.8377904295921326,0.801360011100769,0.8191704154014587,Not Hallucination,True
+figuratively a large amount,as much as a cake has,0.8131523728370667,0.8165382742881775,0.8148418068885803,Not Hallucination,True
+slang derogatory a contemptible person,a lowlevel tough or thug a mean man,0.8878865838050842,0.8676671385765076,0.8776604533195496,Hallucination,True
+resembling or characteristic of muzzles,dialect northern england blurred hazy indistinct unfocussed,0.8070412874221802,0.7891411781311035,0.7979908585548401,Not Hallucination,True
+overbuilt,real estate overdeveloped,0.8605351448059082,0.8450416326522827,0.8527180552482605,Not Hallucination,True
+in an unfulfillable manner,in a way that cannot be fulfilled,0.9020872712135315,0.8929231762886047,0.8974817991256714,Not Hallucination,True
+uncountable the act of genitorturing,bdsm torture of the genitals,0.8163430690765381,0.8370896577835083,0.8265862464904785,Not Hallucination,True
+one who rips,slang a violently energetic or noisily outspoken person someone using slambang methods,0.8173760175704956,0.7901858687400818,0.8035510182380676,Hallucination,True
+informal the practice of behaving like a lapdog,behavior or activity characteristic of a lapdog such as idleness or submission,0.8801538348197937,0.8514578938484192,0.8655680418014526,Not Hallucination,True
+any of various insects of the family mothidae especially those of the genus mothia,dated a liver spot especially an irregular or feathery one,0.8027399182319641,0.8276070356369019,0.8149837851524353,Hallucination,True
+the anniversary of the discovery of the septic system,700th anniversary,0.8526828289031982,0.8745787143707275,0.8634920120239258,Hallucination,True
+alternative form of catfur,alternative form of cat fur,0.9811596870422363,0.9811596870422363,0.9811596870422363,Not Hallucination,False
+informal a test to determine whether something has a certain vibe,slang an impromptu attempt to ascertain mood opinions or attributes,0.8781956434249878,0.8665382862091064,0.8723280429840088,Not Hallucination,True
+transitive to give something to someone else,transitive idiomatic to relinquish control or possession of something to someone,0.8962852358818054,0.8652284145355225,0.8804830312728882,Not Hallucination,True
+the state or condition of being milkless,absence of milk,0.8303551077842712,0.8962564468383789,0.8620480895042419,Not Hallucination,True
+the process of reboising,indonesia reforestation,0.8493003249168396,0.83184814453125,0.8404836058616638,Hallucination,True
+sports to compete in a tag team match,alternative form of tagteam,0.8900873064994812,0.8903176784515381,0.8902024030685425,Not Hallucination,True
+golf the ninth hole of a golf course,informal to the left horizontal clock orientation from the location of the 9 mark on a clock face,0.8543671369552612,0.8357738256454468,0.8449681997299194,Hallucination,True
+informal a bartender,informal a bartender,0.9999998807907104,0.9999998807907104,0.9999998807907104,Not Hallucination,False
+intransitive to fail to adapt,to adapt in the wrong way,0.8203960657119751,0.8918832540512085,0.8546473383903503,Hallucination,True
+alternative form of allinone,combining two or more items in one unit,0.8146796822547913,0.819522500038147,0.8170938491821289,Not Hallucination,True
+anatomy the formation of hairs around the sting site,the erection of hairs or papillae,0.8813818097114563,0.8698883056640625,0.875597357749939,Hallucination,True
+australia new zealand informal a bun,an effigy of judas iscariot that is attacked as part of the good friday celebration in trinidad,0.8067406415939331,0.7837578654289246,0.7950832843780518,Hallucination,True
+idiomatic unconstrained unadulterated,by extension characterized by ruthlessly attacking or overpowering an opponent especially when using underhanded techniques,0.7775942087173462,0.8180736899375916,0.797320544719696,Hallucination,True
+resembling or characteristic of a banjo,resembling or characteristic of a banjo,1.0,1.0,1.0,Not Hallucination,False
+the quality of being superstitious,rare superstition,0.8790097832679749,0.9309293031692505,0.9042248129844666,Hallucination,False
+botany having a white colour,relatively light or pale in colour,0.8471795320510864,0.8470118641853333,0.8470956683158875,Hallucination,True
+informal an obsession with stamps,a passion for collecting postage stamps,0.9371729493141174,0.9361225366592407,0.9366474151611328,Not Hallucination,False
+of or pertaining to an island,like relating to or typical of an island islandy,0.9102877378463745,0.8823093771934509,0.8960802555084229,Not Hallucination,True
+archaic or dialectal or obsolete belligerent talk nonsense,obsolete obscene language or writing,0.8244165182113647,0.8405847549438477,0.832422137260437,Hallucination,True
+ecology relating to a subcosmopolitan region,biology ecology of a taxon not completely cosmopolitan,0.8865392804145813,0.8747004866600037,0.8805801272392273,Hallucination,True
+medicine not causing concussions,below the threshold of concussion,0.8782474398612976,0.8688697814941406,0.8735334277153015,Hallucination,True
+economics of or pertaining to an increase in the cost of goods and services,rare chiefly nnse ,0.7930562496185303,0.8057000637054443,0.7993282079696655,Hallucination,True
+informal a fad,a phenomenon that becomes popular for a very short time,0.8848738670349121,0.8637210726737976,0.8741694688796997,Not Hallucination,True
+transitive to strike with a slat,to slap to strike to beat to throw down violently,0.8162921667098999,0.8266257643699646,0.821426510810852,Not Hallucination,True
+anatomy of or pertaining to the mother,obsolete engineering of or relating to moment or momentum,0.9171205163002014,0.86826092004776,0.8920221328735352,Hallucination,True
+informal a fit of uncontrollable laughter,a fit of laughing convulsion,0.9264542460441589,0.9337098002433777,0.9300678968429565,Not Hallucination,False
+biology an organism that has undergone a mutation,genetics that has mutated with one or more new characteristics from a mutation,0.9014862179756165,0.8494774103164673,0.8747093677520752,Not Hallucination,True
+in an excited manner,in an excited manner,1.0000001192092896,1.0000001192092896,1.0000001192092896,Not Hallucination,False
+continuing,without intervening space continued,0.8890504240989685,0.8124312162399292,0.8490157127380371,Hallucination,True
+the quality of being rational,archaic the quality or state of being rational,0.9597674608230591,0.9049763679504395,0.9315669536590576,Hallucination,False
+informal a person who is addicted to sport,a sportsaholic,0.8699158430099487,0.8934973478317261,0.8815489411354065,Not Hallucination,True
+alternative form of selfbow,archery a bow that is made from a single piece of wood often referred to as a bow stave,0.8173187375068665,0.8128230571746826,0.8150646686553955,Hallucination,True
+archaeology a type of trap used in the study of mollusks,a large tentlike structure used for trapping flying insects,0.874655544757843,0.8849274516105652,0.8797615170478821,Hallucination,True
+transitive golf to hit a golf ball into the hole,golf slang transitive to hole the ball,0.8625783324241638,0.8541995882987976,0.8583685159683228,Not Hallucination,True
+intransitive to work hard,intransitive to labour in or as in a low servile job,0.9310913681983948,0.87547767162323,0.9024285078048706,Hallucination,False
+informal a person who is afraid of fat,a person who worries excessively about the fat content of their food,0.9224328994750977,0.9090889692306519,0.915712296962738,Not Hallucination,False
+transitive to make tacky,transitive to make a material tacky,0.9547695517539978,0.9273282885551453,0.9408488273620605,Not Hallucination,False
+music a member of a musical ensemble,chiefly british,0.8474195599555969,0.8204450011253357,0.8337141275405884,Hallucination,True
+informal a detective,informal a detective a sleuth,0.9334151148796082,0.9098944664001465,0.9215047359466553,Not Hallucination,False
+in a muffled manner,in a muffled manner indistinctly,0.9823025465011597,0.9233407974243164,0.9519094824790955,Not Hallucination,False
+alternative form of angloindian english,the variety of english used in south asia during the colonial era having as a feature numerous borrowings from hindustani and other local languages,0.8796707987785339,0.842153012752533,0.8605031967163086,Hallucination,True
+rare a kurkul,historical a rich or supposedly rich peasant targeted during soviet collectivization especially in the context of ukraine or ukrainians kulak,0.8389701247215271,0.8033863306045532,0.8207927942276001,Hallucination,True
+of a person having a gender identity that matches ones sex assigned at birth,cisgender and heterosexual,0.7930901646614075,0.8317248225212097,0.8119481801986694,Not Hallucination,True
+chiefly _ historical an ancestral home,an ancestral shrine,0.8844307065010071,0.937865138053894,0.9103644490242004,Not Hallucination,False
+fandom slang of or pertaining to the television series doctor who,of or pertaining to the fictional universe of doctor who,0.8945978283882141,0.9009975790977478,0.8977862596511841,Not Hallucination,True
+idiomatic intransitive to begin a new endeavor with vigor,idiomatic to display spunk and strength of character especially when rising above or when fighting back against trouble or adversity,0.8614389300346375,0.8305180072784424,0.8456959128379822,Hallucination,True
+australia new zealand initialism of kilometre,colloquial kilometre or kilometres,0.8075127005577087,0.8152173757553101,0.8113467693328857,Hallucination,True
+colloquial a term of endearment,affectionate darling term of endearment,0.8871611952781677,0.8959965705871582,0.891556978225708,Hallucination,True
+obsolete with the tail wagging,swishing making a rustling sound while moving,0.822394847869873,0.8205401301383972,0.8214663863182068,Hallucination,True
+informal a man who works out at a gym,slang a man who spends much of his free time working out at a gym,0.9765443205833435,0.9299985766410828,0.9527032971382141,Not Hallucination,False
+nautical a service in which the crew of a vessel does not speak,military informal sometimes capitalized possibly _ dated the navy,0.8120646476745605,0.8168014287948608,0.8144261837005615,Hallucination,True
+computing a femtocache,computing the use of femtocaches,0.8525940775871277,0.8529624938964844,0.8527782559394836,Not Hallucination,True
+obsolete intransitive to trade,obsolete a track or trail a way a path passage,0.790118932723999,0.7941632866859436,0.7921359539031982,Hallucination,True
+a district of kowloon china,the chaoshan region where the teochew dialect is spoken,0.8380030989646912,0.8189355134963989,0.8283596038818359,Hallucination,True
+obsolete of or pertaining to trees,containing copses of trees or shrubs covered with shrubs,0.8401627540588379,0.8352954387664795,0.8377220630645752,Hallucination,True
+australia new zealand colloquial a hatfish,colloquial synonym of halibut,0.8262762427330017,0.8491771221160889,0.8375701904296875,Not Hallucination,True
+uncountable clothing,uncountable in combination clothing,0.9527244567871094,0.9164707660675049,0.9342460036277771,Not Hallucination,False
+of or pertaining to pithecanthropes,pertaining to or characteristic of the pithecanthropoids,0.930611789226532,0.9226129651069641,0.9265950918197632,Not Hallucination,False
+television an overnight broadcast of a television program,television in the plural viewership ratings for a television show that are published the morning after it is broadcast and may be revised later on,0.8741030693054199,0.8168026208877563,0.8444820046424866,Hallucination,True
+historical a magistrate in ancient greece,member of a demogerontia,0.8328239917755127,0.8300753831863403,0.831447422504425,Hallucination,True
+intransitive to be foreboding,to be prescient of some ill or misfortune to have an inward conviction of as of a calamity which is about to happen to augur despondingly,0.7868928909301758,0.7875112295150757,0.7872018814086914,Not Hallucination,True
+transitive nautical to stroke a surface with the oars,transitive figurative of something inanimate to touch lightly,0.8731430768966675,0.8725830316543579,0.8728629350662231,Hallucination,True
+the irrational fear of fat,a fear of dietary fat,0.9520803093910217,0.9570640325546265,0.9545656442642212,Hallucination,False
+informal pejorative a person who is easily offended,derogatory us political slang a politician who is dissatisfied through failure lack of recognition etc from 19th c,0.8562734723091125,0.8185068368911743,0.8369643092155457,Hallucination,True
+anatomy of pertaining to or resembling a tetanus,resembling tetanus,0.825992226600647,0.9248368144035339,0.872624397277832,Not Hallucination,True
+of or pertaining to transport,serving to transport to another place,0.8536755442619324,0.8792828321456909,0.8662900328636169,Hallucination,True
+figuratively full of food bountiful,having a quantity or amount that is generous or plentiful ample,0.8142653703689575,0.8129193782806396,0.8135918378829956,Hallucination,True
+obsolete worn out tired,causing weariness tiresome,0.8816603422164917,0.8776417374610901,0.8796464204788208,Not Hallucination,True
+australia new zealand slang a man,britain informal a fellow a man especially an ordinary man a man on the street from 1847,0.8310744166374207,0.8231033086776733,0.8270696997642517,Hallucination,True
+idiomatic to set the scene,to prepare for something by providing a background a description etc,0.861372172832489,0.8541452288627625,0.8577434420585632,Not Hallucination,True
+rare of or pertaining to the unional,pertaining to a union,0.8066350221633911,0.867641806602478,0.8360269665718079,Not Hallucination,True
+a person with whom one shares a flat,a person with whom one shares a flat,0.9999998807907104,0.9999998807907104,0.9999998807907104,Not Hallucination,False
+vulgar slang derogatory a contemptible person,vulgar slang derogatory offensive one who has a very small penis an inadequate male lover,0.9127256274223328,0.8935971260070801,0.9030600190162659,Hallucination,False
+immediately without delay,occurring immediately immediate present,0.8205073475837708,0.8075687289237976,0.813986599445343,Not Hallucination,True
+resembling or characteristic of umber,of or pertaining to umber like umber,0.895612895488739,0.8909863233566284,0.8932936191558838,Not Hallucination,True
+transitive to fail to impress,too fail to impress positively to leave very little impression or a bad impression,0.8809658885002136,0.8609857559204102,0.8708612322807312,Not Hallucination,True
+countable a caf,dated cafeteria,0.8431556224822998,0.9002406597137451,0.8707635402679443,Hallucination,True
+informal loutish,rare loutish,0.9986457824707031,0.9986457824707031,0.9986457824707031,Not Hallucination,False
+transitive obsolete to corrupt to pervert,to misinterpret designedly,0.8095182180404663,0.8183232545852661,0.813896894454956,Not Hallucination,True
+idiomatic transitive to throw a wrench in,idiomatic us to introduce a problem dilemma or obstacle in to complicate,0.8427558541297913,0.8272150754928589,0.8349131345748901,Hallucination,True
+archaic a tuft of hair on the top of the head,pejorative in a russian context a ukrainian,0.8246628046035767,0.8154065012931824,0.8200085759162903,Hallucination,True
+having a keen sense of humor,acrimonious bitter piercing,0.8126094937324524,0.7742656469345093,0.7929742932319641,Hallucination,True
+architecture a belfry,alternative form of bell cot,0.8733996152877808,0.8614042401313782,0.8673604726791382,Hallucination,True
+philippines a member of the balikbayan,philippines a filipino returning to the philippines after spending time in another country from 20th c,0.8610225319862366,0.8381280899047852,0.8494210839271545,Hallucination,True
+transitive to make less glorious,transitive to deprive of glory,0.9320263266563416,0.9320263266563416,0.9320263266563416,Not Hallucination,False
+somewhat sandy,somewhat sandy,1.000000238418579,1.000000238418579,1.000000238418579,Not Hallucination,False
+transitive to climb again,transitive to undo the climbing of to climb down or back from,0.8825162053108215,0.8353952765464783,0.8583094477653503,Not Hallucination,True
+alternative form of outfire,sussex a visit by one bonfire society to join in with the celebrations of another,0.8476812839508057,0.8250231742858887,0.8361987471580505,Hallucination,True
+intransitive colloquial to be very hot,ambitransitive mildly _ vulgar to rain heavily,0.7943655848503113,0.7935606837272644,0.7939628958702087,Hallucination,True
+surfing slang a large wave,surfing a wave that has not yet begun to break,0.8884398937225342,0.84820556640625,0.8678566813468933,Hallucination,True
+alternative form of allcargo,that only carries cargo and no passengers,0.8557183146476746,0.8549730777740479,0.8553455471992493,Hallucination,True
+not consistent,lacking internal consistency selfcontradicting not compatible with itself,0.9117658138275146,0.8254006505012512,0.8664364218711853,Not Hallucination,True
+transitive to agree with to concur with,rare literary ambitransitive to approach to near,0.8175481557846069,0.8033190965652466,0.8103711605072021,Hallucination,True
