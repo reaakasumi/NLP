@@ -18,7 +18,11 @@ You find all the necessary information for Milestone 1 in the branch milestone1 
   - Data Analysis
   - Preprocessing
   - Exporting to CoNLL-U format
-
+in its added README  file.
 ## Milestone 2 
 
-For Milestone 2 take a look at the branch milestone2 and its added README file. 
+For Milestone 2 take a look at the branch milestone2 about the baselines: 
+  - Naive Bayes
+  - Vectara
+  - Model Evaluation of the Baselines
+in its added README file. 
