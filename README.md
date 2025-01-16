@@ -14,8 +14,6 @@ a set of per annotator labels indicating whether each individual annotator thoug
 model name --> 'model' 
 
 ## Milestone 1
-### Data Analysis 
-
 You find all the necessary information for Milestone 1 in the branch milestone1 about 
   - Data Analysis
   - Preprocessing
