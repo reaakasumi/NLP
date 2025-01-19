@@ -1,0 +1,376 @@
+hypotheses,references,precision,recall,f1,label,is_hallucination
+here she comes here she comes,here she comes,0.8860471248626709,0.9200596809387207,0.9027331471443176,Not Hallucination,False
+everythings fine,everything will be allright,0.8182606101036072,0.8104960918426514,0.8143598437309265,Not Hallucination,True
+i am unfamiliar with who that is,i am not familiar with who that is,0.9742736220359802,0.9662826061248779,0.9702616333961487,Not Hallucination,False
+it turns me into madness,it is turning me into a crazy person,0.952666163444519,0.9356781244277954,0.9440957307815552,Not Hallucination,False
+i ami am joking,i am joking,0.8753507733345032,0.9330882430076599,0.9032977819442749,Not Hallucination,False
+i am pretending it is a fake,i am not faking it,0.9164294004440308,0.9110605120658875,0.9137370586395264,Hallucination,False
+ray pratt where is he,ray pratt where is he,0.9999999403953552,0.9999999403953552,0.9999999403953552,Not Hallucination,False
+why did you have to go do that,why did you got to go and do that,0.963539183139801,0.9483965039253235,0.9559078216552734,Not Hallucination,False
+he is in one of his moods man,he is in one of his moods,0.9629340171813965,0.9779507517814636,0.9703842997550964,Not Hallucination,False
+a little bit of both i am afraid mr garrison,a little of both i am afraid,0.909174382686615,0.9471727013587952,0.9277846217155457,Hallucination,False
+here here i will show you,here i will show you,0.9477537870407104,0.974592387676239,0.9609857797622681,Not Hallucination,False
+you need to restrain yourself,you need to contain yourself,0.9873447418212891,0.9873447418212891,0.9873447418212891,Not Hallucination,False
+you did all you could,you did all you could do,0.978264331817627,0.9577822685241699,0.9679149389266968,Not Hallucination,False
+it was not like that it was not like that,it was not like that,0.9036838412284851,0.934088408946991,0.9186346530914307,Not Hallucination,False
+another question for you though,another question though,0.9148592352867126,0.9759177565574646,0.9444026350975037,Hallucination,False
+i will be out in a jiff,i will be out in a second guy,0.9200521111488342,0.9265142679214478,0.923271894454956,Not Hallucination,False
+he was so prettier than me,he was so beautiful,0.8817406892776489,0.9282627105712891,0.904403805732727,Hallucination,False
+it makes a sound,it has a ring to it,0.878220796585083,0.8398045301437378,0.8585831522941589,Hallucination,True
+something triggered the alarm,something tripped the alarm,0.9809060096740723,0.9718484878540039,0.9763562083244324,Not Hallucination,False
+you are a blundering artist,you are a scam artist,0.9298138618469238,0.9563330411911011,0.942887008190155,Hallucination,False
+are not you having any,are not you going to have any,0.9578129053115845,0.9253958463668823,0.941325306892395,Not Hallucination,False
+what you need to do is sleep,what you need is sleep,0.9547345638275146,0.9811141490936279,0.9677445888519287,Not Hallucination,False
+i am telling you he is never going to agree with me,he will never agree,0.8748898506164551,0.9348001480102539,0.9038532972335815,Hallucination,False
+let me straighten you out mister,let me straighten you out mister,1.0,1.0,1.0,Not Hallucination,False
+afraid we did everything we could,afraid we have done all we can,0.9722002744674683,0.9599332809448242,0.9660277962684631,Not Hallucination,False
+i do not see we have much choice,i do not see that we have much choice,0.9916948080062866,0.9807032346725464,0.986168384552002,Not Hallucination,False
+you have got to be kidding me by the way,you have got to be kidding me,0.9481264352798462,0.9898441433906555,0.9685362577438354,Not Hallucination,False
+ii cannot tell you,i cannot tell you,0.9992637634277344,0.9992637634277344,0.9992637634277344,Not Hallucination,False
+you are an intelligent man,you are an intelligent man,1.0,1.0,1.0,Not Hallucination,False
+he is grown,real mature,0.8999909162521362,0.9055800437927246,0.902776837348938,Hallucination,False
+please sir listen to me,please sir hear me,0.9542205333709717,0.9705682992935181,0.9623249769210815,Not Hallucination,False
+huh what is wrong with you,huh what is the matter with you,0.9584358334541321,0.9578189849853516,0.9581273198127747,Not Hallucination,False
+i mean anytime,i mean anytime,0.9999998807907104,0.9999998807907104,0.9999998807907104,Not Hallucination,False
+oh no lts all right,no all good,0.8299814462661743,0.85406893491745,0.8418529033660889,Not Hallucination,True
+i am not taking dope,i am not taking drugs,0.98338383436203,0.98338383436203,0.98338383436203,Not Hallucination,False
+may i tell you something,can i say something,0.8992223143577576,0.916978657245636,0.9080137014389038,Not Hallucination,False
+i am so psyched to see you guys,i am so glad to see you guys,0.9506311416625977,0.9650250673294067,0.9577740430831909,Not Hallucination,False
+what is wrong tata,tata what is wrong,0.9154168367385864,0.9153687953948975,0.9153928160667419,Not Hallucination,False
+how did he end up dead anyway,how did he get dead,0.9294000267982483,0.9634305238723755,0.9461092948913574,Not Hallucination,False
+there is a complication,there is an issue,0.9567916989326477,0.9567916989326477,0.9567916989326477,Not Hallucination,False
+what is going on with you baby,baby what is going on with you,0.9443310499191284,0.951624870300293,0.9479639530181885,Not Hallucination,False
+four minutes fellows,four minutes people,0.944091796875,0.944091796875,0.944091796875,Not Hallucination,False
+thank you so much mate,thank you so much fella,0.9754709005355835,0.9626397490501404,0.9690129160881042,Not Hallucination,False
+is this some kind of humor,is this some sort of joke,0.9691154360771179,0.9691154360771179,0.9691154360771179,Not Hallucination,False
+have you talked to mommy,have you talked to mom,0.9771640300750732,0.9833165407180786,0.9802306294441223,Not Hallucination,False
+you okay kiddo,you all right kiddo,0.9717218279838562,0.9569541215896606,0.964281439781189,Not Hallucination,False
+alan you have got to stop beating yourself up,alan do not beat yourself up,0.9112991094589233,0.9432294368743896,0.9269893765449524,Not Hallucination,False
+have a good time,have a really good time,0.9821586608886719,0.9559410810470581,0.9688725471496582,Not Hallucination,False
+oh wow why do you do,oh why do you do it,0.9056228399276733,0.9208616018295288,0.9131786823272705,Not Hallucination,False
+efraim what is with you today ,god what is with you today,0.8340110182762146,0.9545103311538696,0.8902014493942261,Hallucination,True
+you are concocting,you are making it up,0.8838661909103394,0.862750768661499,0.8731808662414551,Not Hallucination,True
+i do not really really know,i do not really know,0.9826522469520569,0.9906967878341675,0.9866580963134766,Not Hallucination,False
+when was the last time you laid eyes on him madam,when did you last see him,0.8996257185935974,0.9265398383140564,0.9128844738006592,Hallucination,False
+that is a great waltz,that is a great choice,0.8974804878234863,0.923727810382843,0.9104150533676147,Hallucination,False
+and i am out of bed,and i slept,0.8799941539764404,0.9171024560928345,0.8981651663780212,Hallucination,True
+chaos is taking over,chaos takes over,0.9480583071708679,0.9606183767318726,0.9542970657348633,Not Hallucination,False
+υouve always been there for me,you have always been there for me,0.8870713710784912,0.950754702091217,0.9178097248077393,Not Hallucination,False
+thank you for coming to see me so soon,thank you for coming so soon,0.9398615956306458,0.980014443397522,0.9595181345939636,Not Hallucination,False
+it will be hardcore,it will be tough,0.9419019222259521,0.9419019222259521,0.9419019222259521,Not Hallucination,False
+are you all with me,are you all with me,0.9999999403953552,0.9999999403953552,0.9999999403953552,Not Hallucination,False
+guarding against an evileyed,guard against an evil eye,0.8528333902359009,0.8886697888374329,0.8703827857971191,Not Hallucination,True
+i do not have the muscle,i do not have the energy,0.9663510918617249,0.9686869382858276,0.9675175547599792,Hallucination,False
+i have no choice but to pursue it,i have no choice but to,0.9286694526672363,0.9472765922546387,0.9378807544708252,Hallucination,False
+hope everythings alright,hope everythings all right,0.979805052280426,0.9751453399658203,0.9774696826934814,Not Hallucination,False
+she does not want it to be her,it is not what she wants,0.8996865153312683,0.9068810939788818,0.9032694101333618,Hallucination,False
+i couid learn,i can learn,0.9119073748588562,0.9403496980667114,0.9259101748466492,Not Hallucination,False
+our bands been stolen,our wristbands were stolen,0.9351452589035034,0.9153645038604736,0.925149142742157,Not Hallucination,False
+i need help i need help,i need some help,0.9008036851882935,0.9108069539070129,0.905777633190155,Not Hallucination,False
+i return shortly before too long,i return before too long,0.963676393032074,0.9743655920028687,0.9689915776252747,Not Hallucination,False
+it is just that i am having a hard time believing you,i struggle to believe you,0.8754929900169373,0.9151090979576111,0.8948628306388855,Not Hallucination,True
+did you see him madam,did you see him,0.9126307964324951,0.9667916297912598,0.9389308094978333,Not Hallucination,False
+do not shoot me,do not shoot,0.9146620035171509,0.9377756118774414,0.9260746240615845,Not Hallucination,False
+don t forget the rules of engagement,do not forget the rules,0.8947970271110535,0.9498121738433838,0.9214841723442078,Hallucination,False
+hey can i talk to you privately,hey can we talk,0.8984836935997009,0.92659991979599,0.9123252034187317,Hallucination,False
+did not take a lot of work did it,took some doing mind you,0.8157086968421936,0.7644660472869873,0.7892565131187439,Hallucination,True
+i am gettin sicky now,i am getting sick now,0.9284985065460205,0.9758644104003906,0.9515923857688904,Not Hallucination,False
+except me of course of course,except me of course,0.9858078956604004,0.9898986220359802,0.9878489971160889,Not Hallucination,False
+i will see you at um 3 00 am,i will see you at 3 00,0.9403071403503418,0.9727221727371216,0.9562399983406067,Hallucination,False
+standby,hold it right there,0.8602538108825684,0.7894205451011658,0.8233163952827454,Hallucination,True
+it is notoveryet,it is not over yet,0.8550980687141418,0.8581383228302002,0.8566155433654785,Not Hallucination,True
+help is coming kid,help is coming kid,1.0,1.0,1.0,Not Hallucination,False
+um i will see you in there,i will see you inside,0.935145378112793,0.9494454264640808,0.9422410726547241,Not Hallucination,False
+they have got it boss,they have got it,0.937344491481781,0.969597578048706,0.953198254108429,Hallucination,False
+don t you get my drift here,do not you understand,0.8079958558082581,0.862204909324646,0.8342206478118896,Not Hallucination,True
+oh i am sorry i am krystal,oh i am so sorry krystal,0.931532621383667,0.9278861880302429,0.929705798625946,Hallucination,False
+don t be so contrary to what i said,do not be so contrary,0.8803393244743347,0.9351954460144043,0.9069386124610901,Not Hallucination,False
+oh that is horrendous stuff,oh that is horrible,0.9488343000411987,0.9725639224052429,0.9605526328086853,Not Hallucination,False
+i am tryin to help him dude,i am trying to help him,0.9422767758369446,0.9830036163330078,0.9622094631195068,Hallucination,False
+it was a little girlie,it was a little girl,0.9474269151687622,0.9666844606399536,0.9569587707519531,Not Hallucination,False
+come sit over here sit over,come sit over here,0.9280552864074707,0.9554464817047119,0.9415517449378967,Hallucination,False
+what are you looking for pop,what are you looking for dad,0.9753539562225342,0.9753539562225342,0.9753539562225342,Not Hallucination,False
+how can i help that now,cannot help that now,0.9069763422012329,0.9417283535003662,0.9240257143974304,Hallucination,False
+do you know what that isthat is,do you know what that is,0.9472137689590454,0.9729260802268982,0.9598978161811829,Not Hallucination,False
+i am going to be hilarious,i will be quiet,0.8944841027259827,0.8978078365325928,0.8961428999900818,Hallucination,True
+and i am not bickering,and i am not arguing,0.9448286294937134,0.9700096249580383,0.9572535157203674,Not Hallucination,False
+everythings going to be fine here,everythings going to be just fine here,0.9944303035736084,0.9826052784919739,0.9884824156761169,Not Hallucination,False
+i may be able to help you mr lahey,i might be able to help you,0.9034189581871033,0.9793504476547241,0.9398536086082458,Hallucination,False
+that is a long shot,that is unlikely,0.904446005821228,0.9269543290138245,0.915561854839325,Not Hallucination,False
+my lord we are doomed,my lord we are doomed,1.0,1.0,1.0,Not Hallucination,False
+oh she is just soaked to the bone,she is just soaked to the bone,0.9622794389724731,0.9691982269287109,0.9657264351844788,Not Hallucination,False
+what is the matter capn,what is the matter captain,0.9481241106987,0.967682957649231,0.9578037261962891,Not Hallucination,False
+a lot safer in that way,a lot safer that way,0.9703508615493774,0.9784905910491943,0.9744036793708801,Not Hallucination,False
+even the wrong road,that is not even the right way,0.832136869430542,0.8405555486679077,0.8363250494003296,Hallucination,True
+we will tuck you in,we will cover you up,0.9131453037261963,0.9332478046417236,0.9230871200561523,Not Hallucination,False
+well i do not think you get it,no i do not think you understand,0.9621208310127258,0.9738216400146484,0.9679359197616577,Not Hallucination,False
+no one has ever seen him since,nobodys ever seen him since,0.9330004453659058,0.9015918970108032,0.9170272946357727,Not Hallucination,False
+well that is some high stakes out there,that is some high stakes,0.9151243567466736,0.9572315216064453,0.9357044100761414,Not Hallucination,False
+nobody picks or calls,nobody picks up or calls out,0.8636142015457153,0.8383399844169617,0.8507894277572632,Not Hallucination,True
+does not make any sense to me either,does not make sense to me either,0.9778225421905518,0.9953615069389343,0.9865140318870544,Not Hallucination,False
+do not give me that look do not give me that look,do not give me that look,0.929800808429718,0.9562723636627197,0.9428508281707764,Not Hallucination,False
+in all honesty bruv,in all honesty,0.9118064641952515,0.9729984998703003,0.941409170627594,Not Hallucination,False
+i beg your pardon please,excuse me please,0.821047842502594,0.8935896158218384,0.8557841777801514,Not Hallucination,True
+your attention please,if i could just have your attention,0.8622617721557617,0.8314222097396851,0.8465611934661865,Not Hallucination,True
+where are your moms,uh where are your parents,0.9192479252815247,0.9056539535522461,0.9124003648757935,Hallucination,False
+stop this in a jiff,stop this immediately,0.8474166393280029,0.9166438579559326,0.8806718587875366,Not Hallucination,True
+you almost gave me a heartintheheart,you almost gave me a heart attack,0.8958333730697632,0.9244855046272278,0.9099339246749878,Hallucination,False
+she is doing the best she can,she is doing the best she can,0.9999998807907104,0.9999998807907104,0.9999998807907104,Not Hallucination,False
+talked to him,have you spoken to him,0.9150936603546143,0.8883686065673828,0.9015331268310547,Not Hallucination,False
+ls everything going to be all right,is everything going to be okay,0.9791387319564819,0.9855184555053711,0.9823182225227356,Not Hallucination,False
+may i ask what you are plotting,may i ask what you are planning,0.9813194274902344,0.9813194274902344,0.9813194274902344,Not Hallucination,False
+that is all i know,i know nothing else,0.8824965357780457,0.870790958404541,0.8766046166419983,Not Hallucination,True
+oh that is too bad too,oh that is too bad,0.949413537979126,0.9827902913093567,0.9658136963844299,Hallucination,False
+why did not you tell me,why did you not tell me,0.981188178062439,0.981188178062439,0.981188178062439,Not Hallucination,False
+i have hesitated,i hesitated,0.921826183795929,0.9538941979408264,0.9375860691070557,Not Hallucination,False
+are you listening mister,are you listening,0.8929185271263123,0.9630210399627686,0.926645815372467,Not Hallucination,False
+she is not a doofus,she is not stupid,0.9114382266998291,0.9608450531959534,0.9354897737503052,Not Hallucination,False
+cheeta come on,cheeta come on,0.9999998211860657,0.9999998211860657,0.9999998211860657,Not Hallucination,False
+it is not going to work like that,it is not going to work like that,0.9999998211860657,0.9999998211860657,0.9999998211860657,Not Hallucination,False
+what are we supposed to do,what are we supposed to do,1.0000001192092896,1.0000001192092896,1.0000001192092896,Not Hallucination,False
+i do not know what that is feel like,i do not know what that feels like,0.956946611404419,0.9694397449493408,0.9631526470184326,Hallucination,False
+no one is permitted to visit her,nobody is allowed to visit her,0.9608834981918335,0.9718085527420044,0.9663151502609253,Not Hallucination,False
+till you kill me,not till you kill me,0.9596217274665833,0.9303218722343445,0.9447446465492249,Not Hallucination,False
+unbelievable,it was like unbelievable,0.8902748227119446,0.8077941536903381,0.84703129529953,Not Hallucination,True
+it is um too dangerous,it is too dangerous,0.9399847388267517,0.9834889769554138,0.9612448811531067,Not Hallucination,False
+sir a call has been intercepted sir,sir we have intercepted a call,0.9215918779373169,0.9391535520553589,0.9302898645401001,Not Hallucination,False
+sure you are up to his id,sure you are up to it,0.8866735100746155,0.9021872282028198,0.8943631052970886,Hallucination,True
+i am going to take the air mister,i will take the air,0.8940235376358032,0.9304452538490295,0.9118708372116089,Not Hallucination,False
+so how did you guys get together,how did you guys meet,0.9377149939537048,0.9542376399040222,0.9459041357040405,Not Hallucination,False
+the train cannot be held any longer,the train cannot be held any longer,0.9999999403953552,0.9999999403953552,0.9999999403953552,Not Hallucination,False
+i can remember everything,i can remember all of it,0.9317673444747925,0.9201701879501343,0.9259324073791504,Not Hallucination,False
+anybody got a lead on you,anybody follow you,0.8664702773094177,0.8932039737701416,0.8796340227127075,Not Hallucination,True
+i will send it i will send it over,i will send it,0.91462641954422,0.9375109672546387,0.9259273409843445,Not Hallucination,False
+i am going to miss yalls,i am going to miss you guys,0.9688843488693237,0.970349133014679,0.969616174697876,Not Hallucination,False
+i got no dad you dig,i do not got no daddy you dig,0.968595027923584,0.9505219459533691,0.9594733715057373,Not Hallucination,False
+okay look me in the eye,all right look me in the eye,0.9627529382705688,0.9300360083580017,0.946111798286438,Not Hallucination,False
+just hold on a second will you my friend,hang on buddy,0.8171626329421997,0.8840140700340271,0.8492748141288757,Not Hallucination,True
+is that something you are looking for exactly,something specific you are looking for,0.8800090551376343,0.9092433452606201,0.8943873643875122,Not Hallucination,True
+hey i have been through worses,hey i have had worse,0.8873708844184875,0.907372772693634,0.8972603678703308,Not Hallucination,True
+i will be a dddad,i will be a daddy,0.9006280303001404,0.939460277557373,0.9196344017982483,Not Hallucination,False
+please take good care,please take care,0.8952915072441101,0.9141689538955688,0.9046317934989929,Not Hallucination,False
+nobody should have to die alone,no one should have to die alone,0.9760463237762451,0.9588292837142944,0.9673612117767334,Not Hallucination,False
+ace why did you stop man,ace why you stopped,0.9021300673484802,0.9315833449363708,0.916620135307312,Not Hallucination,False
+he was out of the woods,he was not there,0.8542206883430481,0.8765164017677307,0.8652249574661255,Hallucination,True
+it is not what i am asking you to,it is not what i am asking,0.9484066367149353,0.9727573990821838,0.9604277014732361,Not Hallucination,False
+guys in masks,the guys in the masks,0.9518054723739624,0.9428774118423462,0.9473204016685486,Not Hallucination,False
+i just really really want to go home,i just really want to go home,0.9788363575935364,0.9869675636291504,0.9828851222991943,Not Hallucination,False
+i am afraid i am indisposed to accommodate you,afraid i cannot possibly accommodate you,0.8731300234794617,0.908486008644104,0.8904572129249573,Not Hallucination,True
+i knew i should not have done that,i knew i should not have,0.9569564461708069,0.9726940393447876,0.9647610187530518,Not Hallucination,False
+okay you are ready dawg,okay you ready,0.870505154132843,0.9534121751785278,0.9100743532180786,Hallucination,False
+it is not a wisest idea,not very wise,0.8546904921531677,0.8843607902526855,0.8692725300788879,Not Hallucination,True
+you have no business comin here,you have got no business to come here,0.9363555908203125,0.9426295161247253,0.9394820332527161,Not Hallucination,False
+one acquaintances,an acquaintance,0.9710431098937988,0.9710431098937988,0.9710431098937988,Not Hallucination,False
+hey thanks everybody for coming,hey thanks everybody for coming,1.0000001192092896,1.0000001192092896,1.0000001192092896,Not Hallucination,False
+thank you so much for your help mr kira,thank you for your help kira,0.9255064725875854,0.9717336297035217,0.9480568170547485,Not Hallucination,False
+should i call the pd,should i call the police,0.9496039748191833,0.9740182161331177,0.9616562128067017,Not Hallucination,False
+how long is it going to last,how long is it going to be,0.9577190279960632,0.9577190279960632,0.9577190279960632,Not Hallucination,False
+i do not minded,i do not mind,0.9238492250442505,0.9238492250442505,0.9238492250442505,Hallucination,False
+now who was nextincommand,now who was next,0.8910297155380249,0.9478872418403625,0.9185793995857239,Not Hallucination,False
+where did you get that,where did you get that,1.0000001192092896,1.0000001192092896,1.0000001192092896,Not Hallucination,False
+i am going to go take a look,i shall go and see,0.8921130895614624,0.894479513168335,0.8932947516441345,Not Hallucination,True
+hey need help,hey need some help,0.986190915107727,0.9644984006881714,0.9752240180969238,Not Hallucination,False
+it does seem that way indeed,it does seem that way,0.9603824615478516,0.9890512824058533,0.9745060205459595,Not Hallucination,False
+what are you inferring,what are you suggesting,0.9351577758789062,0.9515219330787659,0.943268895149231,Not Hallucination,False
+still unknown at this point,still unidentified at this point,0.9716861248016357,0.9716861248016357,0.9716861248016357,Not Hallucination,False
+i gave you enough credit,i did not give you enough credit,0.9675713181495667,0.9443694949150085,0.9558296203613281,Hallucination,False
+i will get some clothing,i will put some clothes on,0.9397774338722229,0.9256564974784851,0.9326635003089905,Hallucination,False
+gee i have tried so hard,god what are not i tried,0.8404831886291504,0.8327706456184387,0.8366091847419739,Not Hallucination,True
+hey hey hey look what you have done,hey look what you did,0.8799112439155579,0.9589053988456726,0.917711615562439,Not Hallucination,False
+i hold a weapon,i am holding a firearm,0.9275060892105103,0.9190444946289062,0.9232559204101562,Not Hallucination,False
+good evening viceprincip,good evening vice minister,0.8866759538650513,0.9458540678024292,0.915309488773346,Hallucination,False
+he was approached by me,he approached me,0.9228194355964661,0.9532119035720825,0.9377694725990295,Hallucination,False
+get your hands upup,get your hands up,0.9513834118843079,0.9849470257759094,0.9678743481636047,Not Hallucination,False
+i was sorry you would say that something,i was afraid you would say that,0.9165974259376526,0.927151620388031,0.9218443036079407,Hallucination,False
+i won t tell anyone i promise,i am not going to tell anybody,0.8949141502380371,0.9155968427658081,0.9051373600959778,Not Hallucination,False
+drop your 38s,drop your weapons,0.8589127659797668,0.9014626741409302,0.8796734809875488,Hallucination,True
+i have come a long long way now,i have come a long way,0.9589278101921082,0.9855806827545166,0.9720715284347534,Not Hallucination,False
+and that is what is important to me,and that is what matters,0.9257567524909973,0.9585562944412231,0.9418710470199585,Hallucination,False
+i will buy you somes,i will buy you some,0.9464627504348755,0.9615557193756104,0.9539495706558228,Not Hallucination,False
+i behaved like myself,i am behaving like myself,0.9793941378593445,0.9659948945045471,0.9726483821868896,Not Hallucination,False
+are you walking away,are you leaving,0.9369655251502991,0.9513393044471741,0.9440976977348328,Not Hallucination,False
+how long do you think you will need,how long will you need,0.9290343523025513,0.9648130536079407,0.9465857148170471,Not Hallucination,False
+a little something something,a little something,0.9242275953292847,0.9487901329994202,0.9363477826118469,Not Hallucination,False
+do we have an understanding hmm,do we have an understanding,0.9305631518363953,0.9841043949127197,0.956585168838501,Not Hallucination,False
+i have lost everything altogether,i have lost everything,0.9637306332588196,0.9931020736694336,0.9781959056854248,Not Hallucination,False
+i am going to go and get the car,i am going to go and get the car,1.0000001192092896,1.0000001192092896,1.0000001192092896,Not Hallucination,False
+hold on just a second,just a second,0.8519168496131897,0.8817917108535767,0.8665968179702759,Not Hallucination,True
+care to meet him,are you interested in meeting him,0.9189922213554382,0.8873454928398132,0.9028916358947754,Not Hallucination,False
+hey hey hey hey hey hey,hey wait a minute,0.7349833250045776,0.7199485301971436,0.7273882627487183,Not Hallucination,True
+is this ringing bell,is this ringing any bells,0.8704876899719238,0.8478513360023499,0.8590204119682312,Hallucination,True
+what is your point here,what is your point,0.9405809044837952,0.9736257791519165,0.9568181037902832,Not Hallucination,False
+i am a fasttrack learner,i am a fast learner,0.9549266695976257,0.9783569574356079,0.9664998650550842,Not Hallucination,False
+i have got to get there,i have to get there,0.9666602611541748,0.9795303344726562,0.9730527400970459,Not Hallucination,False
+no one has to be wiser than you are right now,no one has to be the wiser,0.8854544758796692,0.9240828156471252,0.9043563008308411,Hallucination,False
+back back,back off back off,0.873877763748169,0.7971981763839722,0.8337787389755249,Not Hallucination,True
+right or wrong deal,right or wrong we had a deal,0.9171141386032104,0.8933886289596558,0.9050959348678589,Not Hallucination,False
+iiii don t drive a car,i do not drive a car,0.9013951420783997,0.959643542766571,0.9296077489852905,Not Hallucination,False
+get a grip man,get ahold of yourself man,0.9184688329696655,0.8851891160011292,0.9015219211578369,Not Hallucination,False
+i am sure that is a nono,i do not doubt that,0.8613466620445251,0.8673657178878784,0.8643457293510437,Hallucination,True
+τhats exactly what i said,that is exactly what i said,0.9062420725822449,0.9509353041648865,0.9280509352684021,Not Hallucination,False
+when are we leavin,when do we leave,0.8910565376281738,0.9098498225212097,0.9003551006317139,Not Hallucination,False
+sure you are doin okay there,sure you are doing ok,0.913701593875885,0.9628609418869019,0.9376373291015625,Not Hallucination,False
+i am the reason they died,i am the reason that they died,0.9969561100006104,0.9836353063583374,0.9902509450912476,Not Hallucination,False
+i got some ideas i got ideas,i have got some ideas,0.9070740938186646,0.9246082305908203,0.9157572388648987,Not Hallucination,False
+i became troubled,i became sick with worry,0.9441792368888855,0.9051012992858887,0.9242273569107056,Hallucination,False
+it is a very long story,it is a long story,0.9627132415771484,0.9660199284553528,0.9643638134002686,Not Hallucination,False
+oh for gods sake laughs,oh for gods sake,0.9482284188270569,0.9796335697174072,0.9636752605438232,Hallucination,False
+you two are meant to be,you two belong together,0.8941832780838013,0.9317528009414673,0.9125815629959106,Not Hallucination,False
+it is great being the boss,being the boss is great,0.9162257313728333,0.9220314025878906,0.9191194176673889,Not Hallucination,False
+they have got to be stopped,they have to be stopped,0.9576995372772217,0.9739048480987549,0.9657341837882996,Not Hallucination,False
+you are angry are not ya,you are not angry,0.852033793926239,0.9237563014030457,0.8864466547966003,Hallucination,True
+thanks for the headsup,thanks for the warning,0.9032824039459229,0.9265004396438599,0.9147440791130066,Not Hallucination,False
+james we are supposed to be out of here,james we should not be here,0.9158703088760376,0.9342653155326843,0.9249764084815979,Hallucination,False
+promises me nothing,i am not promising anything,0.8845725655555725,0.8586069345474243,0.8713963627815247,Not Hallucination,True
+i am short on guns,i am not big on guns,0.9455085396766663,0.9388338923454285,0.9421594142913818,Hallucination,False
+well they are professionals,they are professionals,0.955238938331604,0.9619686603546143,0.9585919976234436,Not Hallucination,False
+two of them died,two of them died,1.0,1.0,1.0,Not Hallucination,False
+well you know it is really okay to explain,there is really no need to explain,0.8792581558227539,0.8894718289375305,0.8843355178833008,Hallucination,True
+that is the final straws,that is the final straw,0.9447230696678162,0.9693323969841003,0.9568695425987244,Not Hallucination,False
+do not scream do not,do not scream,0.915977418422699,0.9530999064445496,0.9341700077056885,Not Hallucination,False
+we are not acquiescing,we are not surrendering,0.9689933061599731,0.9689933061599731,0.9689933061599731,Hallucination,False
+i am your supporter,i am supporting you,0.939162015914917,0.9391619563102722,0.9391619563102722,Not Hallucination,False
+brooke you are beyond my judgment,brooke i am not judging you,0.897973895072937,0.8999456763267517,0.898958683013916,Hallucination,True
+mostly i can protect you,and most of all i can protect you,0.9685421586036682,0.8978129625320435,0.9318373203277588,Not Hallucination,False
+do not talk like that saul,do not talk like that saul,1.0,1.0,1.0,Not Hallucination,False
+it is like i are not heard,it is like i am not heard,0.9779067635536194,0.9868267178535461,0.9823464751243591,Not Hallucination,False
+getyourhands off,get your hands off,0.9152228832244873,0.9152228832244873,0.9152229428291321,Not Hallucination,False
+i am not from aroundtheclock,i am not from around here,0.9005565643310547,0.9237155914306641,0.9119890928268433,Hallucination,False
+there is there is kids out there,there is there is kids,0.9088024497032166,0.9414671659469604,0.9248465299606323,Not Hallucination,False
+well you never mentioned,well you did not tell me,0.9251525402069092,0.9106183052062988,0.917827844619751,Not Hallucination,False
+not all of it ese,not all of it,0.9250690937042236,0.9670262932777405,0.9455825090408325,Not Hallucination,False
+it is just a decoy,it is demeaning that is all,0.8538838028907776,0.8185380697250366,0.8358374238014221,Hallucination,True
+i am surrendering,i am not giving up,0.9307054281234741,0.9163956642150879,0.9234951138496399,Hallucination,False
+i am really really really sorry for your loss,i am really just so sorry for your loss,0.9551751613616943,0.9549628496170044,0.9550690054893494,Not Hallucination,False
+i want to keep you safe,i want to keep you safe,1.0,1.0,1.0,Not Hallucination,False
+can i just say one things,can i just say one thing,0.968544602394104,0.968544602394104,0.968544602394104,Not Hallucination,False
+he creeps me out,he gives me the creeps,0.956863522529602,0.9337266683578491,0.945153534412384,Not Hallucination,False
+and that is a very difficult task,and that was no easy task,0.9203378558158875,0.9269072413444519,0.9236108660697937,Not Hallucination,False
+all right i am going to go make some calls all right,i will go make some calls,0.8848382830619812,0.9521435499191284,0.9172579646110535,Not Hallucination,False
+we have to respite,we have to focus,0.9267598390579224,0.9401578307151794,0.9334107637405396,Hallucination,False
+freeze or i shoot you,stop moving or i will shoot you,0.9387268424034119,0.9107958078384399,0.9245504140853882,Not Hallucination,False
+but everyone is a liar altogether,but everybodys a liar,0.9246382713317871,0.8852895498275757,0.9045361876487732,Not Hallucination,False
+hey can i uh buy you a drink or something,can i buy you a drink,0.9011169075965881,0.9507833123207092,0.9252841472625732,Not Hallucination,False
+for gods sake jesus christ,holy mother of jesus,0.8452624678611755,0.8681864738464355,0.8565710783004761,Hallucination,True
+got what he was coming for,got what he had coming,0.9106430411338806,0.9293497800827026,0.9199013710021973,Hallucination,False
+i am freezing my balls doc,i am freezing doc,0.9295125603675842,0.9683668613433838,0.948542058467865,Hallucination,False
+is there a point to this,is there a point here,0.974279522895813,0.9810745716094971,0.9776652455329895,Not Hallucination,False
+you are a goodlucky man,you are a lucky man,0.932971715927124,0.9757834076881409,0.9538974761962891,Hallucination,False
+i need the keys to your car,i am going to need the keys to your car,0.9687716960906982,0.9456706047058105,0.9570817351341248,Not Hallucination,False
+john you really need to prepare john,john you really need to prepare,0.9721028804779053,0.9917018413543701,0.9818045496940613,Not Hallucination,False
+there is nothing more i can do right now,i cannot do anything more now,0.9169557094573975,0.9312843084335327,0.9240644574165344,Not Hallucination,False
+he is a dream a dream,he is an absolute dream,0.885316789150238,0.8871586918830872,0.8862367868423462,Not Hallucination,True
+but the hearts too weak to make it work,but hearts not enough,0.8652961254119873,0.8887059092521667,0.8768447637557983,Not Hallucination,True
+oh you are going to believe this,oh you are not going to believe this,0.9592406749725342,0.9511998891830444,0.9552033543586731,Hallucination,False
+are you out of your wits,are you out of your mind,0.9419615864753723,0.9559754133224487,0.9489167332649231,Not Hallucination,False
+watch what you are sayin  man,watch your mouth,0.7897613644599915,0.845932126045227,0.8168822526931763,Not Hallucination,True
+you are going to get yourself whacked,you will get yourself killed,0.9258403778076172,0.9507473111152649,0.9381285905838013,Not Hallucination,False
+all i ever did was keep you safe,all i ever tried to do was keep you safe,0.9832158088684082,0.9621023535728455,0.9725444912910461,Hallucination,False
+maybe it will be better this way,maybe it will be better this way,0.9999998807907104,0.9999998807907104,0.9999998807907104,Not Hallucination,False
+i am just joking,i am not kidding,0.9099013805389404,0.9118958711624146,0.9108975529670715,Hallucination,False
+i uh would prefer that officers,i would uh i would prefer not to officers,0.9210720062255859,0.8965854048728943,0.9086637496948242,Hallucination,False
+roll call vote mr gibbs,roll call vote mr clerk,0.9469007849693298,0.9646825194358826,0.9557089805603027,Hallucination,False
+i will be back in a sec,i will be back in a few minutes,0.9638024568557739,0.9503092765808105,0.9570083022117615,Hallucination,False
+he is not a drug user,he is nonresponsive,0.8845338225364685,0.901935875415802,0.8931500911712646,Hallucination,True
+i have a proposition for you mariner,i have got a proposition for you mariner,0.9896745085716248,0.9771901369094849,0.9833927154541016,Not Hallucination,False
+anyone who can corroborate that,anyone who can verify that,0.9765983819961548,0.9837865233421326,0.9801793098449707,Not Hallucination,False
+all those counters,all those against,0.8713077306747437,0.8732165694236755,0.8722611665725708,Not Hallucination,True
+you have always got to hit the head,you have always got to flush,0.9373015761375427,0.9473291635513306,0.9422887563705444,Hallucination,False
+eh life goes on and on,eh life goes on,0.9415310025215149,0.9768960475921631,0.9588875770568848,Not Hallucination,False
+i will get this cleaned up all right,i will clean this up,0.9214878082275391,0.9552159309387207,0.938048779964447,Not Hallucination,False
+he is such a dearest thing,he is such a dear thing,0.9532179832458496,0.9690696001052856,0.961078405380249,Hallucination,False
+i am telling you it is crazy,nah it is insane,0.8783833980560303,0.8777496218681335,0.87806636095047,Hallucination,True
+that was yesterdays news,that was yesterday,0.843208909034729,0.9061287045478821,0.8735372424125671,Not Hallucination,True
+from now on,between now and then,0.8430101871490479,0.8145612478256226,0.8285415768623352,Hallucination,True
+leave a message i will get back to you i will get to you,leave a message i will get back to you,0.95039302110672,0.9697666764259338,0.9599820971488953,Not Hallucination,False
+are you sure you want to know ese,are you sure that you want to know,0.9450158476829529,0.9581000804901123,0.9515129923820496,Not Hallucination,False
+her idea or your idea,that her idea or yours,0.9221559762954712,0.9140971899032593,0.9181089401245117,Not Hallucination,False
+let me see your entrail,let me see your belly,0.9065006971359253,0.9428671598434448,0.9243263602256775,Hallucination,False
+i have got to call my maid,i have to call my service,0.9389570951461792,0.948736310005188,0.943821370601654,Hallucination,False
+might be a bad idea,it would not be a good idea right now,0.9472382068634033,0.9023934006690979,0.9242721796035767,Not Hallucination,False
+uh i did not say,uh i did not say that,0.9449485540390015,0.932433545589447,0.9386493563652039,Not Hallucination,False
+i need you to focus,i need you to concentrate,0.975773274898529,0.975773274898529,0.975773274898529,Not Hallucination,False
+look give me a call okay,look give me a call,0.930820882320404,0.9709243178367615,0.9504497647285461,Not Hallucination,False
+hey can i get your autograph if you will excuse me,can i get your autograph,0.8847864866256714,0.9623737335205078,0.92195063829422,Not Hallucination,False
+thom we are all going to die,we all die thom,0.8614053130149841,0.8747227191925049,0.8680129051208496,Not Hallucination,True
+this is a murderforhire kind of thing,this is a murder enquiry,0.8531901240348816,0.9037768840789795,0.8777552247047424,Hallucination,True
+i thought you were home quicker,i thought you would have come home sooner,0.9438172578811646,0.9253940582275391,0.9345148801803589,Hallucination,False
+it depends i am guessing,depends i guess,0.8438003659248352,0.8865840435028076,0.864663302898407,Not Hallucination,True
+we are sorry for your loss,our condolences on your loss,0.899551272392273,0.9051864743232727,0.9023600220680237,Not Hallucination,False
+well i have never been happier before,i have never been happier,0.934440553188324,0.9636233448982239,0.9488075971603394,Not Hallucination,False
+i am not agitated,i am not angry,0.9804755449295044,0.9804755449295044,0.9804755449295044,Not Hallucination,False
+did not think i would see you again,did not think i would ever see you again,0.9954445362091064,0.9823322296142578,0.9888448715209961,Not Hallucination,False
+okay you do not get it,okay you do not get it man,0.9462323784828186,0.9292398691177368,0.9376591444015503,Not Hallucination,False
+all right well keep your eyes on the road champion,eyes on the road champ,0.8373888731002808,0.9016006588935852,0.8683091998100281,Not Hallucination,True
+they will not listen to us,they are not going to listen to us,0.9849141836166382,0.9731930494308472,0.9790185689926147,Not Hallucination,False
+there is only one way to find out i guess is not there,one way to find out i guess huh,0.8557581305503845,0.9062716364860535,0.8802908062934875,Not Hallucination,True
+i will confide in myself,i will give myself up,0.9073405265808105,0.9260845184326172,0.9166167378425598,Hallucination,False
+it was the most remarkable thing i had never seen,it was the most amazing thing i would ever seen,0.9666169881820679,0.9666169881820679,0.9666169881820679,Not Hallucination,False
+that is his decision to makeup,that is his decision to make,0.9175893068313599,0.9274804592132568,0.9225083589553833,Hallucination,False
+comin through,coming through,0.8689241409301758,0.9596917033195496,0.9120551347732544,Not Hallucination,False
+i will handle it i will deal with it,i will handle it,0.9235110878944397,0.9481940269470215,0.9356898069381714,Not Hallucination,False
+i am familiar with you,i am not familiar with you,0.9741224646568298,0.9596395492553711,0.9668267369270325,Hallucination,False
+i am sorry that i am in this icky state,i apologize for being in this disgusting condition,0.8994024991989136,0.9140154719352722,0.9066501259803772,Not Hallucination,False
+seal all the doors please,close all the doors,0.9112394452095032,0.9337633848190308,0.9223639369010925,Hallucination,False
+well it is after visiting hours,it is after visiting hours,0.9512438774108887,0.9581246972084045,0.9546719193458557,Not Hallucination,False
+well i have got permission,i have a permit,0.8917392492294312,0.8985352516174316,0.8951243758201599,Not Hallucination,True
+it is going to be really fast,come on it is going to be real fast,0.9470652937889099,0.9230092763900757,0.9348825812339783,Not Hallucination,False
+and that is hardly happening,and that is not going to happen,0.9434774518013,0.9243787527084351,0.9338304400444031,Not Hallucination,False
+you will never change,you are never going to change,0.9723069667816162,0.9522654414176941,0.962181806564331,Not Hallucination,False
+you are trusting this guy,do you trust him,0.9153043627738953,0.9162344932556152,0.9157691597938538,Not Hallucination,False
+whom can i say,who can i say is asking,0.9506896138191223,0.9055689573287964,0.9275808930397034,Hallucination,False
+and you are uninteresting,and you are not curious,0.940636157989502,0.940636157989502,0.940636157989502,Hallucination,False
+i got to hit the head,i got to hit the head,1.0,1.0,1.0,Not Hallucination,False
+somebody tipped them off,somebody warned them,0.9304566383361816,0.9471062421798706,0.9387075901031494,Not Hallucination,False
+where is everybody else mr mcmurphy,where is everyone else,0.8517367839813232,0.9708573818206787,0.907404363155365,Hallucination,False
+rise and shinny,rise and shine,0.8882395625114441,0.903664767742157,0.8958857655525208,Hallucination,True
+it is uh it is a celebration,language dear,0.8530348539352417,0.8397456407546997,0.8463380932807922,Hallucination,True
+it should not happen,it should not have happened,0.9842639565467834,0.9665802717208862,0.9753419160842896,Not Hallucination,False
+i cannot believe it is an unheard of coincidence,i cannot believe it is a coincidence,0.9585264325141907,0.9784947633743286,0.9684076905250549,Not Hallucination,False
+i would just like to get some shuteye now,i would just like to sleep now,0.9287595152854919,0.969974935054779,0.9489198923110962,Not Hallucination,False
+i crossed a lineup,i crossed a line,0.926498532295227,0.926498532295227,0.926498532295227,Hallucination,False
+i am actually seeing someone,i am actually dating someone,0.9642837047576904,0.9671469926834106,0.9657132029533386,Not Hallucination,False
+is there um there is a problem here,is there a problem,0.8731440901756287,0.9147346019744873,0.8934555649757385,Not Hallucination,True
+we must not stay here are we,we are not to stay here,0.8836196064949036,0.9225456118583679,0.9026631712913513,Not Hallucination,False
+you in need cash,are you in want of cash,0.9083300232887268,0.8902738690376282,0.8992112874984741,Not Hallucination,True
+it is of little consequence,it is of no consequence,0.983039379119873,0.983039379119873,0.983039379119873,Hallucination,False
+anymore,and nothing more,0.8734869956970215,0.7913066744804382,0.8303684592247009,Not Hallucination,True
+i am a little freaked out in fact,i am a bit nervous actually,0.9355056285858154,0.952542245388031,0.9439470171928406,Not Hallucination,False
+how is it coming along,how is it coming along,1.0000001192092896,1.0000001192092896,1.0000001192092896,Not Hallucination,False
+i have got to take this,i got to take this,0.9635260105133057,0.9764289855957031,0.9699345827102661,Not Hallucination,False
+it was a monstrosity who took them all away,it was a monster who took them all,0.9536786079406738,0.9764083623886108,0.9649096131324768,Not Hallucination,False
+were you a military man marshal,were you a military man,0.9195539355278015,0.9621652364730835,0.9403771162033081,Not Hallucination,False
+hundredfifty percent,hundred percent,0.8379909992218018,0.9420355558395386,0.8869725465774536,Hallucination,True
+i want you to make a choice,i want you to choose,0.9733172059059143,0.9883047342300415,0.9807537198066711,Not Hallucination,False
+i am going to need to see what is going on,get me an ra unit now,0.8326752781867981,0.8454476594924927,0.839012861251831,Hallucination,True
+sometimes it is enough for me,sometimes it is enough,0.9313525557518005,0.9768516421318054,0.9535596370697021,Not Hallucination,False
+you want to play it up nicely,want to game it up,0.8938320279121399,0.913857638835907,0.9037339091300964,Hallucination,False
+υou did not have a choice,you did not have any choice,0.8971366286277771,0.9499344825744629,0.9227809309959412,Not Hallucination,False
+let us go homecooked now,let us go home now,0.9570403099060059,0.9778170585632324,0.9673171043395996,Hallucination,False
+okay take the cap off,okay take off the hat,0.9408576488494873,0.9187766313552856,0.9296860098838806,Not Hallucination,False
+that is precisely what i said to him,that is exactly what i said to him,0.9951996207237244,0.9951996207237244,0.9951996207237244,Not Hallucination,False
+no i hope he is all right chuckles,i hope he is okay,0.9088584184646606,0.9507668614387512,0.9293403625488281,Not Hallucination,False
+that is such a windfall,that is such a coincidence,0.9099435806274414,0.9385669827461243,0.9240337014198303,Hallucination,False
+she is sticking around,she stays with us,0.9166187047958374,0.9109034538269043,0.9137521386146545,Hallucination,False
+i have already overtalked too much,i have already talked too much,0.9379621744155884,0.9642077684402466,0.9509038925170898,Not Hallucination,False
+they are going to be fine,they are going to be fine,0.9999999403953552,0.9999999403953552,0.9999999403953552,Not Hallucination,False
+we have got a new kind of game,we have got a new kind of game,1.0,1.0,1.0,Not Hallucination,False
+i felt like being alone,i felt like being alone,1.0,1.0,1.0,Not Hallucination,False
+are you sleepy,did you not sleep,0.9319180250167847,0.9009945392608643,0.9161954522132874,Not Hallucination,False
+proceed to next phase,continue to the next phase,0.9877290725708008,0.9802162647247314,0.9839583039283752,Not Hallucination,False
+gets pretty chilled,gets pretty cold,0.9439545273780823,0.9439545273780823,0.9439545273780823,Not Hallucination,False
+i have been plucked,i have been chosen,0.9152059555053711,0.9407514333724976,0.9278028607368469,Not Hallucination,False
+does potus know what you are doin with,does potus know,0.8422859311103821,0.9386488199234009,0.8878602981567383,Not Hallucination,True
+and nobodys going to know,and no one will know,0.8840118646621704,0.913096010684967,0.8983185887336731,Not Hallucination,True
+members of the council please take your seats sit down,council members take your seats please,0.9126333594322205,0.9218209981918335,0.9172042012214661,Not Hallucination,False
+they are fond of you,they like you,0.9050623774528503,0.9211218357086182,0.913021445274353,Not Hallucination,False
+everything will be alright,everything will be fine,0.9754987955093384,0.9754987955093384,0.9754987955093384,Not Hallucination,False
+everything is okay then,everythings all right then,0.903435230255127,0.8779758214950562,0.8905236124992371,Not Hallucination,True
+something not the same,i mean something different,0.849530041217804,0.8499346971511841,0.8497322797775269,Hallucination,True
+i said do not flinch,i said hold your fire,0.902238130569458,0.9066696166992188,0.9044484496116638,Hallucination,False
+are you going to fire me,are you going to fire me,1.0,1.0,1.0,Not Hallucination,False
+whwhat is the rush,what is the rush,0.9205186367034912,0.932564377784729,0.9265023469924927,Not Hallucination,False
+but luckily i have got a plan,fortunately i got a plan,0.929648756980896,0.9570149779319763,0.9431334137916565,Not Hallucination,False
+i will get my trinkets,i will get my things,0.9297729134559631,0.9603569507598877,0.9448175430297852,Hallucination,False
+can anyone corroborate that,can anyone back you up on that,0.9387515187263489,0.9175000190734863,0.9280041456222534,Not Hallucination,False
+oh michael you scare me,oh michael you are scaring me,0.9838451743125916,0.9666056036949158,0.9751492142677307,Not Hallucination,False

@@ -1,0 +1,563 @@
+hypotheses,references,precision,recall,f1,label,is_hallucination
+you are going to be surprised if i say my real name is not tom,would you be surprised if i told you my name is not actually tom,0.9307299852371216,0.9352818131446838,0.9330003261566162,Not Hallucination,False
+the food will be full,there will be plenty of food,0.9178979396820068,0.9116880893707275,0.9147825241088867,Hallucination,False
+you think toms going to wait for me,do you think that tom will wait for me,0.9053952097892761,0.9023224115371704,0.9038562178611755,Not Hallucination,False
+there is a lot of friends,the two brothers are pretty different,0.8838750123977661,0.8579391837120056,0.8707140684127808,Hallucination,True
+is your watch going well,is your watch right,0.9029138684272766,0.9310058355331421,0.9167446494102478,Hallucination,False
+does it make sense to do it,does it make sense to fix this,0.9648517370223999,0.9638093709945679,0.96433025598526,Not Hallucination,False
+i do not care if you like your aunt mary or not you just have to smile and tolerate her presence here,i do not care if you do not like your aunt mary you will just have to grin and bear it while she is here,0.9422938823699951,0.9380021095275879,0.9401431083679199,Not Hallucination,False
+tom has already chosen where to provide him with documents,has tom chosen where he is going to apply yet,0.8943004012107849,0.8765208125114441,0.885321319103241,Hallucination,True
+tom turned off the alarm clock and fell asleep again,tom turned off his alarm and went back to sleep,0.9600803256034851,0.9570003151893616,0.9585378766059875,Not Hallucination,False
+we are not like tom at all,we are very different from tom,0.9095132946968079,0.9327787160873413,0.9209991097450256,Not Hallucination,False
+are you playing poker for the first time,is this your first time to play poker,0.9307202100753784,0.9087366461753845,0.9195970892906189,Not Hallucination,False
+what is going to happen to him,what will become of him,0.9305712580680847,0.9402037262916565,0.935362696647644,Not Hallucination,False
+it must be ready for the 20th,this has to be ready by the twentieth,0.9298614859580994,0.9288784265518188,0.9293697476387024,Not Hallucination,False
+you do not know what,did you really not know that,0.8416282534599304,0.8313266634941101,0.8364457488059998,Not Hallucination,True
+how much did the doctor give you your release,how long did the doctor sign you off school for,0.9147344827651978,0.9153388142585754,0.9150364995002747,Not Hallucination,False
+marys already gone into her room,has mary cleaned her room yet,0.8809849619865417,0.8945329189300537,0.8877071738243103,Hallucination,True
+i will do this in what would happen to us,i will do it at all costs,0.8851029276847839,0.8918986916542053,0.8884878158569336,Hallucination,True
+the decision of tactical exercises understanding of the difficult ending watching a live match and trying to  guess moves that will be played all this is fun,solving a tactical exercise understanding a difficult ending following a live match and trying to guess the moves that will be played all of this is fun,0.9274948239326477,0.9364286661148071,0.9319402575492859,Not Hallucination,False
+he washes his hands,he is washing his hands,0.9560637474060059,0.9552022218704224,0.9556328058242798,Not Hallucination,False
+tell me something,there is nothing to tell,0.8547452092170715,0.8211913704872131,0.8376323580741882,Hallucination,True
+are you going to work up to ten hours,are you going to work until 1000,0.9297713041305542,0.9400873184204102,0.9349008798599243,Hallucination,False
+let us say hello to tom,why do not we congratulate tom,0.8834056854248047,0.8585308790206909,0.8707907199859619,Hallucination,True
+the audience laughed out loud,the audience roared with laughter,0.9467974901199341,0.955864429473877,0.9513093829154968,Not Hallucination,False
+and i am very happy to meet you,i am very pleased to meet you too,0.9546758532524109,0.9444816708564758,0.9495514035224915,Not Hallucination,False
+you have got a scarce vocabulary,you have a meager vocabulary,0.9481693506240845,0.967228889465332,0.9576042890548706,Not Hallucination,False
+do not thank me,you do not have to thank me,0.9533058404922485,0.8980739712715149,0.9248660206794739,Not Hallucination,False
+were you at school then,were you at school at that time,0.9638807773590088,0.9300214052200317,0.9466484189033508,Not Hallucination,False
+i knew tom was all talking about it,i knew that tom would tell everybody,0.9060943126678467,0.9183031320571899,0.9121578335762024,Hallucination,False
+tom gets out of his room only when his mom tells him,tom only cleans his room when his mother tells him to,0.9414833784103394,0.9506198167800903,0.946029543876648,Hallucination,False
+everyone in the village was called her green hat,everyone in the village called her little green riding hood,0.9405701756477356,0.9193390607833862,0.9298334121704102,Hallucination,False
+why did we make tom so angry,what did we do that made tom so angry,0.9663941264152527,0.9365562200546265,0.9512412548065186,Not Hallucination,False
+the most beautiful colors have the sharpest arrows,the most beautiful flowers have the sharpest thorns,0.9433501958847046,0.9394171833992004,0.9413795471191406,Hallucination,False
+wait are you serious,whoa are you serious,0.9444552659988403,0.9027892351150513,0.9231523275375366,Not Hallucination,False
+he is already 70,he is already over seventy,0.973787784576416,0.9510665535926819,0.9622930884361267,Not Hallucination,False
+i have not talked to tom yet,i have not yet said goodbye to tom,0.9401779770851135,0.9314270615577698,0.9357820749282837,Hallucination,False
+looking back i think you were right,in retrospect i think you were right,0.9697519540786743,0.9698333740234375,0.9697926640510559,Not Hallucination,False
+tom has not slept since yesterday,tom has not slept at all since the day before yesterday,0.9856832027435303,0.9329841136932373,0.958609938621521,Hallucination,False
+we were almost late for the train,we almost missed the train,0.9219664335250854,0.9310580492019653,0.9264899492263794,Not Hallucination,False
+leave him open,leave it open,0.9451395273208618,0.9451395273208618,0.9451395273208618,Hallucination,False
+are you really local,are you really from here,0.9370313286781311,0.9196856021881104,0.9282774329185486,Not Hallucination,False
+i am not staying at the bus,i did not get on the bus,0.9221285581588745,0.9221285581588745,0.9221285581588745,Hallucination,False
+what kind of sport are you doing,what sports do you practice,0.9038838148117065,0.9337038993835449,0.9185519218444824,Not Hallucination,False
+thank you for taking him to fishing,thanks for taking him fishing,0.9294441938400269,0.9585444331169128,0.9437700510025024,Not Hallucination,False
+amharic is a semitic language,is amharic a semitic language,0.9326348304748535,0.9314237833023071,0.9320289492607117,Not Hallucination,False
+we were relieved because our leadership required an impossible one,we quite the job because the bosses made impossible demands,0.8746792674064636,0.868915319442749,0.8717877268791199,Hallucination,True
+hardly envious of me tom started laughing,as soon as tom saw me he started laughing,0.8853147625923157,0.8783142566680908,0.8818005919456482,Hallucination,True
+tom has his hands in his blood,tom has blood on his hands,0.9397851228713989,0.9373584389686584,0.9385702013969421,Hallucination,False
+tom called me at three of the clock at night,tom called me at three in the morning,0.9297162890434265,0.9714360237121582,0.950118362903595,Hallucination,False
+do not allow children to play next to a pond,do not let the children go near the pond,0.9398940801620483,0.9596154093742371,0.949652373790741,Not Hallucination,False
+yesterday he allowed john to come in,he allowed john to enter yesterday,0.928922176361084,0.9225809574127197,0.9257407188415527,Not Hallucination,False
+why are we so angry with tom,what did we do that made tom so angry,0.9127610921859741,0.883554220199585,0.8979201912879944,Hallucination,True
+i thought you would want to drink,i thought you would be thirsty,0.9505671858787537,0.9624084234237671,0.9564511775970459,Not Hallucination,False
+thank you for all your heart,i thank you from the bottom of my heart,0.8800289630889893,0.8835979700088501,0.8818098902702332,Hallucination,True
+i do not have any small things with me,i am very low on change right now,0.8690930008888245,0.8666883707046509,0.8678889870643616,Hallucination,True
+can you lend me a pocket knife,do you have a pocketknife i can borrow,0.9434199333190918,0.9230111837387085,0.9331039786338806,Not Hallucination,False
+dick gave me a picture,dick passed the photo to me,0.9433656930923462,0.929640531539917,0.9364528059959412,Not Hallucination,False
+this jacket is close to me,the jacket is too tight for me,0.9248967170715332,0.9131739735603333,0.9189980030059814,Hallucination,False
+not to mention the price this dress does not suit me,apart from the cost the dress does not suit me,0.9350768327713013,0.9495354890823364,0.942250669002533,Not Hallucination,False
+maybe we can ask him the way,maybe we should ask him for directions,0.9389099478721619,0.9264322519302368,0.932629406452179,Not Hallucination,False
+are you allowed to come to the office in jeans,do they allow you to wear jeans to the office,0.9450544118881226,0.9428433775901794,0.9439476132392883,Not Hallucination,False
+you are early today,you arrived early today,0.9256700277328491,0.9250673055648804,0.92536860704422,Not Hallucination,False
+did you buy them,did you buy this for them,0.945380449295044,0.916009247303009,0.9304631352424622,Hallucination,False
+do not approach me close,do not get close to me,0.9591304063796997,0.9515789747238159,0.9553397297859192,Not Hallucination,False
+we forgot to record,we have forgotten to sign up,0.8971371650695801,0.86739182472229,0.8820137977600098,Hallucination,True
+do not you know him,do not you recognize him,0.9729599356651306,0.9729599356651306,0.9729599356651306,Not Hallucination,False
+at 3600 seconds,there are 3600 seconds in an hour,0.9180710315704346,0.8568631410598755,0.886411726474762,Hallucination,True
+get out of here until tom sees you,leave before tom sees you,0.888675332069397,0.9308425784111023,0.9092704057693481,Hallucination,False
+well i am going to see you,tom waited for everyone to sit down,0.8547489047050476,0.8489750623703003,0.8518522381782532,Hallucination,True
+can you trust the secret,can you keep a secret,0.8998767733573914,0.9080965518951416,0.9039679169654846,Hallucination,False
+it will only take you a minute,it will only take a minute of your time,0.965802013874054,0.9349080920219421,0.9501039385795593,Not Hallucination,False
+this formula is based on theory,this formula is the basis of the theory,0.9195940494537354,0.9195148348808289,0.9195544123649597,Hallucination,False
+at the end of the film it changes greatly,she is very different at the end of the film,0.9349005222320557,0.9332296252250671,0.9340643286705017,Hallucination,False
+when did you wake up in the morning that gave you confidence that this moment was possible  no there was no confidence,when you woke up this morning what gave you the belief that this moment was possible no there was no belief,0.9419971704483032,0.9565927982330322,0.9492388963699341,Not Hallucination,False
+stop talking to me like that i would call the police,if anyone were to talk to me like that i would call the police,0.9649742245674133,0.9386998414993286,0.9516556859016418,Not Hallucination,False
+the inspiration has fallen on me,i have had an inspiration,0.9041948914527893,0.9208962917327881,0.912469208240509,Not Hallucination,False
+i am afraid you will be lost,i am afraid that you will get lost,0.9761476516723633,0.9688997864723206,0.9725102782249451,Not Hallucination,False
+do you know exactly where we are going,are you sure you know where we are going,0.9512370228767395,0.9383981823921204,0.9447739720344543,Not Hallucination,False
+i cannot tolerate this color,i hate that color,0.8963815569877625,0.9106737375259399,0.9034711122512817,Not Hallucination,False
+is it like you are sorry you cannot live through something like the first time,do you ever wish you could experience something for the first time again,0.8601400256156921,0.8650798201560974,0.8626028299331665,Hallucination,True
+why do not we create a group,why do not we start a band,0.9584949016571045,0.9584949016571045,0.9584949016571045,Not Hallucination,False
+this is not against the law,that is not against the law is it,0.9816012382507324,0.9398071765899658,0.960249662399292,Hallucination,False
+it is not that hard,this is not so difficult,0.9590368270874023,0.9590368270874023,0.9590368270874023,Not Hallucination,False
+i do not know it,i have absolutely no clue,0.8996715545654297,0.892672598361969,0.8961584568023682,Not Hallucination,True
+i have not decided at all yet,i have not quite decided,0.9201189875602722,0.9480855464935303,0.9338929057121277,Not Hallucination,False
+have you ever sucked,have you ever sucked a penis,0.9567325115203857,0.927122175693512,0.9416946768760681,Hallucination,False
+let us not rush,let us take our time,0.9000509977340698,0.8912221193313599,0.8956148028373718,Not Hallucination,True
+tom was wearing a wheel,tom was talking nonsense,0.8894397020339966,0.8996873497962952,0.8945341110229492,Hallucination,True
+do not turn off the engine,do not turn the engine off,0.9946480989456177,0.9946481585502625,0.9946481585502625,Not Hallucination,False
+i do not know it know itt know it,tell me what it was like,0.8212246894836426,0.8342267274856567,0.8276746273040771,Hallucination,True
+tom cut off the sex plates with a sticky break,tom ripped up the floorboards with a crowbar,0.8871099352836609,0.9019901156425476,0.8944881558418274,Hallucination,True
+i was not here,i was away,0.9033761024475098,0.9185416102409363,0.9108957648277283,Not Hallucination,False
+tom would not go anywhere without us,tom would not go out with us,0.9074628353118896,0.9112882614135742,0.9093714952468872,Hallucination,False
+you know what he did,do you know what he has done,0.9580994844436646,0.935695469379425,0.9467648863792419,Not Hallucination,False
+i want to put him in place,i want to put him in his place,0.9297431111335754,0.9209548830986023,0.9253281354904175,Not Hallucination,False
+i live next to the station,i live near the train station,0.9631417393684387,0.9631660580635071,0.9631538987159729,Not Hallucination,False
+i am not exactly like you,i am not at all like you,0.9617767333984375,0.9435257315635681,0.9525638222694397,Hallucination,False
+i could not believe you were,i could not believe it was you,0.9582700729370117,0.9490928053855896,0.9536593556404114,Hallucination,False
+who pushed you,who cut your hair,0.9033609628677368,0.8796589374542236,0.8913524150848389,Hallucination,True
+tom have you studied egyptology,did you study egyptology tom,0.9520435929298401,0.9460190534591675,0.9490217566490173,Not Hallucination,False
+cannot you introduce me,are not you going to introduce me,0.937591016292572,0.8774259090423584,0.9065112471580505,Not Hallucination,False
+i am very happy right now,i am really happy now,0.9298725724220276,0.9451621174812317,0.9374549984931946,Not Hallucination,False
+no one knows,no one will find out,0.9444641470909119,0.9134009480476379,0.9286729097366333,Not Hallucination,False
+tom was in the traps,tom wore gloves,0.8694077730178833,0.8823690414428711,0.875840425491333,Hallucination,True
+foma hit me with the money,tom got away with the money,0.8800359964370728,0.8972477912902832,0.8885585069656372,Hallucination,True
+i started home for you,i fixed the house because of you,0.8924452662467957,0.9065488576889038,0.8994418382644653,Hallucination,True
+you know toms mother,do you know toms mother,0.967049777507782,0.9515775442123413,0.959251344203949,Not Hallucination,False
+i broke her,i broke it,0.9539668560028076,0.9539668560028076,0.9539668560028076,Hallucination,False
+the school is finally finished,school is finally over,0.9184873700141907,0.9340533018112183,0.9262049198150635,Not Hallucination,False
+everyone has flaws  i do not have any,everybody has flaws i do not,0.9043263792991638,0.9503673911094666,0.9267753958702087,Not Hallucination,False
+you would do the same thing in my place,you would have done the same thing if you were me,0.9422176480293274,0.9278444051742554,0.934975802898407,Not Hallucination,False
+is there a pharmacy nearby,is there a drugstore nearby,0.9879490733146667,0.9795355200767517,0.9837243556976318,Not Hallucination,False
+are you coming back,you will come back right,0.8649360537528992,0.8540828227996826,0.8594751358032227,Not Hallucination,True
+probably no one will even notice,no one will likely even notice,0.9662303328514099,0.9615518450737,0.9638854265213013,Not Hallucination,False
+tom lonely and abandoned standing on the left edge of the offer could not dare to jump down to end the whole story,tom alone bent over the left edge of the sentence was hesitating to jump to put an end to all this story,0.9038886427879333,0.9111335277557373,0.9074965715408325,Not Hallucination,False
+are you dating tom tomorrow,will you be seeing tom tomorrow,0.9519692659378052,0.9302812814712524,0.9410003423690796,Hallucination,False
+this color can be,you can eat that flower,0.8507682681083679,0.8425673246383667,0.8466479778289795,Hallucination,True
+i want people to be indifferent to each other,i wish people actually cared for each other,0.9227497577667236,0.9256317019462585,0.924188494682312,Hallucination,False
+i noticed that some tatoeby admins recently changed their longstanding avatars the coincidence as interesting let alone nothing in principle is insignificant,i have noticed several tatoeba admins have recently changed their longstanding profile pics a seemingly interesting if ultimately irrelevant coincidence,0.8831416368484497,0.9096190929412842,0.8961848616600037,Not Hallucination,True
+without you tom could not have done that,tom could not have done it without you,0.8969221711158752,0.8915299773216248,0.8942179679870605,Not Hallucination,True
+yesterday you left the bar just at the moment when i was going to put all the drinks at my expense,you left the bar last night just when i was about to buy everyone another round,0.908218502998352,0.9139080047607422,0.9110543727874756,Not Hallucination,False
+is there anything you can do more than read this article,do not you have anything better to do than read this garbage,0.8849794864654541,0.8738577961921692,0.8793835043907166,Not Hallucination,True
+i need to see them,i have got to see them,0.9647420644760132,0.939887523651123,0.9521526098251343,Not Hallucination,False
+did he bring a towel,did you bring a towel,0.9784933924674988,0.9784933924674988,0.9784933924674988,Hallucination,False
+how do you live,how is life,0.8514685034751892,0.8518714308738708,0.8516699075698853,Hallucination,True
+it is impossible to do it,it is not believable,0.8857121467590332,0.9091829061508179,0.8972941040992737,Hallucination,True
+are you both canadians,are both of you canadians,0.9615423083305359,0.9507880210876465,0.9561348557472229,Not Hallucination,False
+tom put himself in front of marys fool,tom made a fool of himself in front of mary,0.9098253846168518,0.9241175651550293,0.9169158339500427,Hallucination,False
+what tom did could not change,what tom did cannot be changed,0.9527765512466431,0.9466785788536072,0.9497177600860596,Not Hallucination,False
+yesterday you left the bar just when i was going to give everyone a drink at my expense,you left the bar last night just when i was about to buy everyone another round,0.9283539652824402,0.9318978190422058,0.9301224946975708,Not Hallucination,False
+anyone who does not want to participate leave the room,those who do not wish to get involved must leave the room,0.9552652835845947,0.9427089095115662,0.9489455223083496,Not Hallucination,False
+hawaii is my favorite pizza,my favorite pizza is hawaiian,0.9036945700645447,0.8918746113777161,0.897745668888092,Hallucination,True
+i am going to one school with tom,i go to the same school as tom,0.9417251348495483,0.9448980093002319,0.94330894947052,Hallucination,False
+did you wash the dishes,were you the one who washed the dishes,0.9284884333610535,0.8796296119689941,0.903398871421814,Not Hallucination,False
+tom knew i did not do that,tom knew i would not do that,0.9599320888519287,0.9599320888519287,0.9599320888519287,Hallucination,False
+next time i will do something else,next time we will do this differently,0.9396573901176453,0.9420962333679199,0.940875232219696,Not Hallucination,False
+you want an anecdote,do you want to hear a joke,0.9186594486236572,0.9177496433258057,0.9182043075561523,Not Hallucination,False
+hey how are you,hi how are you doing,0.9780210256576538,0.9553619623184204,0.9665586948394775,Not Hallucination,False
+tom is not a man he is an idea,tom is not a person but rather an idea,0.9493569731712341,0.9532779455184937,0.9513134360313416,Not Hallucination,False
+let us eat,let us eat already,0.9811890125274658,0.9325524568557739,0.9562526941299438,Not Hallucination,False
+here you always are,you are always like this,0.8948628902435303,0.8603013157844543,0.877241849899292,Hallucination,True
+why do not we get there today,why do not we go there today,0.9588385820388794,0.9588385820388794,0.9588385820388794,Not Hallucination,False
+tarot is learning hard,taro is studying hard,0.8968461155891418,0.8875370025634766,0.8921672701835632,Hallucination,True
+he is crying,is he crying,0.934566080570221,0.9359509348869324,0.9352579712867737,Not Hallucination,False
+it seems that tokyo understood the hint from washington,tokyo seems to have gotten the message from washington,0.9280032515525818,0.934435248374939,0.9312081933021545,Not Hallucination,False
+do not cross the road to the red light,do not cross the road while the signal is red,0.9528754949569702,0.9424639940261841,0.947641134262085,Not Hallucination,False
+located on a hill the church offers a beautiful view,standing as it does on a hill the church commands a fine view,0.957230269908905,0.9082962870597839,0.9321215152740479,Not Hallucination,False
+toilets on the left,the restrooms are on the left,0.9221552610397339,0.8933823108673096,0.9075407981872559,Not Hallucination,False
+come on,let us go,0.8367609977722168,0.8416213989257812,0.8391841650009155,Hallucination,True
+i called the door,i rang the doorbell,0.9210759401321411,0.9038206338882446,0.9123667478561401,Hallucination,False
+why do not we all get it,why are not we all singing,0.915039598941803,0.9303606748580933,0.9226365089416504,Hallucination,False
+you do not even know how much we missed you,you have no idea how much we have missed you,0.9576109051704407,0.9664551019668579,0.9620126485824585,Not Hallucination,False
+tom did not go so did i,tom did not go and i did not either,0.9452910423278809,0.9262002110481262,0.9356482625007629,Hallucination,False
+they will not let me go,they will not fire me,0.9082475900650024,0.9239034652709961,0.9160086512565613,Hallucination,False
+she and i are peers,she and i are the same age,0.9472229480743408,0.9364139437675476,0.9417873620986938,Not Hallucination,False
+my mother cooks lunch,mother is preparing lunch,0.9252932667732239,0.9306274652481079,0.9279527068138123,Hallucination,False
+i slept badly last night but slept well tonight,i did not sleep well the night before last but i slept well last night,0.9395201802253723,0.9231835007667542,0.9312801957130432,Not Hallucination,False
+you have got a hangover on the doorbells,there is lipstick on your collar,0.8568745851516724,0.8696326017379761,0.8632064461708069,Hallucination,True
+he had an ugly cut on his arm,he had a pretty gnarly gash on his arm,0.9724009037017822,0.9461562037467957,0.9590990543365479,Not Hallucination,False
+we must be,we must intervene,0.8858919739723206,0.9047399759292603,0.8952167630195618,Hallucination,True
+the number of unregistered cases is likely to be slightly higher,the number of unrecorded cases however will probably be somewhat higher,0.9614042043685913,0.954506516456604,0.9579429030418396,Not Hallucination,False
+i came home a week ago but i cannot get used to it all,i have been back home for a week but i am still suffering from jet lag,0.912926197052002,0.9104635119438171,0.9116931557655334,Hallucination,False
+did you give him my phone,were you the one who gave him my phone number,0.9509423971176147,0.9009271860122681,0.9252594113349915,Not Hallucination,False
+i am going to use the marker to provide the main information,i am going to use the highlighter to highlight the main points,0.9476954340934753,0.9297451972961426,0.93863445520401,Hallucination,False
+we wanted this class,we do not give a fuck,0.8907292485237122,0.8573672771453857,0.873729944229126,Hallucination,True
+no wonder he is proud of his son,it is not surprising that he be proud of his son,0.9428058862686157,0.9244418740272522,0.9335335493087769,Not Hallucination,False
+it is time for you to lie down,it is time you went to bed turn off the radio,0.9032875299453735,0.9019105434417725,0.9025985598564148,Not Hallucination,False
+her legs hurt,her feet ached,0.9443650841712952,0.9420434236526489,0.943202793598175,Hallucination,False
+she squeezed her makeup when she saw the dog,she made a face when she saw a dog,0.9257044196128845,0.9136387705802917,0.9196320176124573,Hallucination,False
+such a bad opinion i rarely had to hear,that is one of the worst takes i have ever heard,0.8653303384780884,0.8656153678894043,0.8654727935791016,Not Hallucination,True
+i better not answer that question,i would rather not answer that question,0.9490662813186646,0.9382066130638123,0.9436052441596985,Hallucination,False
+what tom said confirmed,what tom said proved true,0.9198901057243347,0.9116083383560181,0.9157305359840393,Not Hallucination,False
+you ruined everything,you have ruined it,0.9499878883361816,0.9342973232269287,0.9420772790908813,Hallucination,False
+you do not know,you are unbiased,0.8635262250900269,0.8767262697219849,0.8700761795043945,Hallucination,True
+that is for you,this ones for you,0.9029966592788696,0.90208899974823,0.9025425910949707,Not Hallucination,False
+i hope you understand,i hope you got it,0.9370149970054626,0.924812912940979,0.9308739900588989,Not Hallucination,False
+i changed places with tom,i exchanged seats with tom,0.9387375116348267,0.9465057253837585,0.9426056146621704,Not Hallucination,False
+i prepared a dinner for tom,i cooked tom dinner,0.930877685546875,0.9483641386032104,0.9395395517349243,Not Hallucination,False
+you know why tom did not come today,do you know why tom did not come today,0.9812213182449341,0.9703562259674072,0.9757584929466248,Not Hallucination,False
+you hot,are you hot,0.9384379386901855,0.9067792892456055,0.922336995601654,Not Hallucination,False
+do not rain  you need to look strong at least as long as you are at home and someone will see your tears,do not break down now you need to put up a strong face at least until you get home and no one can see you cry,0.907954216003418,0.9111179113388062,0.9095333218574524,Hallucination,False
+you have got plenty of time,you have enough time,0.9178274869918823,0.9382333755493164,0.9279182553291321,Not Hallucination,False
+he will be removed from our club,that person will be read out of our club,0.9288724660873413,0.9123870134353638,0.9205559492111206,Not Hallucination,False
+what is the best way to do,how does one best express that in esperanto,0.8801777958869934,0.8495798110961914,0.8646081686019897,Hallucination,True
+she lives in muhosransk,she lives in bumfuck,0.856926679611206,0.9337307810783386,0.8936815857887268,Hallucination,True
+in my country people usually welcome each other by hand,people generally greet each other by shaking hands in my country,0.9481936693191528,0.9424582719802856,0.945317268371582,Not Hallucination,False
+i was allowed to sleep in clothes,i went to bed with my clothes on,0.914794921875,0.9132815003395081,0.9140375852584839,Hallucination,False
+chemodan toma is empty,toms suitcase is empty,0.8762890100479126,0.8901958465576172,0.8831876516342163,Hallucination,True
+who are you by nationality  argentinians,what is your nationality argentine,0.9046046137809753,0.9321291446685791,0.918160617351532,Not Hallucination,False
+you will see tom you will understand,when you see tom you will understand,0.9157059192657471,0.9128063917160034,0.914253830909729,Hallucination,False
+responding to this letter is not mandatory,you do not have to answer that letter,0.8973565101623535,0.8958314061164856,0.8965933322906494,Not Hallucination,True
+tom said he did not want to sleep yet,tom said that he is not sleepy yet,0.9379550814628601,0.9484296441078186,0.943163275718689,Not Hallucination,False
+tom with you,is tom with you,0.9610311985015869,0.9335318207740784,0.947081983089447,Not Hallucination,False
+our capabilities are limited,our means are limited,0.944628119468689,0.944628119468689,0.944628119468689,Not Hallucination,False
+you think there will be rain in the evening,do you think it will rain tonight,0.9274132251739502,0.922789454460144,0.9250955581665039,Not Hallucination,False
+no ones chasing you,no ones forcing you to leave,0.9639767408370972,0.9415327906608582,0.952622652053833,Hallucination,False
+grom warmed up much later in the lightning strike,the thunder came long after the lightning,0.8591282963752747,0.8879397511482239,0.8732964396476746,Hallucination,True
+you are dead a little surprise,you are dead not a big surprise,0.9030606150627136,0.9145939350128174,0.908790647983551,Not Hallucination,False
+last sunday i spent reading the novelties,i spent last sunday reading novels,0.9381240606307983,0.9409007430076599,0.9395103454589844,Hallucination,False
+i told you i was better than everyone else,i told you i am the best,0.9376037120819092,0.9714373350143433,0.954220712184906,Not Hallucination,False
+let us move over here,let us rest here,0.887323796749115,0.9023630619049072,0.8947802186012268,Hallucination,True
+how did you get her,how did you convince her,0.9430611729621887,0.9433706998825073,0.9432159066200256,Hallucination,False
+i will speak russian and spanish,i will know how to speak russian and spanish,0.9728606939315796,0.9505518078804016,0.9615768790245056,Not Hallucination,False
+let us get closer to the case,let us get to the point,0.9005675315856934,0.9117270708084106,0.9061129689216614,Not Hallucination,False
+we are going to have to sleep on the street tonight,today we have to sleep outdoors,0.8986095190048218,0.9123598337173462,0.9054324626922607,Hallucination,False
+it was very cold in the morning,in the morning it was very cold,0.9662052392959595,0.9667437076568604,0.9664744138717651,Not Hallucination,False
+i recently changed my toothpaste,i have recently changed brands of toothpaste,0.9493447542190552,0.9295565485954285,0.9393464922904968,Not Hallucination,False
+we are with tom one growth,i am as tall as tom,0.8587465882301331,0.8609392642974854,0.8598415851593018,Hallucination,True
+i am going to buy a car  what are you going to do in the city,why do you need the car to go to the town,0.8695563673973083,0.8900445103645325,0.8796811103820801,Hallucination,True
+do not you have time to go to bed,is not it time for you to go to bed,0.9322730898857117,0.9226136803627014,0.9274182319641113,Hallucination,False
+mary laughed to tears,mary laughed until she cried,0.960180938243866,0.9629278182983398,0.9615523815155029,Not Hallucination,False
+i love her,i am loved,0.9132218360900879,0.9064321517944336,0.9098142981529236,Hallucination,False
+i have a big finger on my right leg,the big toe on my right foot hurts,0.9056978225708008,0.8952847719192505,0.9004611968994141,Hallucination,False
+it is a cleanhaired shirt,the shirt is made from pure wool,0.8852357864379883,0.8738424777984619,0.8795022368431091,Hallucination,True
+heat helps me with pain,warmth is good for my pain,0.9455754160881042,0.9349982738494873,0.9402570724487305,Not Hallucination,False
+he drank just as much as he drank,he barfed as much as he had drunk,0.9172356128692627,0.9045827388763428,0.9108652472496033,Hallucination,False
+tom washed his ears,tom washed behind his ears,0.9678443074226379,0.9404968619346619,0.9539746642112732,Hallucination,False
+tom took a blanket from his bed and turned to him,tom took a blanket off the bed and wrapped it around himself,0.9276840090751648,0.9193699359893799,0.9235082268714905,Hallucination,False
+tom claimed he saw ufos,tom affirmed that he saw a ufo,0.9349691867828369,0.9366565346717834,0.9358121156692505,Not Hallucination,False
+tom could not support his claims,tom could not back up his claims,0.9838902354240417,0.9780200123786926,0.9809463620185852,Not Hallucination,False
+do not forget to schedule,do not forget to sign your name,0.9543761014938354,0.9302836656570435,0.9421759247779846,Hallucination,False
+he is easily surrounded by friends,it is easy for him to make friends,0.9077052474021912,0.9070103168487549,0.9073576331138611,Hallucination,False
+i think he needs to go there,i think it necessary for him to go there,0.968779444694519,0.955295741558075,0.9619904160499573,Not Hallucination,False
+we have got a check tomorrow,we have a test tomorrow,0.9216898083686829,0.934909462928772,0.9282525777816772,Not Hallucination,False
+you know toms mother,do you know toms mother,0.967049777507782,0.9515775442123413,0.959251344203949,Not Hallucination,False
+you know who killed her,do you know who killed her,0.9716920852661133,0.9591197967529297,0.9653649926185608,Not Hallucination,False
+the judge warned tom that he would treat him harshly if he broke the law again,the judge warned tom he would throw the book at him if he committed another offense,0.9417195916175842,0.9356738328933716,0.9386869668960571,Not Hallucination,False
+what about going to school and going to the beach,how about we skive off school and go to the beach,0.9096840023994446,0.8795225024223328,0.8943490386009216,Hallucination,True
+how much for everything thirteen dollars,how much will that be all together it will be thirteen dollars ,0.8886698484420776,0.8499184250831604,0.8688622713088989,Not Hallucination,True
+sometimes i find it hard to speak french,i struggle to speak french sometimes,0.9316232800483704,0.935651957988739,0.9336332678794861,Not Hallucination,False
+mary got better after the illness,mary recovered from her illness,0.9618092179298401,0.9620992541313171,0.9619541764259338,Not Hallucination,False
+toms suffering from hypothermia,tom suffers from gout,0.8619351387023926,0.9071751236915588,0.8839766979217529,Hallucination,True
+his love for me is immeasurable,his love for me is immense,0.9223966598510742,0.9775967597961426,0.9491948485374451,Not Hallucination,False
+i am sure you can handle the job,i am sure you will be able to do the job,0.9737025499343872,0.9592766165733337,0.9664357900619507,Not Hallucination,False
+account please,the bill please,0.9595811367034912,0.9115622639656067,0.9349555969238281,Hallucination,False
+you have someone in your room,there is somebody in your room,0.9603716731071472,0.9603716731071472,0.9603716731071472,Not Hallucination,False
+anyone can run away not everyone can run away,anyone can offend mary but not everyone will be able to escape,0.8989437818527222,0.876950204372406,0.8878108263015747,Hallucination,True
+do you like the fences,do you like to solve puzzles,0.9143876433372498,0.8994584083557129,0.9068616032600403,Hallucination,False
+it is cool down the street,it is cool outside,0.9250293970108032,0.938226580619812,0.9315811991691589,Hallucination,False
+tom went to church every sunday but now it is not going,tom used to go to church every sunday but he does not anymore,0.9463639855384827,0.9491236805915833,0.9477418661117554,Hallucination,False
+tom thought mary probably would not give up french,tom thought mary would probably fail her french test,0.9478504061698914,0.9485264420509338,0.9481883645057678,Hallucination,False
+it is a man,someone screamed,0.851188063621521,0.9004569053649902,0.8751295804977417,Hallucination,True
+this is not the end of history,that is not the end of the story,0.968172013759613,0.9604303240776062,0.964285671710968,Hallucination,False
+you are eating something please,please eat something,0.8788629770278931,0.9270604848861694,0.9023185968399048,Hallucination,False
+it is unpleasant to laugh over someone when he makes a mistake,it is not good manners to laugh at someone when he makes mistakes,0.9566531181335449,0.9365146160125732,0.9464767575263977,Not Hallucination,False
+tom saw traces of a wheel in the snow,tom saw tire tracks in the snow,0.9534913301467896,0.9653229117393494,0.9593706727027893,Not Hallucination,False
+why did he stop smiling,why does not he smile at me anymore,0.9218850135803223,0.9050532579421997,0.913391649723053,Not Hallucination,False
+i did not do that,i did no such thing,0.9210176467895508,0.915111780166626,0.9180552363395691,Not Hallucination,False
+the person seemed to be abandoned,the mansion looked abandoned,0.9025070667266846,0.9127948880195618,0.9076218605041504,Hallucination,False
+mom helps me a lot,my mom helps me a lot,0.9586931467056274,0.942894697189331,0.9507282972335815,Not Hallucination,False
+listening to the incoherent voice of the speaker was painful,listening to the orators incoherent ramblings was excruciating,0.9416782855987549,0.9190285205841064,0.93021559715271,Not Hallucination,False
+go away until tom sees you,leave before tom sees you,0.921324610710144,0.9428532123565674,0.9319645762443542,Hallucination,False
+stay with us until now,stay with us for now,0.9343231916427612,0.9343231916427612,0.9343231916427612,Hallucination,False
+the ice is over,we do not have any more ice,0.8816291689872742,0.862679123878479,0.8720512390136719,Not Hallucination,True
+there are no exceptions to esperanto,esperanto has no exceptions,0.921454906463623,0.9349451065063477,0.9281509518623352,Not Hallucination,False
+she is got glasses,she put her glasses on,0.8906571269035339,0.8724771738052368,0.8814734816551208,Not Hallucination,True
+did he come to you with a guarantee,did this come with a guarantee,0.9120564460754395,0.9189265966415405,0.9154786467552185,Hallucination,False
+it can lie in the water for ten years but it will not become a crocodile,wood may remain ten years in the water but it will never become a crocodile,0.9607119560241699,0.9653347730636597,0.9630178213119507,Not Hallucination,False
+you can get away with this job,this work is enough to break my back,0.8494454622268677,0.8531584739685059,0.851297914981842,Hallucination,True
+why not wait until october,why do not we wait until october,0.9437734484672546,0.9211007952690125,0.9322993159294128,Not Hallucination,False
+i live on another farm,i live across the river,0.8983508348464966,0.9253308773040771,0.9116412997245789,Hallucination,False
+it is a exhausting job,this activity is tiring,0.9083924293518066,0.9168598651885986,0.9126065373420715,Not Hallucination,False
+no one knows where tom ran away,nobody knows where tom ran off to,0.9467448592185974,0.9462993741035461,0.946522057056427,Not Hallucination,False
+i am sorry,i will forgive you,0.8638246059417725,0.8578691482543945,0.8608365654945374,Hallucination,True
+you could be wrong,you may have been wrong,0.9579739570617676,0.9437053799629211,0.9507861733436584,Not Hallucination,False
+feeding the dog,has anyone fed the dog,0.9227428436279297,0.8734429478645325,0.897416353225708,Not Hallucination,True
+but i did not do anything  he is lying,but i did not do anything he is lying,0.9724750518798828,0.9888548254966736,0.9805965423583984,Not Hallucination,False
+what was the first one here,who was here first,0.9020923376083374,0.9032964706420898,0.9026939868927002,Hallucination,False
+i wish you would meet my husband,i would like you to meet my husband,0.9513167142868042,0.9424951076507568,0.946885347366333,Not Hallucination,False
+be careful if you are going somewhere else,be careful if you go out,0.925663411617279,0.9538078904151917,0.9395249485969543,Not Hallucination,False
+i bought a new suitcase yesterday,i bought a new suitcase the day before yesterday,0.9833084344863892,0.9443560838699341,0.9634386897087097,Hallucination,False
+interesting was the film,it was an interesting movie,0.9042040705680847,0.8888689279556274,0.8964709639549255,Not Hallucination,True
+i have never seen you in my hat,i have never seen you wear a hat,0.9391681551933289,0.9518288373947144,0.9454561471939087,Hallucination,False
+tom wants to love everyone,tom wants everyone to like him,0.9380171895027161,0.9275890588760376,0.9327739477157593,Hallucination,False
+tom never had a full time job,tom has never had a regular job,0.9527198672294617,0.9584521055221558,0.9555774331092834,Hallucination,False
+the boys marched four in a row,the schoolboys marched four abreast,0.9164100289344788,0.8782787322998047,0.8969393372535706,Not Hallucination,True
+that is what i do too,that is the same way i do it,0.9101288914680481,0.913525402545929,0.9118239879608154,Not Hallucination,False
+did you get any bees,were you stung by a bee,0.9032999277114868,0.8797141313552856,0.891351044178009,Hallucination,True
+it is all right now,we already have one,0.8189420700073242,0.8513534665107727,0.8348333239555359,Hallucination,True
+that is why a brilliant idea came to mind,tom had a bright idea,0.880090594291687,0.9203308820724487,0.8997610211372375,Not Hallucination,True
+toms washing my windows,tom washes my windows,0.9043550491333008,0.937645673751831,0.9206995368003845,Not Hallucination,False
+she warned her time,she was ahead of her time,0.8651649951934814,0.8433579802513123,0.8541223406791687,Hallucination,True
+there are always good movies in this movie theater,that movie theater always shows good movies,0.9206162095069885,0.9356803297996521,0.9280871152877808,Not Hallucination,False
+what knowledge is not needed,what knowledge is unnecessary,0.9596210718154907,0.9673953652381897,0.9634925127029419,Not Hallucination,False
+you are all scared,everyone is afraid of you,0.9076198935508728,0.9165000915527344,0.9120383262634277,Hallucination,False
+i ran away to succeed in time,i ran so i would be on time,0.8870906829833984,0.8777722120285034,0.8824068903923035,Hallucination,True
+it is not necessary to reply to this letter,you do not have to answer that letter,0.9293932318687439,0.9350929856300354,0.9322344064712524,Not Hallucination,False
+tom will leave as soon as he gets it,tom will leave as soon as he is finished eating,0.9470608830451965,0.9375742077827454,0.9422937035560608,Hallucination,False
+you know how to play,do you know how to play,0.9732103943824768,0.9598288536071777,0.9664733409881592,Not Hallucination,False
+more than three hundred people died that day,over three hundred people lost their lives that day,0.9587604999542236,0.9629448652267456,0.9608481526374817,Not Hallucination,False
+tom ever asked him to help you,has tom ever asked you to help him,0.9482465982437134,0.9334357976913452,0.940782904624939,Hallucination,False
+can you write this chiragana please,can you write that in hiragana please,0.9395876526832581,0.9312678575515747,0.9354092478752136,Hallucination,False
+that is why i wanted to cry,tom felt like crying,0.8761996626853943,0.9046670198440552,0.8902058601379395,Hallucination,True
+avoiding the call he fled to canada,he fled to canada to dodge the draft,0.912009596824646,0.9264638423919678,0.9191799163818359,Not Hallucination,False
+come here with me please,please stay here with me,0.9308722019195557,0.9384292960166931,0.9346354603767395,Not Hallucination,False
+i love mindal but there is no peanuts,i like almonds but not peanuts,0.878150224685669,0.9074743986129761,0.8925715088844299,Hallucination,True
+she did not have to lie to mary,tom should not lie to mary,0.9328002333641052,0.9595972299575806,0.9460090398788452,Hallucination,False
+when did you start,when does it start,0.9370740652084351,0.9370740652084351,0.9370740652084351,Hallucination,False
+i thought you would want to drink,i thought you would be thirsty,0.9505671858787537,0.9624084234237671,0.9564511775970459,Not Hallucination,False
+tom never missed school,tom has never been absent from school,0.9576455354690552,0.9365719556808472,0.946991503238678,Not Hallucination,False
+show him your hands,show tom your hands,0.911525547504425,0.9214344620704651,0.9164531826972961,Not Hallucination,False
+i thought tom was going to be therethat is how it turned out,i thought tom would be there and he was,0.9177215099334717,0.9341098666191101,0.9258431196212769,Not Hallucination,False
+none of us were in boston,none of us have been to boston,0.957231879234314,0.9467412233352661,0.951957643032074,Not Hallucination,False
+dynamite invented alfred nobel in 1857,dynamite was invented by alfred nobel in 1857,0.9415559768676758,0.9377089738845825,0.939628541469574,Hallucination,False
+toms house is not far from the cemetery,toms house is close to the cemetery,0.969942033290863,0.9782583713531494,0.9740824103355408,Not Hallucination,False
+you did not forget to tie up your belt,did you remember to fasten your seatbelt,0.8952141404151917,0.9077090620994568,0.9014183282852173,Not Hallucination,False
+is it washing off,can this be washed,0.9023832678794861,0.8920169472694397,0.8971701860427856,Hallucination,True
+volunteers are urgently needed,there is an urgent need for volunteers,0.9180265665054321,0.8966807126998901,0.9072281122207642,Not Hallucination,False
+we can do it ourselves,we can do this on our own,0.9661063551902771,0.9452746510505676,0.9555769562721252,Not Hallucination,False
+eat something you like,eat whichever one you like,0.8922373652458191,0.8747458457946777,0.8834049701690674,Not Hallucination,True
+the loser led with a break in all three sets given to him,the loser was up a break in all three sets he lost,0.9421127438545227,0.9464299082756042,0.9442664384841919,Not Hallucination,False
+marys still playing dolls,mary still plays with dolls,0.9357399940490723,0.9480791091918945,0.9418691396713257,Hallucination,False
+how do you enjoy two,how are you two getting along,0.8954638242721558,0.8754068613052368,0.8853217959403992,Hallucination,True
+forgive me,farewell,0.8889095783233643,0.9118126630783081,0.9002155065536499,Hallucination,False
+let us get another drink,have another cookie,0.8560336232185364,0.8932845592498779,0.8742625117301941,Hallucination,True
+tom thinks we should not have done that,according to tom we should not have done that,0.9435911178588867,0.9285016059875488,0.9359855651855469,Not Hallucination,False
+i bought everything i planned,i have bought everything i was planning to buy,0.9607139229774475,0.9370197653770447,0.9487189054489136,Not Hallucination,False
+i have no choice but to do it,i do not have a choice i have to do it,0.9345013499259949,0.9370516538619995,0.9357748031616211,Not Hallucination,False
+if possible do it today,do that today if possible,0.9131251573562622,0.8958325386047363,0.9043961763381958,Not Hallucination,False
+let us get closer to business,let us get to the point,0.8742692470550537,0.8972998261451721,0.8856348395347595,Not Hallucination,True
+groups of bees returned to the hive and from it,clusters of bees flitted to and from the hive,0.9272452592849731,0.9286210536956787,0.9279326796531677,Not Hallucination,False
+people love tom,people like tom,0.9490954279899597,0.9490954279899597,0.9490954279899597,Hallucination,False
+you have been with tom all along,were you with tom the whole time,0.8999086022377014,0.9078651070594788,0.9038693308830261,Not Hallucination,False
+i know tom feels the same way,i know that tom feels the same way i do,0.9553999900817871,0.9337955117225647,0.9444742202758789,Not Hallucination,False
+she is crawling,she is a strumpet,0.9219924807548523,0.8784520030021667,0.8996957540512085,Hallucination,True
+you know who killed them,do you know who killed them,0.9710779190063477,0.9569772481918335,0.9639760255813599,Not Hallucination,False
+the windows of our hotel go to the ocean,our hotel faces the ocean,0.9092680215835571,0.9462133646011353,0.9273728728294373,Not Hallucination,False
+i think she is big for you,i think it is too big for you,0.9456384778022766,0.9347309470176697,0.9401531219482422,Hallucination,False
+you want me to call her myself,do you want me to call her myself,0.9669020175933838,0.956240177154541,0.9615415334701538,Not Hallucination,False
+we have a lot of money,we have got plenty of money,0.9580014944076538,0.9463300704956055,0.9521300196647644,Not Hallucination,False
+drosophila drowned in my champagne,a fruit fly drowned in my champagne,0.8430948257446289,0.9128139019012451,0.8765702247619629,Not Hallucination,True
+for me boston is a cold city not chicago,boston is cold for me unlike chicago,0.9211823344230652,0.9213753938674927,0.9212788939476013,Not Hallucination,False
+you would have done the same thing in my place,you would have done the same thing if you were me,0.9507551789283752,0.9410941004753113,0.945900022983551,Not Hallucination,False
+give me my clothes,give me back my clothes,0.9630725383758545,0.9290589690208435,0.9457600116729736,Not Hallucination,False
+what chemical sign is bromystohydrogen acid,what is the chemical symbol for hydrobromic acid,0.8577520251274109,0.8991448283195496,0.8779608011245728,Hallucination,True
+they would go,screw them,0.8683686256408691,0.9007867574691772,0.8842806816101074,Hallucination,True
+tom could not you owe me thirty bucks,tom could you lend me thirty dollars,0.8987317085266113,0.9157165884971619,0.9071446657180786,Hallucination,False
+some are convinced that they protect the angelguard,some people are convinced that they are protected by a guardian angel,0.9194431900978088,0.9219315052032471,0.9206857085227966,Hallucination,False
+sounds not very fun,that does not sound like very much fun,0.9546962976455688,0.8969900012016296,0.9249439835548401,Not Hallucination,False
+these products are overdue,this food is expired,0.9176853895187378,0.9191529154777527,0.9184186458587646,Hallucination,False
+you know who killed her,do you know who killed her,0.9716920852661133,0.9591197967529297,0.9653649926185608,Not Hallucination,False
+i have seen it so many times,i saw one many times,0.9268768429756165,0.9426376819610596,0.9346908330917358,Not Hallucination,False
+do you have a pen,have you got a pen,0.9734302163124084,0.9720631241798401,0.9727461934089661,Not Hallucination,False
+she became a mailman,she has become a postwoman,0.941895604133606,0.935675323009491,0.9387752413749695,Not Hallucination,False
+i do not know it,we will not bite,0.8875584602355957,0.8997915387153625,0.8936331868171692,Hallucination,True
+what to do in case of fire,what should we do in the event of a fire,0.9638246893882751,0.9565244913101196,0.9601607322692871,Not Hallucination,False
+this proposal violates the rules of grammar,this sentence is ungrammatical,0.902631402015686,0.9100643992424011,0.9063326716423035,Not Hallucination,False
+are you completely nonnormal,are you completely mad,0.9143781661987305,0.9356002807617188,0.9248675107955933,Hallucination,False
+tom is very easy to get out of himself,tom gets angry very easily,0.8848229050636292,0.9131187796592712,0.8987481594085693,Hallucination,True
+tom asked about others,tom asked about the others,0.9705276489257812,0.9562675952911377,0.9633448719978333,Not Hallucination,False
+my son is a journalist,my boyfriend is a journalist,0.9695025682449341,0.9695025682449341,0.9695025682449341,Hallucination,False
+i do not blame you in any way,i do not blame you a bit,0.9401614665985107,0.9566999077796936,0.9483585953712463,Not Hallucination,False
+i asked tom if he wanted to get away,i asked tom if he wanted to go swimming,0.962034285068512,0.9586536884307861,0.9603410363197327,Hallucination,False
+looks like he is broken,i think it is broken,0.9090410470962524,0.9130040407180786,0.9110182523727417,Hallucination,False
+have you ever taken toms money in debt,have you ever borrowed money from tom,0.8825106024742126,0.9137755632400513,0.8978710174560547,Not Hallucination,True
+tom might be coming today,tom will probably come today,0.9434100389480591,0.9422417283058167,0.9428254961967468,Not Hallucination,False
+toms a very unpleasant person right,tom is really obnoxious is not he,0.82607501745224,0.8120831251144409,0.8190193176269531,Not Hallucination,True
+i would like to help you but i cannot stay here anymore,i wish i could help you but i cannot stay any longer,0.9500547647476196,0.9532419443130493,0.9516457319259644,Not Hallucination,False
+this song was shot in toms head for three days,that song has been stuck in toms head for three days,0.9446699619293213,0.9441998600959778,0.9444348812103271,Hallucination,False
+i had nothing wrong with my thoughts,i meant no harm,0.8644512891769409,0.8837664127349854,0.8740021586418152,Hallucination,True
+i went to look for tom in the movie,during the break i went to look for tom in the lobby,0.9137043356895447,0.8889255523681641,0.9011446237564087,Hallucination,False
+it is better to lose with honor than to succeed with deception,fail with honor rather than succeed by fraud,0.8987649083137512,0.921899139881134,0.9101850390434265,Not Hallucination,False
+put this document in this folder,put the file in the folder,0.9235808849334717,0.9439367055892944,0.933647871017456,Not Hallucination,False
+toms got tv working all day,tom leaves his tv on all day long,0.8952019214630127,0.9152806401252747,0.9051299691200256,Not Hallucination,False
+tom made lunch,tom was cooking dinner,0.91975998878479,0.9085426330566406,0.9141168594360352,Hallucination,False
+i hope they will live long and happily,i hope they live happily ever after,0.9286037087440491,0.9243749976158142,0.9264845252037048,Not Hallucination,False
+okay thanks,ok thanks,0.9989374876022339,0.9989374876022339,0.9989374876022339,Not Hallucination,False
+the stove is made of strawberries,the jam is made from strawberries,0.924798846244812,0.924972414970398,0.924885630607605,Hallucination,False
+i have been cleaning around twenty times,i sneezed about twenty times,0.8999151587486267,0.8781409859657288,0.8888947367668152,Hallucination,True
+i i,please sit there,0.8348702192306519,0.8344834446907043,0.8346767425537109,Hallucination,True
+we cannot give that money,we cannot allocate money for it,0.9328756928443909,0.9242639541625977,0.9285498857498169,Not Hallucination,False
+i am not a specialist,i am no expert,0.9592418670654297,0.9617210030555725,0.9604798555374146,Not Hallucination,False
+tom lives on that shore,tom lives on that side of the river,0.9393590688705444,0.9243469834327698,0.9317924976348877,Not Hallucination,False
+it is just like you,behave yourselves,0.81505286693573,0.844681978225708,0.8296029567718506,Hallucination,True
+i do not even know where boston is,i do not even know where that is boston,0.9648362398147583,0.9568172693252563,0.9608100652694702,Not Hallucination,False
+how do you two enjoy each other,how are you two getting along,0.9168508648872375,0.9296839833259583,0.9232228398323059,Hallucination,False
+tom came earlier than everyone else,tom came before anyone else,0.9158000349998474,0.9264627695083618,0.9211006164550781,Not Hallucination,False
+you do not have a key,do not you have a key,0.9211369156837463,0.9212050437927246,0.9211710095405579,Not Hallucination,False
+tom was not alone but with mary,tom was not alone he was with mary,0.9652086496353149,0.9573625922203064,0.9612696766853333,Not Hallucination,False
+it is a lot of people,they are working on the problem,0.8801557421684265,0.8791701197624207,0.8796626329421997,Hallucination,True
+i am sorry i cannot go,sorry but i cannot go,0.9051074385643005,0.9282109141349792,0.9165136218070984,Not Hallucination,False
+i did not order that,this is not what i ordered,0.9042708277702332,0.8918188810348511,0.8980016708374023,Not Hallucination,True
+they did it all,everybody was doing that,0.876723051071167,0.8943856358528137,0.8854662775993347,Hallucination,True
+thank you very much,i thank you from the bottom of my heart,0.8587309122085571,0.8278064727783203,0.8429851531982422,Not Hallucination,True
+i cannot stand it when i am unfriendly,i hate it when people are unfriendly towards me,0.9335802793502808,0.9297192096710205,0.9316457509994507,Hallucination,False
+i closed the door but i did not close it,i shut the door but i have not locked it,0.9457247257232666,0.9445011615753174,0.9451125860214233,Hallucination,False
+can you tell me about tom,can you introduce me to tom,0.9406938552856445,0.9406938552856445,0.9406938552856445,Hallucination,False
+tom did not explain marys situation,tom did not explain the situation to mary,0.9532454013824463,0.9567378759384155,0.954988420009613,Hallucination,False
+she began to settle down in her new office,she began to get the feel of her new office,0.94670170545578,0.945673406124115,0.9461873173713684,Not Hallucination,False
+i am sorry i am saving her,sorry i am in a hurry,0.8760160207748413,0.8877338171005249,0.8818359971046448,Hallucination,True
+the exit is where the entrance is,the exit is in the same place as the entrance,0.9448525905609131,0.926154613494873,0.9354101419448853,Not Hallucination,False
+although i spoke french they did not seem to understand me,even though i was speaking in french they did not seem to understand me,0.976144015789032,0.9529807567596436,0.9644232988357544,Not Hallucination,False
+as soon as he wakes up he will respond,what goes around comes around,0.8064326643943787,0.7528200149536133,0.7787045836448669,Hallucination,True
+tom bought a running truck,tom bought a treadmill,0.9419564008712769,0.9649648666381836,0.9533218741416931,Hallucination,False
+you would do the same thing in my place,you would have done the same if you were me,0.9334136843681335,0.9188025593757629,0.9260504841804504,Not Hallucination,False
+the snow went through last night,it snowed all last night,0.9199843406677246,0.9281387329101562,0.9240435361862183,Not Hallucination,False
+are you russian  yes,are you russian yes,0.955581784248352,0.9871469736099243,0.9711079001426697,Not Hallucination,False
+in his spare time tom reads,tom reads in his spare time,0.9173959493637085,0.9206974506378174,0.919043779373169,Not Hallucination,False
+i like how you pronounce my name,i love the way you say my name,0.9605318903923035,0.9603034257888794,0.9604176878929138,Not Hallucination,False
+i do not know the rules of this game but watch interesting,i do not know how this game is played but it is entertaining to watch,0.9490682482719421,0.9340894818305969,0.9415192604064941,Not Hallucination,False
+i am strong in japanese,i am good at japanese,0.9559102058410645,0.9559102058410645,0.9559102058410645,Hallucination,False
+fouma stepped out of the door,tom stepped away from the door,0.9086571931838989,0.9337714910507202,0.9210432171821594,Hallucination,False
+to teach her english is like cutting her teeth,getting her to study english is like pulling teeth,0.9597724676132202,0.9486845135688782,0.9541962146759033,Hallucination,False
+i do not think these black spots can be removed,i do not think these ink stains will come off,0.9445257186889648,0.944178581237793,0.9443520903587341,Hallucination,False
+is the french tom okay,is toms french good,0.8854215145111084,0.8810513019561768,0.883230984210968,Hallucination,True
+tom  admin,tom is an admin,0.8593983054161072,0.8732634782791138,0.866275429725647,Not Hallucination,True
+tom taught mary how to ski,tom was the one who taught mary how to ski,0.9815341234207153,0.9414539933204651,0.9610763192176819,Not Hallucination,False
+mary was wearing a red dress yesterday,yesterday maria wore a red dress,0.9241861701011658,0.9167068004608154,0.9204312562942505,Not Hallucination,False
+a new curtain is needed in the hall,the hall needs a new curtain,0.9335557818412781,0.9333587884902954,0.9334573149681091,Not Hallucination,False
+it is nothing to worry about,never mind it happens to everyone,0.8552871942520142,0.8454647064208984,0.8503475785255432,Not Hallucination,True
+why is it easier to talk to girls than to talk to boys,how come girls are usually easier to talk to than guys,0.9398221373558044,0.9267540574073792,0.9332423210144043,Not Hallucination,False
+i smell a bitch,i smell a skunk,0.9263059496879578,0.9104303121566772,0.9182995557785034,Hallucination,False
+i regret the fact that i spent my time here,i regret wasting my time on that,0.9115187525749207,0.924394428730011,0.9179114103317261,Not Hallucination,False
+i think they are bad for you,i think they are a bit too small for you,0.9425246715545654,0.9227322936058044,0.9325234293937683,Hallucination,False
+we cannot use them,we do not know how to use them,0.9537069201469421,0.9119971394538879,0.9323858022689819,Hallucination,False
+pony looks like little horses,ponies look like small horses,0.9668657183647156,0.9668657183647156,0.9668657183647156,Not Hallucination,False
+how is it better to express it to the esperant,how does one best express that in esperanto,0.9101050496101379,0.9099129438400269,0.91000896692276,Hallucination,False
+before the game starts two more hours and he is already sitting on the tv what a fan,there are still two hours until the game starts and he is already sitting in front of the tv what a fanatic,0.9412287473678589,0.9219672679901123,0.9314984679222107,Not Hallucination,False
+king harald hormsson better known as harald sinezubii introduced christianity to denmark,king harald gormsson better known as harald bluetooth introduced christianity to denmark,0.937717854976654,0.955988883972168,0.9467651844024658,Not Hallucination,False
+wait for me here please,please wait here for me,0.873166024684906,0.8773024082183838,0.8752292990684509,Not Hallucination,True
+tom will definitely help you,tom is sure to help you,0.9480794072151184,0.9413133859634399,0.9446842670440674,Not Hallucination,False
+have you talked to me for so long and you do not know my name,you have been talking to me for so long do not you know my name,0.9396563768386841,0.939825177192688,0.939740777015686,Not Hallucination,False
+you will not be able to remember how you get to the newspaper lanes,the next thing you know you will be in the papers,0.8590021133422852,0.8527829647064209,0.8558812737464905,Hallucination,True
+tom whispers mary on the ear,tom whispers in marys ear,0.9514947533607483,0.9419530630111694,0.946699857711792,Hallucination,False
+it is not necessary to reply to this letter,you do not have to answer that letter,0.9293932318687439,0.9350929856300354,0.9322344064712524,Not Hallucination,False
+the house was set on fire,somebody set fire to the house,0.937824010848999,0.9462713599205017,0.9420287013053894,Not Hallucination,False
+i am going to have taste buds,my taste buds are tingling,0.9048289656639099,0.8921493291854858,0.8984444737434387,Hallucination,True
+i did not find them right away,it took me a while to find them,0.8993756175041199,0.9077035188674927,0.903520405292511,Not Hallucination,False
+a compromise is a virtue that needs to be earned not a weakness that needs to be despised,compromise is a virtue to be cultivated not a weakness to be despised,0.9289021492004395,0.9411467909812927,0.9349843859672546,Not Hallucination,False
+you have too little vocabulary,your vocabulary is too small,0.9572311639785767,0.9572311639785767,0.9572311639785767,Not Hallucination,False
+how did you sleep last night  not very good,how did you sleep last night not very well,0.9687683582305908,0.9815539121627808,0.9751192331314087,Not Hallucination,False
+did he bring a towel,did you bring a towel,0.9784933924674988,0.9784933924674988,0.9784933924674988,Hallucination,False
+because of the panic classes in schools were suspended,classes have been suspended due to floods,0.8524650931358337,0.8847349882125854,0.8683003783226013,Hallucination,True
+there are no stupid questions  how could leonardo dicaprio discover mona lisa if there was no color in the 19th century  the beer of his words back,there is no such thing as a stupid question how did leonardo dicaprio invent the mona lisa if there was no color in the 1800s i stand corrected,0.9242279529571533,0.9242126941680908,0.9242203235626221,Not Hallucination,False
+you do not chrome anymore,you are not limping anymore,0.9220575094223022,0.9081588387489319,0.9150553941726685,Hallucination,False
+today is october 3,it is october the third,0.9636797308921814,0.9484733939170837,0.9560161232948303,Not Hallucination,False
+i really need someone to rub,i really need to hit somebody,0.9390687942504883,0.9489037990570068,0.9439606666564941,Hallucination,False
+he is never been,he never existed,0.8477208614349365,0.8690707087516785,0.8582630157470703,Not Hallucination,True
+she married again when she was 40,she remarried when she was in her midforties,0.9552981853485107,0.9205442667007446,0.9375993013381958,Not Hallucination,False
+i am going to buy a dog,i am going to give the dog a bath,0.9596886038780212,0.9527329802513123,0.9561980962753296,Hallucination,False
+i just want to remind you that i did not think of it,i just want to remind you that this was not my idea,0.9471529126167297,0.94731205701828,0.9472324848175049,Not Hallucination,False
+i have been a i will have to be one of the world,how do you say goodbye in french,0.8097119927406311,0.8311391472816467,0.8202856779098511,Hallucination,True
+tom was fined for crossing the road in the wrong place,tom was fined for jaywalking,0.9348564743995667,0.9508374333381653,0.9427792429924011,Not Hallucination,False
+i do not know much about tom yet,there are still a lot of things i do not know about tom,0.9119054079055786,0.9070807099342346,0.9094866514205933,Not Hallucination,False
+i will tell you where you are going to go,i told you what time to come,0.8980841636657715,0.9169452786445618,0.9074167609214783,Hallucination,False
+show us what you have painted,show us what you drew,0.9618306159973145,0.9770225286483765,0.9693670272827148,Not Hallucination,False
+did you make a trip,how are you did you have a good trip,0.8797680735588074,0.8558011054992676,0.8676190972328186,Hallucination,True
+tom did not see it,tom has not seen this,0.9350574016571045,0.9350574016571045,0.9350574016571045,Not Hallucination,False
+is not that yours,that is not yours is it,0.8924434185028076,0.8520788550376892,0.8717941641807556,Not Hallucination,True
+i know you are not special,i know that it was not intentional,0.9028404355049133,0.8935189247131348,0.8981555104255676,Hallucination,True
+tom only learned how to drive at thirty,tom did not learn to drive until he was thirty,0.9464266896247864,0.9365062117576599,0.9414403438568115,Not Hallucination,False
+nothing was visible because of the fog,you could not see anything because of the fog,0.9513757824897766,0.9323416352272034,0.9417625069618225,Not Hallucination,False
+i believe you will get it all done,i believe that you will succeed,0.9315731525421143,0.9485258460044861,0.9399730563163757,Not Hallucination,False
+it will be cooler in the evening,it will be cooler tonight,0.9521231651306152,0.9712613224983215,0.9615970849990845,Not Hallucination,False
+how do you two survive,how are you two getting along,0.9263113737106323,0.9031769037246704,0.9145978689193726,Hallucination,False
+always give way to the interference on the right,always yield to traffic from the right,0.8956978917121887,0.9077378511428833,0.9016776084899902,Hallucination,False
+i am strong in japanese,i am good at japanese,0.9559102058410645,0.9559102058410645,0.9559102058410645,Not Hallucination,False
+raise your anchor,hoist the anchor,0.9413219690322876,0.8795507550239563,0.9093886017799377,Not Hallucination,False
+the rabbits multiply quickly,rabbits breed quickly,0.9215164184570312,0.954158365726471,0.937553346157074,Not Hallucination,False
+people are free,the people are free,0.9393042922019958,0.9166120886802673,0.9278194308280945,Not Hallucination,False
+i will marry a lawyer,i am married to a lawyer,0.9424765110015869,0.9450324773788452,0.9437527656555176,Hallucination,False
+i heard tom in australia,i heard that tom is in australia,0.9511628746986389,0.9351857304573059,0.9431066513061523,Hallucination,False
+are you going to tell tom about it,do you plan on telling tom to do that,0.9264519214630127,0.9263240694999695,0.9263879656791687,Not Hallucination,False
+tom does not have so many childrens photos,tom does not have a lot of childhood photos,0.910142183303833,0.9317288994789124,0.9208090901374817,Hallucination,False
+tom was waiting at home,tom was waiting in his house,0.9534286260604858,0.9398675560951233,0.9465994834899902,Not Hallucination,False
+why did i add this proposal,why did i add this sentence,0.9720423221588135,0.9724574089050293,0.9722498059272766,Hallucination,False
+what are not you sleeping,why are you awake,0.885435938835144,0.9011088013648987,0.8932035565376282,Not Hallucination,True
+by the end of the movie she changed a lot,she is very different at the end of the film,0.9296873807907104,0.9223516583442688,0.926004946231842,Not Hallucination,False
+let us go to the balcony,let us go out on the balcony,0.9755321741104126,0.9609784483909607,0.9682006239891052,Not Hallucination,False
+give me the number next to the elevator,give me a room near the elevator,0.9137017726898193,0.929169237613678,0.9213706254959106,Hallucination,False
+tell her,let her know,0.9341180324554443,0.874333381652832,0.9032374620437622,Not Hallucination,False
+tom forgot to let go of the brakes,tom forgot to release the brake,0.9536412358283997,0.9642615914344788,0.9589219689369202,Not Hallucination,False
+then he did not say he was leaving,tom did not say that he was leaving,0.953357458114624,0.9499462246894836,0.9516488313674927,Hallucination,False
+95 years old god feed the queen,95 years old god save the queen,0.95404452085495,0.9633588194847107,0.9586790800094604,Hallucination,False
+in the basement of the corpse,there is a corpse in the basement,0.9183008670806885,0.9105167388916016,0.9143922328948975,Hallucination,False
+last time i was driving three years ago,the last time i drove a car was three years ago,0.9293135404586792,0.9197263717651367,0.9244951009750366,Not Hallucination,False
+i understand,i am catching on,0.8932255506515503,0.8700813055038452,0.8815014958381653,Not Hallucination,True
+tom fed the dog this morning,did tom feed the dog this morning,0.9724582433700562,0.9521584510803223,0.9622012972831726,Not Hallucination,False
+it will only take you a minute,it will only take a minute of your time,0.965802013874054,0.9349080920219421,0.9501039385795593,Not Hallucination,False
+you have to listen to tom,you ought to listen to tom,0.9554487466812134,0.9514943957328796,0.9534674882888794,Not Hallucination,False
+tom beat you at all,did tom ever hurt you,0.8626351356506348,0.8752477765083313,0.8688957095146179,Hallucination,True
+he is a scoundrel,he is a whiner,0.92429518699646,0.9412988424301147,0.9327195286750793,Hallucination,False
+i did not sleep half the night,i was up half the night,0.9363753199577332,0.9447477459907532,0.9405429363250732,Not Hallucination,False
+could you find what you wanted,were you able to find what you wanted,0.9639074802398682,0.9389685988426208,0.951274573802948,Not Hallucination,False
+i am sorry,you are upset,0.9031293988227844,0.9035053253173828,0.9033173322677612,Hallucination,False
+you could tell the truth,you could have told the truth,0.966416597366333,0.9494484663009644,0.9578574299812317,Not Hallucination,False
+i am in the fourth month,i am four months pregnant,0.9250209927558899,0.9180945158004761,0.9215447306632996,Not Hallucination,False
+there were strange rumors about them,queer rumors about them were in the air,0.9363644123077393,0.9154329299926758,0.9257803559303284,Not Hallucination,False
+i am glad you offered,i am glad you suggested this,0.9636416435241699,0.9492012858390808,0.9563669562339783,Hallucination,False
+breathe it,smell this,0.9364031553268433,0.9364031553268433,0.9364031553268433,Hallucination,False
+the frogs do not have a neck,frogs have no neck,0.9193148016929626,0.9496508836746216,0.9342366456985474,Not Hallucination,False
+do what you are told,do as you were told to do,0.9433533549308777,0.9183340668678284,0.9306755661964417,Not Hallucination,False
+do you get cold often,do you frequently get colds,0.966273307800293,0.9537768363952637,0.9599844217300415,Not Hallucination,False
+where did she come from,where did she get it,0.9231488108634949,0.9454262852668762,0.934154748916626,Hallucination,False
+this is the spring of the oil what is inside,this box weighs a ton what is inside,0.8739909529685974,0.8981202244758606,0.885891318321228,Hallucination,True
+how is life mike  i am tom,how are you doing mike my name is tom,0.9046340584754944,0.9030739665031433,0.9038532972335815,Hallucination,False
+my hand is new,my pen is new,0.9486411213874817,0.9486411213874817,0.9486411213874817,Hallucination,False
+how do you think you would not be able to bring ten dollars for a gift because of that birthday,do you think you could pitch in 10 for toms birthday present,0.8673793077468872,0.8782113194465637,0.8727617263793945,Not Hallucination,True
+what we have  we do not store we lose  we cry,the worth of a thing is best known by the want of it,0.8158093690872192,0.8305719494819641,0.8231244683265686,Hallucination,True
+the nurse killed him with a grader,the nurse took his temperature with the thermometer,0.9009590148925781,0.8980738520622253,0.8995140790939331,Hallucination,True
+you think they will let us do that,do you think they will allow us do that,0.9600403904914856,0.949975848197937,0.9549815654754639,Not Hallucination,False
+do not you dare make another cup of coffee when you want it,would you mind making an extra cup of coffee whenever you decide to have some,0.9035665988922119,0.8973137736320496,0.9004292488098145,Hallucination,False
+mary was wearing a red dress yesterday,yesterday maria wore a red dress,0.9241861701011658,0.9167068004608154,0.9204312562942505,Not Hallucination,False
+tom does not work as much as before,tom does not work as hard as he used to,0.9250508546829224,0.9157165884971619,0.9203600883483887,Not Hallucination,False
+i know this is really important,i know that is real important,0.959280252456665,0.959280252456665,0.959280252456665,Not Hallucination,False
+when does he start,when does it start,0.9588987827301025,0.9588987827301025,0.9588987827301025,Not Hallucination,False
+tom cannot be seen anywhere,tom is nowhere to been seen,0.8982477188110352,0.8830406665802002,0.8905792832374573,Not Hallucination,True
+in japan you will never have to go long to find a selfservice store,in japan you never have to go too far to find a convenience store,0.9674084186553955,0.9688146114349365,0.968110978603363,Not Hallucination,False
+how long have you been away from this time,how much time did it take you to do that,0.892810583114624,0.8963800072669983,0.894591748714447,Hallucination,True
+fathers going to work,father drives to work,0.9256677031517029,0.9256677031517029,0.9256677031517029,Not Hallucination,False
+to be honest i do not like tom,to tell you the truth i do not like tom,0.9588298201560974,0.9447290897369385,0.9517272114753723,Not Hallucination,False
+i am sorry,tom has already done it,0.8589019775390625,0.8552115559577942,0.8570528626441956,Hallucination,True
+they all had bicycles,everyone had a bike,0.9427145719528198,0.9612175822257996,0.951876163482666,Not Hallucination,False
+tom does not come to school often,tom often does not come to school,0.971488356590271,0.9714884161949158,0.9714884161949158,Not Hallucination,False
+tom told you his password,did tom tell you his password,0.9684468507766724,0.9545906782150269,0.9614688754081726,Not Hallucination,False
+tom was very arrogant,tom behaved very arrogantly,0.9525619745254517,0.9421291947364807,0.9473168253898621,Not Hallucination,False
+no ones making you stay here,nobodys forcing you to stay here,0.9389593601226807,0.8969537615776062,0.9174759984016418,Not Hallucination,False
+tom smiles,is tom smiling,0.9222522974014282,0.8750113248825073,0.8980109691619873,Not Hallucination,True
+jane asked mary if she would stay overnight,jane asked mary whether she would like to stay at her place for the night,0.9677176475524902,0.9311948418617249,0.9491050243377686,Not Hallucination,False
+in the uk every year it is estimated to be 112853 missing children,in the united kingdom an estimated 112853 children are reported missing every year,0.9362797141075134,0.9358595609664917,0.9360696077346802,Not Hallucination,False
+dentists recommend changing the toothbrush every three months because over time its bristle increasingly removes plaque as well as microbes accumulate in it,dentists recommend to change toothbrushes every three months because over time their bristles become worse at getting rid of plague as well as accumulate microbes,0.940078854560852,0.9324250221252441,0.9362363219261169,Not Hallucination,False
+there is a complete mess in marys apartment,chaos reigns in marys flat,0.891488790512085,0.8801705241203308,0.8857934474945068,Not Hallucination,True
+how did you get inside,how on earth did you get in,0.9631975889205933,0.8996131420135498,0.9303202033042908,Not Hallucination,False
+at first tom was shy,tom was shy at the beginning,0.9139200448989868,0.9288226366043091,0.92131108045578,Not Hallucination,False
+why do not we go,why do not we head out,0.9258661866188049,0.9155055284500122,0.920656681060791,Not Hallucination,False
+i would not miss another cup of tea,i would like to have some more tea,0.8843896389007568,0.8862408995628357,0.8853142261505127,Not Hallucination,True
+mary fell asleep again,mary overslept again,0.9441099166870117,0.9306634664535522,0.9373384118080139,Not Hallucination,False
+how much time do you have,how long do you have,0.9226757287979126,0.9420905709266663,0.932282030582428,Not Hallucination,False
+go straight ahead,go straight,0.9001210331916809,0.9273200035095215,0.9135181307792664,Not Hallucination,False
+is he selling it,is that one for sale,0.8940232992172241,0.8848782777786255,0.8894273042678833,Hallucination,True
+what kind of unit are you from,what division are you from,0.9217073917388916,0.9616276621818542,0.94124436378479,Not Hallucination,False
+i knew i had to stay home,i knew i should have stayed home,0.9550752639770508,0.950347900390625,0.9527056813240051,Not Hallucination,False
+what am i afraid of,what am i afraid of nothing,0.9562069177627563,0.9269342422485352,0.9413430690765381,Not Hallucination,False
+you know what he did,do you know what he has done,0.9580994844436646,0.935695469379425,0.9467648863792419,Not Hallucination,False
+wait here for me i will be right back,wait for me here i will be right back,0.9646987318992615,0.9646987318992615,0.9646987318992615,Not Hallucination,False
+i did not realize anything about what you just said,i did not understand anything you just said,0.939852237701416,0.9549165368080139,0.9473245143890381,Not Hallucination,False
+i try to stay away from politics and its shortcomings,i am trying to distance myself from politics and its inadequacies,0.9461659789085388,0.9374201893806458,0.9417727589607239,Not Hallucination,False
+i mean she is big to you,i think it is too big for you,0.9076749086380005,0.907343327999115,0.9075090885162354,Hallucination,False
+i remember i was doing it,i remember having done that,0.9401376247406006,0.9376867413520813,0.9389106035232544,Not Hallucination,False
+nothings gone,nothings missing,0.9620099067687988,0.9620099067687988,0.9620099067687988,Not Hallucination,False
+we eat what we sow,we reap what we sow,0.9483081102371216,0.9460316896438599,0.9471685290336609,Hallucination,False
+i was so scared i could not do anything,i was too scared to do anything,0.9180734157562256,0.943311333656311,0.9305213093757629,Not Hallucination,False
+tom did it for you,did tom make this for you,0.9103223085403442,0.8890228271484375,0.8995465040206909,Not Hallucination,True
+please just do everything like i do,please just do everything i do,0.9544382095336914,0.9697645902633667,0.962040364742279,Not Hallucination,False
+i have not heard anything about him since then it is interesting what he is been doing right now,i have not heard anything from him since then i wonder what in the world he is doing,0.9296854138374329,0.9404005408287048,0.9350122213363647,Not Hallucination,False
+can you make your tv quieter,can you turn your tv down,0.9559246301651001,0.9559246301651001,0.9559246301651001,Not Hallucination,False
+i am almost sure it will be,i am almost certain that is going to happen,0.9430239200592041,0.9365944266319275,0.93979811668396,Not Hallucination,False
+the story was episoded in 451 years of the hankydon society,nestorius was anathematized in 451 at the council of chalcedon,0.8404184579849243,0.832017183303833,0.8361967206001282,Hallucination,True
+the road does not correspond to the number of cars passing through it,the road is inadequate for the amount of traffic which it carries,0.9162817597389221,0.9171894788742065,0.9167353510856628,Not Hallucination,False
+rose stood up to put pink caviar on her rose rows,rose rose to put rose roes on her rows of roses,0.8782832026481628,0.887794554233551,0.8830132484436035,Hallucination,True
+i would like to talk to tom,i would like a word with tom,0.9429894685745239,0.9510480165481567,0.947001576423645,Not Hallucination,False
+expecting to remain ignorant and free the nation expects what has never been and will never be,if a nation expects to be ignorant and free it expects what never was and never will be,0.9420691728591919,0.9348583221435547,0.9384498596191406,Not Hallucination,False
+can this be erased,can this be washed,0.9616554975509644,0.9616554975509644,0.9616554975509644,Hallucination,False
+i was tempted by spiders,i was bitten by a spider,0.9378407001495361,0.941131055355072,0.9394829869270325,Hallucination,False
+mary do not you apply for the post of head of department  i would like but according to the statute they should be a man  what is an outdated unfair rule we need to immediately seek its revision,mary are you not standing to be head of department i do want to but according to regulations you have to be male what an outdated discriminatory rule we should try to get it changed immediately,0.9217932820320129,0.9219334721565247,0.921863317489624,Not Hallucination,False
+do you remember the authors name or name,do you remember the title or the authors name,0.9593080282211304,0.9526100754737854,0.9559472799301147,Not Hallucination,False
+does tom do this more often mary,does tom do this more often than mary,0.9453849196434021,0.9303265810012817,0.9377953410148621,Hallucination,False
+tom accidentally gave himself tea,tom put salt in his tea by mistake,0.9203778505325317,0.908097505569458,0.9141964316368103,Hallucination,False
+let us go closer to the business,let us get to the point,0.8912993669509888,0.9043406844139099,0.8977726697921753,Not Hallucination,True
+the wind won,the wind was howling,0.8942446708679199,0.8555817604064941,0.8744860291481018,Hallucination,True
+tom fell into a coma and died shortly afterwards,tom went into a coma and shortly afterward he died,0.9774088859558105,0.9700835943222046,0.9737324714660645,Not Hallucination,False
+i have never told mary i feel,i never told mary how i felt,0.9571539163589478,0.9491787552833557,0.9531496167182922,Not Hallucination,False
+you know why they stopped talking,do you know why they stopped talking,0.9717516303062439,0.9577745199203491,0.9647125005722046,Not Hallucination,False
