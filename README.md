@@ -70,9 +70,7 @@ pip install pandas numpy scipy torch scikit-learn nltk stanza contractions matpl
 
 To run the code:
 
-Make sure you have installed all the necessary dependencies listed above. 
-Place the train.model-agnostic.json, val.model-agnostic.json, test.model-agnostic.json files in the same directory as your script.
-Execute the script to perform the data analysis and preliminary preprocessing steps.
+Make sure you have installed all the necessary dependencies listed above. Then you can run the main_pipeline.py file to run all the scripts mentioned above. 
 
 
 
