@@ -41,7 +41,7 @@ You can find the generated CoNLL-U files with separate files for each dataset an
 
 ### Naive Bayes 
 For the Naive Bayes baseline we created the file naive_bayes.py for an analysis on the overall performance. Also a more precise analysis on the Naive Bayes model is found in the notebook naive_bayes.ipynb.
-To see the results for the separate tasks see the file nb_function_with_outputs. 
+To see the results for the separate tasks see the file naive_bayes.py. 
 
 ### Vectara
 For the Vectara model we created one file vectara_improved.py which computes the model for each task separately. 
@@ -49,6 +49,13 @@ For the Vectara model we created one file vectara_improved.py which computes the
 ### Model Evaluation
 For the model evaluation we created a jupyter notebook named model_evaluation.ipynb, which computes all results also shown in the report.
 
+## Final Solution: Additional models for improvement of accuracy 
+
+### BertScore 
+
+### Feature-based Classifier 
+
+### Majority voting 
 
 ## Requirements
 
