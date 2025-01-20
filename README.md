@@ -68,8 +68,6 @@ pip install pandas numpy scipy torch scikit-learn nltk stanza contractions matpl
 
 ## Usage
 
-To run the code:
-
 Make sure you have installed all the necessary dependencies listed above. Then you can run the main_pipeline.py file to run all the scripts mentioned above. 
 
 
