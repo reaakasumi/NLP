@@ -48,7 +48,7 @@ For the Vectara model we created one file vectara_improved.py which computes the
 ### Model Evaluation
 For the model evaluation we created a jupyter notebook named model_evaluation.ipynb, which computes all results also shown in the report.
 
-## Final Solution: Additional models for improvement of accuracy 
+## Final Solution: Additional models and finetuning for improvement of accuracy 
 
 ### BertScore 
 
