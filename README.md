@@ -56,6 +56,7 @@ For the model evaluation we created a jupyter notebook named model_evaluation.ip
 ### Feature-based Classifier 
 
 ### Majority voting 
+Moreover, a majority voting implementation that uses the three better performing models (Vectara, BERTScore, Feature-based Classifier) with added weights can be found in majority_models_with_weights.py. 
 
 ## Requirements
 
