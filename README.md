@@ -53,6 +53,7 @@ For the model evaluation we created a jupyter notebook named model_evaluation.ip
 ### BertScore 
 
 ### Feature-based Classifier 
+To improve a ML model, we first extracted features which is done in create_features.py. These features are then used in feature_classifier.py to train a Random Forest model for all tasks together. 
 
 ### Majority voting 
 Moreover, a majority voting implementation that uses the three better performing models (Vectara, BERTScore, Feature-based Classifier) with added weights can be found in majority_models_with_weights.py. 

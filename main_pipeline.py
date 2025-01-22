@@ -7,8 +7,10 @@ scripts = [
     # "naive_bayes.py",                      # Step 3: Naive Bayes model
     # "BERTScore_fine_tuned.py",             # Step 4: BERTScore fine-tuning
     # "BERTScore_semantic_similarity.py",    # Step 5: BERTScore semantic similarity
-    "naive_bayes_analysis.py",             # Step 6: Naive Bayes analysis
-    "bertscore_fine_tuned_analysis.py",    # Step 7: Analysis for BERT fine-tuned model
+    # "create_features.py"                 # Step 6: Create Features for feature classifier
+    # "feature_classifier.py"              # Step 7: Feature Classifier
+    "naive_bayes_analysis.py",             # Step 8: Naive Bayes analysis
+    "bertscore_fine_tuned_analysis.py",    # Step 9: Analysis for BERT fine-tuned model
     "bertscore_semantic_similarity_analysis.py"  # Step 8: Analysis for semantic similarity
 ]
 
