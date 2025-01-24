@@ -67,19 +67,19 @@ def model_nb(df_train, df_val, df_test):
     return(result)
 
 #load mt data
-df_mt_train = pd.read_csv('data/mt_train_label.csv')
-df_mt_val = pd.read_csv('data/mt_val_label.csv')
-df_mt_test = pd.read_csv('data/mt_test_label.csv')
+df_mt_train = pd.read_csv('data/preprocessed/mt_train_label.csv')
+df_mt_val = pd.read_csv('data/preprocessed/mt_val_label.csv')
+df_mt_test = pd.read_csv('data/preprocessed/mt_test_label.csv')
 
 #load dm data
-df_dm_train = pd.read_csv('data/dm_train_label.csv')
-df_dm_val = pd.read_csv('data/dm_val_label.csv')
-df_dm_test = pd.read_csv('data/dm_test_label.csv')
+df_dm_train = pd.read_csv('data/preprocessed/dm_train_label.csv')
+df_dm_val = pd.read_csv('data/preprocessed/dm_val_label.csv')
+df_dm_test = pd.read_csv('data/preprocessed/dm_test_label.csv')
 
 #load pg data
-df_pg_train = pd.read_csv('data/pg_train_label.csv')
-df_pg_val = pd.read_csv('data/pg_val_label.csv')
-df_pg_test = pd.read_csv('data/pg_test_label.csv')
+df_pg_train = pd.read_csv('data/preprocessed/pg_train_label.csv')
+df_pg_val = pd.read_csv('data/preprocessed/pg_val_label.csv')
+df_pg_test = pd.read_csv('data/preprocessed/pg_test_label.csv')
 
 df_pg_train = df_pg_train.rename(columns = {'src_normalized': 'tgt_normalized'})
 df_pg_val = df_pg_val.rename(columns = {'src_normalized': 'tgt_normalized'})
