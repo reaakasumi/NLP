@@ -21,7 +21,7 @@ def load_and_filter_data(df, task_type, column_to_keep):
     df = df[df['task'].isin([task_type])].reset_index(drop=True)
     
     # Define columns to drop, keeping only "hyp" and the specified column ("src" or "tgt")
-    columns_to_drop = [col for col in df.columns if col not in ['hyp', column_to_keep]]
+    columns_to_drop = [col for col in df.columns if col not in ['hyp','label', column_to_keep]]
     df = df.drop(columns=columns_to_drop)
     
     return df
