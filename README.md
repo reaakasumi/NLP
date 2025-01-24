@@ -69,7 +69,7 @@ Before running the code, ensure the following Python packages are installed:
 pandas, numpy, scipy, torch, sklearn, nltk, stanza, json, re, contractions, matplotlib, os, imblearn, ast 
 
 You can install them via pip:
-pip install pandas numpy scipy torch scikit-learn nltk stanza contractions matplotlib os sklearn imblearn ast
+pip install pandas nltk stanza subprocess re contractions sklearn imblearn ast numpy matplotlib sentence_transfomers spacy transformers datasets bert_score random torch
 
 ## Usage
 
