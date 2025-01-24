@@ -11,7 +11,7 @@ stanza.download('en')
 nlp = stanza.Pipeline('en', processors='tokenize,lemma,pos')
 
 # Load Datasets 
-train_df = pd.read_json('data/train.model-agnostic.json')
+train_df = pd.read_json('data/labeled-train.model-agnostic.json')
 test_df = pd.read_json('data/test.model-agnostic.json')
 val_df = pd.read_json('data/val.model-agnostic.json')
 
@@ -115,3 +115,17 @@ export_datasets_to_conllu(dm_train_df, "dm_train", 'tgt')
 export_datasets_to_conllu(dm_test_df, "dm_test", 'tgt')
 export_datasets_to_conllu(dm_val_df, "dm_val", 'tgt')
 print('DM Files created')
+
+
+
+mt_test_df.to_csv('data/preprocessed/mt_test_label.csv', index = False)
+mt_val_df.to_csv('data/preprocessed/mt_val_label.csv', index = False)
+mt_train_df.to_csv('data/preprocessed/mt_train_label.csv', index = False)
+dm_train_df.to_csv('data/preprocessed/dm_train_label.csv', index = False)
+pg_train_df.to_csv('data/preprocessed/pg_train_label.csv', index = False)
+
+dm_val_df.to_csv('data/preprocessed/dm_val_label.csv', index = False)
+dm_test_df.to_csv('data/preprocessed/dm_test_label.csv', index = False)
+
+pg_val_df.to_csv('data/preprocessed/pg_val_label.csv', index = False)
+pg_test_df.to_csv('data/preprocessed/pg_test_label.csv', index= False)
