@@ -12,7 +12,8 @@ scripts = [
     # "create_features.py"                 # Step 7: Create Features for feature classifier
     # "feature_classifier.py"              # Step 8: Feature Classifier
     "bertscore_fine_tuned_analysis.py",    # Step 9: Analysis for BERT fine-tuned model
-    "bertscore_semantic_similarity_analysis.py"  # Step 10: Analysis for semantic similarity
+    "bertscore_semantic_similarity_analysis.py",  # Step 10: Analysis for semantic similarity
+    "majority_model_with_weights.py"         #Majority Approach
 ]
 
 # Execute each script sequentially
