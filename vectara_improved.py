@@ -11,16 +11,16 @@ os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 # loading validation  and testing data
 
 #load mt data
-df_mt_val = pd.read_csv('data/mt_val_label.csv')
-df_mt_test = pd.read_csv('data/mt_test_label.csv')
+df_mt_val = pd.read_csv('data/preprocessed/mt_val_label.csv')
+df_mt_test = pd.read_csv('data/preprocessed/mt_test_label.csv')
 
 #load dm data
-df_dm_val = pd.read_csv('data/dm_val_label.csv')
-df_dm_test = pd.read_csv('data/dm_test_label.csv')
+df_dm_val = pd.read_csv('data/preprocessed/dm_val_label.csv')
+df_dm_test = pd.read_csv('data/preprocessed/dm_test_label.csv')
 
 #load pg data
-df_pg_val = pd.read_csv('data/pg_val_label.csv')
-df_pg_test = pd.read_csv('data/pg_test_label.csv')
+df_pg_val = pd.read_csv('data/preprocessed/pg_val_label.csv')
+df_pg_test = pd.read_csv('data/preprocessed/pg_test_label.csv')
 
 
 # Rename columns of PG to match the other tasks
@@ -219,4 +219,4 @@ df_pg_test["task"] = "PG"
 
 # create labeled dataframe and store it
 df_test_labeled = pd.concat([df_mt_test, df_dm_test, df_pg_test])
-df_test_labeled.to_csv("data/test_labeled_vectara.csv")
+df_test_labeled.to_csv("data/generated/test_labeled_vectara.csv")
