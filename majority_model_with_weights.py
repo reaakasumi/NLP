@@ -55,10 +55,10 @@ def detailed_analysis(df_results, true_label_col, pred_label_col):
 
 
 #read the test data with predicted labels for BertScore, Vectara and Feature Based Classifier 
-data_vectara = pd.read_csv('data/test_labeled_vectara.csv')
-data_bert_mt = pd.read_csv('data/mt_test_bertscore_results_with_labels.csv')
-data_bert_dm = pd.read_csv('data/dm_test_bertscore_results_with_labels.csv')
-data_bert_pg = pd.read_csv('data/pg_test_bertscore_results_with_labels.csv')
+data_vectara = pd.read_csv('data/generated/test_labeled_vectara.csv')
+data_bert_mt = pd.read_csv('data/generated/mt_finetuned_bertscore_predictions.csv')
+data_bert_dm = pd.read_csv('data/generated/dm_finetuned_bertscore_predictions.csv')
+data_bert_pg = pd.read_csv('data/generated/pg_finetuned_bertscore_predictions.csv')
 
 data_fc = pd.read_csv('data/test_labeled_fc.csv')
 
