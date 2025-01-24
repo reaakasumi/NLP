@@ -13,6 +13,10 @@ a hypothesis the actual model predicts --> 'hyp'
 a set of per annotator labels indicating whether each individual annotator thought this datapoint constituted a hallucination or not --> 'label'  
 model name --> 'model' 
 
+## If you want to run the whole repository, run the file main_pipeline.py 
+Otherwise for a individual approach you can follow the steps below. 
+
+
 ## Milestone 1: Data Analysis and Preprocessing 
 ### Data Analysis 
 
