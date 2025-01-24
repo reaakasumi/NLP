@@ -62,9 +62,9 @@ for column in ['hyp', 'tgt', 'src']:
 # Data preprocessing with subprocess (external script execution)
 print("\nRunning data preprocessing scripts...")
 preprocessing_scripts = [
-    'data_preprocessing_conllu.py',  # Replace this with the actual file name if different
+    #'data_preprocessing_conllu.py',  # Replace this with the actual file name if different
     # 'MT_preprocessing.py',
-    # 'preprocess_to_conllu_PG.py',
+     'preprocessing_to_conllu.py',
     # 'processing_dm.py'
 ]
 
