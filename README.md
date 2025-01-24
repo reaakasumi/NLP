@@ -44,7 +44,7 @@ You can find the generated CoNLL-U files with separate files for each dataset an
 ## Milestone 2: Creation of two baseline models for our classification task
 
 ### Naive Bayes 
-For the Naive Bayes baseline we created the file naive_bayes.py for an analysis on the overall performance. Also a more precise analysis on the Naive Bayes model is found in the file naive_bayes_analysis.py.
+For the Naive Bayes baseline we created the file naive_bayes.py for an analysis on the overall performance. Also a more precise analysis on the Naive Bayes model is found in the file naive_bayes_analysis.py. For an approach on the separate tasks take a look at the file nb_function_with_outputs.py
 
 ### Vectara
 For the Vectara model we created one file vectara_improved.py which computes the model for each task separately. 
