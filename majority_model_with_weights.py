@@ -56,11 +56,11 @@ def detailed_analysis(df_results, true_label_col, pred_label_col):
 
 #read the test data with predicted labels for BertScore, Vectara and Feature Based Classifier 
 data_vectara = pd.read_csv('data/generated/test_labeled_vectara.csv')
-data_bert_mt = pd.read_csv('data/generated/mt_finetuned_bertscore_predictions.csv')
-data_bert_dm = pd.read_csv('data/generated/dm_finetuned_bertscore_predictions.csv')
-data_bert_pg = pd.read_csv('data/generated/pg_finetuned_bertscore_predictions.csv')
+data_bert_mt = pd.read_csv('data/generated/mt_bertscore_finetuned_predictions.csv')
+data_bert_dm = pd.read_csv('data/generated/dm_bertscore_finetuned_predictions.csv')
+data_bert_pg = pd.read_csv('data/generated/pg_bertscore_finetuned_predictions.csv')
 
-data_fc = pd.read_csv('data/test_labeled_fc.csv')
+data_fc = pd.read_csv('data/generated/test_labeled_fc.csv')
 
 
 #compare it taskwise 
@@ -75,7 +75,7 @@ data_fc_pg = data_fc[data_fc['task'] == 'PG'].reset_index(drop = True)
 
 #MT 
 
-data_mt = pd.DataFrame({'tgt': data_vectara_mt['tgt'],'hyp_bert': data_bert_mt['hypotheses'], 'hyp_vectara': data_vectara_mt['hyp'],
+data_mt = pd.DataFrame({'tgt': data_vectara_mt['tgt'],'hyp_bert': data_bert_mt['hyp'], 'hyp_vectara': data_vectara_mt['hyp'],
                        'hyp_fc': data_fc_mt['hyp'],'label': data_fc_mt['label'],
                        'prediction_bert': data_bert_mt['is_hallucination'],
                        'prediction_vectara': data_vectara_mt['predicted_vectara'],
@@ -101,7 +101,7 @@ results_mt = detailed_analysis(data_mt, "label", "majority_vote")
 
 #DM 
 
-data_dm = pd.DataFrame({'tgt': data_vectara_dm['tgt'],'hyp_bert': data_bert_dm['hypotheses'], 'hyp_vectara': data_vectara_dm['hyp'],
+data_dm = pd.DataFrame({'tgt': data_vectara_dm['tgt'],'hyp_bert': data_bert_dm['hyp'], 'hyp_vectara': data_vectara_dm['hyp'],
                        'hyp_fc': data_fc_dm['hyp'], 'label': data_fc_dm['label'],
                        'prediction_bert': data_bert_dm['is_hallucination'],
                        'prediction_vectara': data_vectara_dm['predicted_vectara'],
@@ -127,7 +127,7 @@ results_dm = detailed_analysis(data_dm, "label", "majority_vote")
 
 #PG
 
-data_pg = pd.DataFrame({'tgt': data_vectara_pg['tgt'],'hyp_bert': data_bert_pg['hypotheses'], 'hyp_vectara': data_vectara_pg['hyp'],
+data_pg = pd.DataFrame({'tgt': data_vectara_pg['tgt'],'hyp_bert': data_bert_pg['hyp'], 'hyp_vectara': data_vectara_pg['hyp'],
                        'hyp_fc': data_fc_pg['hyp'], 'label': data_fc_pg['label'], 
                        'prediction_bert': data_bert_pg['is_hallucination'],
                        'prediction_vectara': data_vectara_pg['predicted_vectara'],
@@ -204,5 +204,3 @@ threshold = 0.33
 results_v6 = majority_weights(data_all, 1, 1, 1, threshold)
 
 #Same performance as fc
-
-
