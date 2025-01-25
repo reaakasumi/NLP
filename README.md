@@ -55,6 +55,7 @@ For the model evaluation we created a jupyter notebook named model_evaluation.ip
 ## Final Solution: Additional models and finetuning for improvement of accuracy 
 
 ### BertScore 
+To enhance the BERTScore model's performance, fine-tuning is performed in BERTScore_fine_tuned.py using a custom loss function to handle class imbalance, with the model evaluated on various datasets. The results are analyzed in bertscore_fine_tuned_analysis.py, which includes metrics like precision, recall, F1-score, and confusion matrix, and further semantic similarity analysis is done in bertscore_semantic_similarity_analysis.py.
 
 ### Feature-based Classifier 
 To improve a ML model, we first extracted features which is done in create_features.py. These features are then used in feature_classifier.py to train a Random Forest model for all tasks together. 
