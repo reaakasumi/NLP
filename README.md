@@ -4,6 +4,8 @@
 
 ## Goal: Classification of short utterances to determine whether they are hallucinations or not (binary classification task) using the SHROOM dataset 
 
+The Management Summary summarizes what our project and can be found in the file NLP_group2.pdf.
+
 ## Data Description 
 
 a task indicating what objective the model was optimized for --> 'task'  
